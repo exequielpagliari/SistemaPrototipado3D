@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\SistemaPrototipado3D",
+    "\\SistemaPrototipado3D\\Assets"
   ],
-  "SelectedNode": "\\SistemaPrototipado3D",
+  "SelectedNode": "\\SistemaPrototipado3D\\Assets",
   "PreviewInSolutionExplorer": false
 }
