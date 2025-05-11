@@ -26,7 +26,7 @@
 /SistemaPrototipado3D/[Aa]ssets/Plugins/Editor/JetBrains*
 
 # Visual Studio cache directory
-/SistemaPrototipado3D/.vs/
+.vs/
 
 # Gradle cache directory
 /SistemaPrototipado3D/.gradle/
