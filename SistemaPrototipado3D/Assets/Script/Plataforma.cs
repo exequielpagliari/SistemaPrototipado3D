@@ -5,7 +5,7 @@ using UnityEditor;
 
 
 
-public class Plataforma : PlataformaBase
+public class Plataforma : PlataformaBase , IAction
 {
     [Range(0f, 10f)]
     public float velocidadDesplazamiento;
@@ -98,6 +98,11 @@ public class Plataforma : PlataformaBase
     }
 
     public void Activate()
+    {
+        activate = true;
+    }
+
+    public void Execute()
     {
         activate = true;
     }

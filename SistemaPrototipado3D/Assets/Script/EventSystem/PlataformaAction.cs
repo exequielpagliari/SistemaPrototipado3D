@@ -8,7 +8,7 @@ public class PlataformaAction : EnvironmentAction
 
     public override void Execute()
     {
-
+        if(plataformaActivada != null)
         plataformaActivada.Activate();
         Debug.Log(debugString);
 
