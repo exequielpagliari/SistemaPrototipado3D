@@ -164,6 +164,7 @@ GameObject:
   - component: {fileID: 258745650}
   - component: {fileID: 258745652}
   - component: {fileID: 258745653}
+  - component: {fileID: 258745654}
   m_Layer: 0
   m_Name: InputEmiter
   m_TagString: Untagged
@@ -178,7 +179,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 258745649}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d57c53b46d219d547874ff9eb682cb86, type: 3}
   m_Name: 
@@ -207,7 +208,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 258745649}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d57c53b46d219d547874ff9eb682cb86, type: 3}
   m_Name: 
@@ -221,13 +222,25 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 258745649}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d57c53b46d219d547874ff9eb682cb86, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   channel: 2
   inputAction: {fileID: -1680190386980627800, guid: 289c1b55c9541489481df5cc06664110, type: 3}
+--- !u!114 &258745654
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 258745649}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5dda708cf5f62f244905f0a7ef235c5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &364573107 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5217346496369369277, guid: 1180ed26a3a28ad43a109a4566dcc1a8, type: 3}
@@ -245,7 +258,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 524313acfd771f24b8ac6c346a395498, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  channel: 0
+  channel: 2
 --- !u!65 &364573109
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -279,7 +292,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f782af768a0f2e4894a6dfc491523d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  channelToActivate: 0
+  channelToActivate: 2
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
