@@ -18,7 +18,7 @@ jobs:
       - uses: actions/cache@v3
         with:
           path: Library
-          key: Library-${{ hashFiles('Assets/**', 'Packages/**', 'ProjectSettings/**') }}
+          key: Library-${{ hashFiles('SistemaPrototipado3D/Assets/**', 'SistemaPrototipado3D/Packages/**', 'SistemaPrototipado3D/ProjectSettings/**') }}
           restore-keys: |
             Library-
 
