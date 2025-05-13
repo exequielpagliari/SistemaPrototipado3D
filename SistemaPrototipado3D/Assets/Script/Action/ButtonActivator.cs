@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class ButtonActivator : MonoBehaviour, IActivator
@@ -14,5 +15,18 @@ public class ButtonActivator : MonoBehaviour, IActivator
     {
         if (other.CompareTag("Player"))
             Activate();
+    }
+
+    private void Update()
+    {
+        if (InputManager.Instance.InteractPressed)
+        {
+            Activate();
+        }
+
+        if (InputManager.Instance.MoveInput.sqrMagnitude > 0)
+        {
+            Activate();
+        }
     }
 }
