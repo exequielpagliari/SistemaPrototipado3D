@@ -24,7 +24,7 @@ Diseñar e implementar un sistema de eventos globales modular, que permita a emi
                                                                          |
                                                                  [IActivator.Activate()]
                                                                          |
-                                                             [EnviromentAction.Move()]
+                                                             [MoveAction.Move()]
 ```
 
 ## Clases principales
@@ -85,7 +85,7 @@ Sistema estático que permite manipular el NewInputSystem y capturándolo en var
 ## Posibles errores o dudas comunes
 No se activa nada al presionar el botón: revisar si el `EventChannelID` coincide en emisor y receptor.
 
-Receptor no escucha: asegurarse de haber hecho `Register()` en `Awake` y `Unregister()` en OnDestroy.
+Receptor no escucha: asegurarse de haber hecho `Register()` en `Awake` y `Unregister()` en `OnDestroy`.
 
 ¿Y si quiero un canal con parámetros? Este milestone solo contempla eventos sin parámetros (Action). Para parámetros, hay que ampliar la arquitectura (Action<T>).
 
