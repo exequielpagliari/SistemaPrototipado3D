@@ -9,7 +9,7 @@ Diseñar e implementar un sistema de eventos globales modular, que permita a emi
 | 1 | Crear `EventChannelID`                 | Enum con los canales disponibles                 | 
 | 2 | Crear `EventChannelManager`            | Sistema de suscripción y emisión por canal       | 
 | 3 | Crear `IActivator`                     | Interfaz para elementos que puedan ser activados | 
-| 4 | Crear `EnviromentAction_MoveTransform` | Ejemplo de acción de entorno desacoplada         | 
+| 4 | Crear `MoveAction` 		     | Ejemplo de acción de entorno desacoplada         | 
 | 5 | Test rápido de flujo completo          | Emisor → Canal → Receptor → Acción               | 
 
 
