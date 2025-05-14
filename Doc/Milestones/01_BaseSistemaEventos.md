@@ -61,7 +61,7 @@ public interface IActivator
 ```
 Se usa para cualquier objeto que reacciona a un evento: puertas, plataformas, luces, trampas, etc.
 
-## MoveAction.cs
+### MoveAction.cs
 
 ```
 public class MoveAction : MonoBehaviour, IAction
