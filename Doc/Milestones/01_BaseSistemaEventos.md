@@ -76,9 +76,9 @@ public class MoveAction : MonoBehaviour, IAction
 
 
 ## Posibles errores o dudas comunes
-No se activa nada al presionar el botón: revisar si el EventChannelID coincide en emisor y receptor.
+No se activa nada al presionar el botón: revisar si el `EventChannelID` coincide en emisor y receptor.
 
-Receptor no escucha: asegurarse de haber hecho Register() en Awake y Unregister() en OnDestroy.
+Receptor no escucha: asegurarse de haber hecho `Register()` en `Awake` y `Unregister()` en OnDestroy.
 
 ¿Y si quiero un canal con parámetros? Este milestone solo contempla eventos sin parámetros (Action). Para parámetros, hay que ampliar la arquitectura (Action<T>).
 
