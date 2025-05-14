@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\exepa\\source\\repos\\SistemaPrototipado3D\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\exepa\\source\\repos\\SistemaPrototipado3D\\Doc\\Milestones\\01_BaseSistemaEventos.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Doc\\Milestones\\01_BaseSistemaEventos.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\exepa\\source\\repos\\SistemaPrototipado3D\\SistemaPrototipado3D\\Assets\\Script\\Action\\MoveAction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SistemaPrototipado3D\\Assets\\Script\\Action\\MoveAction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\exepa\\source\\repos\\SistemaPrototipado3D\\SistemaPrototipado3D\\Assets\\Script\\Action\\ButtonActivator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SistemaPrototipado3D\\Assets\\Script\\Action\\ButtonActivator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\exepa\\source\\repos\\SistemaPrototipado3D\\SistemaPrototipado3D\\Assets\\EventManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SistemaPrototipado3D\\Assets\\EventManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -22,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -41,12 +53,47 @@
               "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MoveAction.cs",
+              "DocumentMoniker": "C:\\Users\\exepa\\source\\repos\\SistemaPrototipado3D\\SistemaPrototipado3D\\Assets\\Script\\Action\\MoveAction.cs",
+              "RelativeDocumentMoniker": "SistemaPrototipado3D\\Assets\\Script\\Action\\MoveAction.cs",
+              "ToolTip": "C:\\Users\\exepa\\source\\repos\\SistemaPrototipado3D\\SistemaPrototipado3D\\Assets\\Script\\Action\\MoveAction.cs",
+              "RelativeToolTip": "SistemaPrototipado3D\\Assets\\Script\\Action\\MoveAction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T11:42:57.274Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "ButtonActivator.cs",
+              "DocumentMoniker": "C:\\Users\\exepa\\source\\repos\\SistemaPrototipado3D\\SistemaPrototipado3D\\Assets\\Script\\Action\\ButtonActivator.cs",
+              "RelativeDocumentMoniker": "SistemaPrototipado3D\\Assets\\Script\\Action\\ButtonActivator.cs",
+              "ToolTip": "C:\\Users\\exepa\\source\\repos\\SistemaPrototipado3D\\SistemaPrototipado3D\\Assets\\Script\\Action\\ButtonActivator.cs",
+              "RelativeToolTip": "SistemaPrototipado3D\\Assets\\Script\\Action\\ButtonActivator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T11:42:50.559Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "01_BaseSistemaEventos.md",
+              "DocumentMoniker": "C:\\Users\\exepa\\source\\repos\\SistemaPrototipado3D\\Doc\\Milestones\\01_BaseSistemaEventos.md",
+              "RelativeDocumentMoniker": "Doc\\Milestones\\01_BaseSistemaEventos.md",
+              "ToolTip": "C:\\Users\\exepa\\source\\repos\\SistemaPrototipado3D\\Doc\\Milestones\\01_BaseSistemaEventos.md",
+              "RelativeToolTip": "Doc\\Milestones\\01_BaseSistemaEventos.md",
+              "ViewState": "AgIAADIAAAAAAAAAAAAuwFsAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-05-14T11:34:42.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "EventReceiverByID.cs",
               "DocumentMoniker": "C:\\Users\\exepa\\source\\repos\\SistemaPrototipado3D\\SistemaPrototipado3D\\Assets\\EventReceiverByID.cs",
               "RelativeDocumentMoniker": "SistemaPrototipado3D\\Assets\\EventReceiverByID.cs",
@@ -54,12 +101,11 @@
               "RelativeToolTip": "SistemaPrototipado3D\\Assets\\EventReceiverByID.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T13:00:26.7Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-11T13:00:26.7Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "EventEmitterByID.cs",
               "DocumentMoniker": "C:\\Users\\exepa\\source\\repos\\SistemaPrototipado3D\\SistemaPrototipado3D\\Assets\\EventEmitterByID.cs",
               "RelativeDocumentMoniker": "SistemaPrototipado3D\\Assets\\EventEmitterByID.cs",
@@ -67,21 +113,18 @@
               "RelativeToolTip": "SistemaPrototipado3D\\Assets\\EventEmitterByID.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T12:59:44.548Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-11T12:59:44.548Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "EventManager.cs",
               "DocumentMoniker": "C:\\Users\\exepa\\source\\repos\\SistemaPrototipado3D\\SistemaPrototipado3D\\Assets\\EventManager.cs",
               "RelativeDocumentMoniker": "SistemaPrototipado3D\\Assets\\EventManager.cs",
               "ToolTip": "C:\\Users\\exepa\\source\\repos\\SistemaPrototipado3D\\SistemaPrototipado3D\\Assets\\EventManager.cs",
               "RelativeToolTip": "SistemaPrototipado3D\\Assets\\EventManager.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABUAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T12:58:51.006Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-11T12:58:51.006Z"
             }
           ]
         }
