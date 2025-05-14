@@ -10,6 +10,7 @@ Diseñar e implementar un sistema de eventos globales modular, que permita a emi
 | 2 | Crear `EventChannelManager`            | Sistema de suscripción y emisión por canal       | 
 | 3 | Crear `IActivator`                     | Interfaz para elementos que puedan ser activados | 
 | 4 | Crear `MoveAction` 		     | Ejemplo de acción de entorno desacoplada         | 
+| 5 | Crear `InputManager` 		     | Clase estática para implementación de Input      |
 | 5 | Test rápido de flujo completo          | Emisor → Canal → Receptor → Acción               | 
 
 
@@ -74,6 +75,12 @@ public class MoveAction : MonoBehaviour, IAction
 }
 ```
 
+### InputManager.cs
+Sistema estático que permite manipular el NewInputSystem y capturándolo en variables propias.
+- Variables implementadas:
+
+- - MoveInput (Vector 2)
+- - InteractPressed (Bool)
 
 ## Posibles errores o dudas comunes
 No se activa nada al presionar el botón: revisar si el `EventChannelID` coincide en emisor y receptor.
