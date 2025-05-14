@@ -1,9 +1,13 @@
 {
   "ExpandedNodes": [
     "",
+    "\\Doc",
+    "\\Doc\\Milestones",
     "\\SistemaPrototipado3D",
-    "\\SistemaPrototipado3D\\Assets"
+    "\\SistemaPrototipado3D\\Assets",
+    "\\SistemaPrototipado3D\\Assets\\Script",
+    "\\SistemaPrototipado3D\\Assets\\Script\\Action"
   ],
-  "SelectedNode": "\\SistemaPrototipado3D\\Assets",
+  "SelectedNode": "\\SistemaPrototipado3D\\Assets\\Script\\Action\\MoveAction.cs",
   "PreviewInSolutionExplorer": false
 }
