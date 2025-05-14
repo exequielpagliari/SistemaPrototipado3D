@@ -46,9 +46,9 @@ Sistema estático que permite registrar, desregistrar y emitir eventos asociados
 
 - - Register(channel, Action)
 
-- -Unregister(channel, Action)
+- - Unregister(channel, Action)
 
-- -RaiseEvent(channel)
+- - RaiseEvent(channel)
 
 
 ### IActivator.cs
