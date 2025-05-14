@@ -51,7 +51,7 @@ public class OpenDoorAction : MonoBehaviour, IAction
 
 - Agregá este script a una puerta.
 
-- Asignalo como acción en un receptor (MoveAction).
+- Asignalo como acción en un receptor (EventReceiverByID).
 
 - Conectalo a un botón que use el mismo canal de evento.
 
