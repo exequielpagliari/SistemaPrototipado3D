@@ -4,7 +4,7 @@ using UnityEngine;
 public class ButtonActivator : MonoBehaviour, IActivator
 {
     [SerializeField] private EventChannelID channelToActivate;
-
+    private ActivationManager activationManager;
     public void Activate()
     {
         Debug.Log($"[ButtonActivator] Activando canal {channelToActivate}");
@@ -13,20 +13,19 @@ public class ButtonActivator : MonoBehaviour, IActivator
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player"))
-            Activate();
+        if (other.TryGetComponent<IActivatorReceiver>(out var receiver))
+        {
+            receiver.RegisterActivator(this);
+        }
     }
 
-    private void Update()
+
+    private void OnTriggerExit(Collider other)
     {
-        if (InputManager.Instance.InteractPressed)
+        if (other.TryGetComponent<IActivatorReceiver>(out var receiver))
         {
-            Activate();
-        }
-
-        if (InputManager.Instance.MoveInput.sqrMagnitude > 0)
-        {
-            Activate();
+            receiver.UnregisterActivator(this);
         }
     }
+
 }

@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 1821153131260374722}
   - component: {fileID: 982284951445648890}
   - component: {fileID: 6234888370937957020}
+  - component: {fileID: 7954645212326579475}
+  - component: {fileID: 8376531962186573364}
   m_Layer: 0
   m_Name: Boton
   m_TagString: Untagged
@@ -108,6 +110,40 @@ BoxCollider:
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &7954645212326579475
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5217346496369369277}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f782af768a0f2e4894a6dfc491523d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  channelToActivate: 2
+--- !u!65 &8376531962186573364
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5217346496369369277}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2, y: 2, z: 2}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &66817838997113210
 PrefabInstance:
