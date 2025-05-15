@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 6103762809528265587}
   - component: {fileID: 667821226328906448}
   - component: {fileID: 816486018854512671}
+  - component: {fileID: 7557916451401029312}
+  - component: {fileID: 5160898515517251204}
   m_Layer: 0
   m_Name: Puente
   m_TagString: Untagged
@@ -108,3 +110,34 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &7557916451401029312
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4189044590896146747}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e88548837f94ed4d9273c1bab3dfb90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  channel: 0
+  actions:
+  - {fileID: 5160898515517251204}
+--- !u!114 &5160898515517251204
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4189044590896146747}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62fabb7616fb8484599eb05f5095893e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  velocidadDesplazamiento: 1
+  eje: 2
+  maxDistancia: 10
+  minDistancia: -10

@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 8250978759187873087}
   - component: {fileID: 8777509556738230020}
   - component: {fileID: 4460833201448092910}
-  - component: {fileID: 4374755203149683}
   - component: {fileID: 7802728495059306282}
   m_Layer: 0
   m_Name: Plataforma
@@ -124,21 +123,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   channel: 0
-  action: {fileID: 4374755203149683}
---- !u!114 &4374755203149683
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2533172972289262476}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b0428616092fa7848a2aaed69df9268c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  plataformaActivada: {fileID: 7802728495059306282}
-  debugString: PlataformaActivada1
+  actions:
+  - {fileID: 7802728495059306282}
 --- !u!114 &7802728495059306282
 MonoBehaviour:
   m_ObjectHideFlags: 0
