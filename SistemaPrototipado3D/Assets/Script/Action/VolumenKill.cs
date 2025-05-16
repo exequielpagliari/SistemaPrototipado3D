@@ -4,19 +4,15 @@ using UnityEngine;
 public class VolumenKill : MonoBehaviour
 {
     [SerializeField] private EventChannelID channelToActivate;
-    private ActivationManager activationManager;
+
 
     public void Kill(IActor actor)
     {
-        Debug.Log($"[ButtonActivator] Activando canal {channelToActivate}");
+        Debug.Log($"[VolumenKill] Activando canal {channelToActivate}");
         EventChannelManager.RaiseEvent(channelToActivate);
         actor.Dead();
     }
 
-    public bool CanActivate(IActivator activator)
-    {
-        throw new NotImplementedException();
-    }
 
     private void OnTriggerEnter(Collider other)
     {
