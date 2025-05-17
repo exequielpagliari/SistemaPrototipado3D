@@ -8,25 +8,25 @@ public class MoveActionCorrutine : MonoBehaviour, IAction
     public bool loop;
     public bool action;
     private bool open = false;
+    private bool isOpen = false;
 
     public float slideDuration;
     public float retard;
 
-    private Transform doorTransform;
+    public Transform doorTransform;
     public Transform openedPosition;
     public Transform closedPosition;
 
 
     private Coroutine currentCoroutine;
 
-    private void Start()
-    {
-        doorTransform = transform;
-    }
+
 
     public void Execute()
     {
         if (!action)
+            return;
+        if(isOpen)
             return;
         if(!open)
         {
@@ -62,6 +62,7 @@ public class MoveActionCorrutine : MonoBehaviour, IAction
 
     IEnumerator SlideTo(Vector3 targetPosition)
     {
+        isOpen = true;
         Vector3 startPosition = doorTransform.position;
         float timeElapsed = 0f;
 
@@ -74,5 +75,6 @@ public class MoveActionCorrutine : MonoBehaviour, IAction
         }
 
         doorTransform.position = targetPosition;
+        isOpen = false;
     }
 }
