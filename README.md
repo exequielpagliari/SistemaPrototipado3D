@@ -21,7 +21,7 @@ Permitir el diseño y prueba rápida de sistemas interactivos para escenarios 3D
 1. Cloná el repositorio o descargalo como `.zip`.
 2. Importá la carpeta en tu proyecto de Unity (`2022+` recomendado).
 3. Abrí la escena de ejemplo en `Scenes/Demo`.
-4. Presioná Play y usá la tecla `E` para interactuar.
+4. Desplazá al Player con AWSD e interactuá con los volúmenes del entorno.
 
 ---
 
