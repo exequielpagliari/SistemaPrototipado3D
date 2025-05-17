@@ -1,6 +1,6 @@
 ﻿# 🧩 Sistema Modular de Prototipado Unity
 
-Sistema modular de prototipado para juegos en tercera persona en Unity. Ideal para desarrollar escenas jugables rápidas con interacción entre elementos del entorno como puertas, puentes levadizos, botones y más.
+Sistema modular de prototipado para juegos en 3D en Unity. Ideal para desarrollar escenas jugables rápidas con interacción entre elementos del entorno.
 
 ---
 
