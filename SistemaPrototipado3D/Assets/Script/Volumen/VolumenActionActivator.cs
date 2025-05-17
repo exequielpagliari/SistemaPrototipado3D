@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-public class ButtonActivator : MonoBehaviour, IActivator
+public class VolumenActionActivator : MonoBehaviour, IActivator
 {
     [SerializeField] private EventChannelID channelToActivate;
     private ActivationManager activationManager;

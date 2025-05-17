@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class EntityManager : MonoBehaviour
+public class ActorManager : MonoBehaviour
 {
     public void Build(GameObject gameObject, Transform transform, Quaternion rotation)
     {

@@ -4,16 +4,16 @@ public class PlayerBuillder : MonoBehaviour, IAction
 {
     public GameObject playerGO;
     public GameObject playerBuildLocation;
-    private EntityManager em;
+    private ActorManager am;
 
     private void OnEnable()
     {
-            em = FindAnyObjectByType<EntityManager>();
+            am = FindAnyObjectByType<ActorManager>();
     }
 
     public void Execute()
     {
-        em.Build(playerGO, playerBuildLocation.transform, playerBuildLocation.transform.rotation);
+        am.Build(playerGO, playerBuildLocation.transform, playerBuildLocation.transform.rotation);
     }
 
 }
