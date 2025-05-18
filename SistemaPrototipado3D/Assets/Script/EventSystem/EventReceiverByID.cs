@@ -4,7 +4,7 @@ using UnityEngine;
 public class EventReceiverByID : MonoBehaviour
 {
     [SerializeField] private EventChannelID channel;
-    [SerializeField] private MonoBehaviour[] actions; // Todos deben implementar IAction
+    [SerializeField] private MonoBehaviour[] actions;
 
     private List<IAction> _actions = new();
 
