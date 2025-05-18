@@ -33,7 +33,7 @@ public class MovementCC : MonoBehaviour
         }
 
         Vector3 horizontalVelocity = cc.velocity;
-        horizontalVelocity = new Vector3(0,0, InputManager.Instance.MoveInput.x);
+        horizontalVelocity = new Vector3(-InputManager.Instance.MoveInput.y, 0, InputManager.Instance.MoveInput.x);
         
         // Jump
         if (InputManager.Instance.JumpPressed && raycastGround.IsGrounded())
