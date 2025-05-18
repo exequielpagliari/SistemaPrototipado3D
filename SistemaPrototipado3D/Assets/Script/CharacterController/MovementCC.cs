@@ -7,13 +7,19 @@ public class MovementCC : MonoBehaviour
     private CharacterController cc;
     public float speed = 1f;
     private float gravityValue = -9.81f;
-    private bool groundedPlayer;
+    private float jumpHeight = 1.0f;
+    public bool groundedPlayer;
     private Vector3 playerVelocity;
+    private RaycastGround raycastGround;
+
+
+    public MoveActionPlataformCorrutine currentPlatform;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    void Awake()
     {
         cc = GetComponent<CharacterController>();
+        raycastGround = GetComponent<RaycastGround>();
     }
 
     // Update is called once per frame
@@ -28,10 +34,12 @@ public class MovementCC : MonoBehaviour
 
         Vector3 horizontalVelocity = cc.velocity;
         horizontalVelocity = new Vector3(0,0, InputManager.Instance.MoveInput.x);
-
-        // The speed on the x-z plane ignoring any speed
-        float horizontalSpeed = horizontalVelocity.magnitude;
-
+        
+        // Jump
+        if (InputManager.Instance.JumpPressed && raycastGround.IsGrounded())
+        {
+            playerVelocity.y = Mathf.Sqrt(jumpHeight * -2.0f * gravityValue);
+        }
         // Apply gravity
         playerVelocity.y += gravityValue * Time.deltaTime;
 
@@ -39,5 +47,23 @@ public class MovementCC : MonoBehaviour
         Vector3 finalMove = (horizontalVelocity * speed) + (playerVelocity.y * Vector3.up);
         cc.Move(finalMove * Time.deltaTime);
 
+    }
+
+
+
+
+    void OnControllerColliderHit(ControllerColliderHit hit)
+    {
+        var platform = hit.collider.GetComponentInParent<MoveActionPlataformCorrutine>();
+        if (platform != null)
+            currentPlatform = platform;
+        else
+            currentPlatform = null;
+    }
+
+    void LateUpdate()
+    {
+        if (currentPlatform != null)
+            cc.Move(currentPlatform.MovementDelta);
     }
 }
