@@ -10,6 +10,8 @@ public class InputManager : MonoBehaviour
     public Vector2 MoveInput { get; private set; }
     public bool InteractPressed { get; private set; }
 
+    public bool JumpPressed { get; private set; }
+
     private void Awake()
     {
         if (Instance != null)
@@ -29,11 +31,14 @@ public class InputManager : MonoBehaviour
         inputActions.Player.Move.canceled += _ => MoveInput = Vector2.zero;
 
         inputActions.Player.Interact.started += _ => InteractPressed = true;
+
+        inputActions.Player.Jump.started += _ => JumpPressed = true;
     }
 
     private void LateUpdate()
     {
         InteractPressed = false;
+        JumpPressed = false;
     }
 
     public void EnableGameplayInput() => inputActions.Player.Enable();
