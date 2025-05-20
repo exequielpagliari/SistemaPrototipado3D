@@ -1,0 +1,9 @@
+<map id="IActivator" name="IActivator">
+<area shape="rect" id="Node000001" title="Interfaz dedicada a la interacción de activadores." alt="" coords="244,5,321,32"/>
+<area shape="rect" id="Node000002" href="$class_move_action_plataform_corrutine.html" title="Clase dedicada a generar una Plataforma con un desplazamiento con Corrutina por medio de la Interfaz ..." alt="" coords="5,80,205,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="238,41,137,82,135,77,236,36"/>
+<area shape="rect" id="Node000003" href="$class_volumen_action.html" title="Clase dedicada a la emisión de un evento cuando una interfaz IActivator ejecuta Activate." alt="" coords="228,80,336,107"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="285,48,285,80,280,80,280,48"/>
+<area shape="rect" id="Node000004" href="$class_volumen_action_activator.html" title="Clase dedicada a la emisión de un evento cuando una interfaz IActivator ejecuta Activate." alt="" coords="361,80,521,107"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="325,36,414,77,412,82,323,41"/>
+</map>
