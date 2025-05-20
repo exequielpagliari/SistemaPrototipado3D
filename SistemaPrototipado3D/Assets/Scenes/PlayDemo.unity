@@ -694,6 +694,7 @@ MonoBehaviour:
   channel: 0
   actions:
   - {fileID: 624359732}
+  Log: 0
 --- !u!4 &624359734
 Transform:
   m_ObjectHideFlags: 0
@@ -995,6 +996,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   channel: 2
   inputAction: {fileID: -1680190386980627800, guid: 289c1b55c9541489481df5cc06664110, type: 3}
+  Log: 0
 --- !u!114 &1081698916
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1009,6 +1011,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   channel: 0
   inputAction: {fileID: -2099379676528639254, guid: 289c1b55c9541489481df5cc06664110, type: 3}
+  Log: 0
 --- !u!114 &1081698917
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1023,6 +1026,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   channel: 1
   inputAction: {fileID: -7471211009204490832, guid: 289c1b55c9541489481df5cc06664110, type: 3}
+  Log: 0
 --- !u!4 &1081698918
 Transform:
   m_ObjectHideFlags: 0
@@ -2026,6 +2030,7 @@ MonoBehaviour:
   channel: 1
   actions:
   - {fileID: 2037446377}
+  Log: 0
 --- !u!4 &2037446379
 Transform:
   m_ObjectHideFlags: 0

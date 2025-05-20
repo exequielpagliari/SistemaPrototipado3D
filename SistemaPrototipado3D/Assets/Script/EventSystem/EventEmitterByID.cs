@@ -1,12 +1,26 @@
 using UnityEngine;
-
+/// <summary>
+/// Clase dedicada a la emición de evento en un canal específico.
+/// </summary>
 public class EventEmitterByID : MonoBehaviour
 {
-    [SerializeField] private EventChannelID channel;
+    /// <summary>
+    /// Enum dedicado a la selección de canal para evento.
+    /// </summary>
+    public EventChannelID channel;
 
+    /// <summary>
+    /// Bool activa el LogWarning para test de funcionamiento.
+    /// </summary>
+    public bool Log;
+
+    /// <summary>
+    /// Método dedicado a la emisión del evento.
+    /// </summary>
     public void Emit()
     {
-        Debug.LogWarning("Emitio desde EventEmitter");
+        if(Log)
+            Debug.LogWarning("Emitio desde EventEmitter");
         EventChannelManager.RaiseEvent(channel);
     }
 }

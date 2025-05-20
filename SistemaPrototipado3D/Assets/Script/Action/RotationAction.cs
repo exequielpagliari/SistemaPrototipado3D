@@ -1,22 +1,48 @@
 using UnityEngine;
 using System.Collections;
-
+/// <summary>
+/// Clase dedicada a la rotación, ejecutable desde la interfaz IAction.
+/// </summary>
 public class RotateAction : MonoBehaviour, IAction
 {
+    /// <summary>
+    /// Enum para elegir el tipo de rotación. Se puede elejir por rotación por eje, o customizar la rotación.
+    /// </summary>
     public enum Axis { X, Y, Z, Custom }
 
     [Header("Configuración")]
+    /// <summary>
+    /// Referencia del Transform a afectar.
+    /// </summary>
     public Transform target;
+    /// <summary>
+    /// Selección de tipo de rotación a generar.
+    /// </summary>
     public Axis rotationAxis = Axis.Y;
+    /// <summary>
+    /// Vector3 del valor de rotación, según el tipo de rotación escogido.
+    /// </summary>
     public Vector3 customAxis = Vector3.zero;
 
+    /// <summary>
+    /// Float de cantida ángulo a rotar.
+    /// </summary>
     public float angle = 90f;
+    /// <summary>
+    /// Float de la duración de la rotación.
+    /// </summary>
     public float duration = 1.5f;
 
     private bool isRotating = false;
+    /// <summary>
+    /// Bool para que se comporte como puerta.
+    /// </summary>
     public bool isDoor = false;
     private bool isOpen = false;
 
+    /// <summary>
+    /// Método que ejecuta la rotación.
+    /// </summary>
     public void Execute()
     {
 

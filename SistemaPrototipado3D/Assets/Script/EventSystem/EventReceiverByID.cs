@@ -1,10 +1,26 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
+/// <summary>
+/// Clase dedicada a la recepción de eventos en un canal específico.
+/// </summary>
 public class EventReceiverByID : MonoBehaviour
 {
-    [SerializeField] private EventChannelID channel;
-    [SerializeField] private MonoBehaviour[] actions;
+    /// @private
+    /// <summary>
+    /// Enum para seleccionar canal para recibir evento.
+    /// </summary>
+    public EventChannelID channel;
+    /// @private
+    /// <summary>
+    /// Lista de Acciones a realizarse por el evento.
+    /// </summary>
+    public MonoBehaviour[] actions;
+    /// <summary>
+    /// Bool activa el LogWarning para test de funcionamiento.
+    /// </summary>
+    public bool Log;
 
     private List<IAction> _actions = new();
 
@@ -19,14 +35,13 @@ public class EventReceiverByID : MonoBehaviour
 
     private void OnEnable()
     {
+        if(Log)
         Debug.LogWarning("Registra");
-
         EventChannelManager.Register(channel, TriggerActions);
     }
 
     private void OnDisable()
     {
-
         EventChannelManager.Unregister(channel, TriggerActions);
     }
 
@@ -34,6 +49,8 @@ public class EventReceiverByID : MonoBehaviour
 
     private void TriggerActions()
     {
+        if (Log)
+            Debug.Log($"Evento recibido por canal +{channel.ToString()}");
         foreach (var action in _actions)
             action.Execute();
     }

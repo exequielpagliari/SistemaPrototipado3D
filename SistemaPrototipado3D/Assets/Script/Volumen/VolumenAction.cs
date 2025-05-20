@@ -1,13 +1,29 @@
-using System;
+
 using UnityEngine;
 
+/// <summary>
+/// Clase dedicada a la emisión de un evento cuando una interfaz IActivator ejecuta Activate.
+/// </summary>
 public class VolumenAction : MonoBehaviour, IActivator
 {
-    [SerializeField] private EventChannelID channelToActivate;
+    /// <summary>
+    /// Enum dedicado a la selección de canal para evento.
+    /// </summary>
+    public EventChannelID channelToActivate;
     private ActivationManager activationManager;
+    
+    /// <summary>
+    /// Bool activa el LogWarning para test de funcionamiento.
+    /// </summary>
+    public bool log;
+    
+    /// <summary>
+    /// Método único para realizar una activación.
+    /// </summary>
     public void Activate()
     {
-        Debug.Log($"[ButtonActivator] Activando canal {channelToActivate}");
+        if(log)
+            Debug.Log($"[ButtonActivator] Activando canal {channelToActivate}");
         EventChannelManager.RaiseEvent(channelToActivate);
     }
 

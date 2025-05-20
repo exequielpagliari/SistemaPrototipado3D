@@ -1,9 +1,20 @@
 using UnityEngine;
 
+/// <summary>
+/// Clase dedicada a la manipualación de IActivators en el Actor.
+/// </summary>
 public class ActivationManager : MonoBehaviour ,IActivatorReceiver
 {
     private IActivator currentActivator;
+    /// <summary>
+    /// UI dedicada a la representación de interacción.
+    /// </summary>
     public GameObject UI;
+
+    /// <summary>
+    /// Se subscribe como posible activador.
+    /// </summary>
+    /// <param name="activator">Un objeto del tipo IActivator a registrar.</param>
 
     public void RegisterActivator(IActivator activator)
     {
@@ -12,6 +23,10 @@ public class ActivationManager : MonoBehaviour ,IActivatorReceiver
 
     }
 
+    /// <summary>
+    /// Se desubscribe como posible activador.
+    /// </summary>
+    /// <param name="activator">Un objeto del tipo IActivator a desregistrar.</param>
     public void UnregisterActivator(IActivator activator)
     {
         if (currentActivator == activator)
@@ -27,13 +42,6 @@ public class ActivationManager : MonoBehaviour ,IActivatorReceiver
             if (InputManager.Instance.InteractPressed)
             {
               currentActivator?.Activate();
-            }
-            /*
-            if (InputManager.Instance.MoveInput.sqrMagnitude > 0)
-            {
-              currentActivator?.Activate();
-            }
-            */
-        
+            }      
     }
 }
