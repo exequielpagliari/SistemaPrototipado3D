@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['movementdelta_0',['MovementDelta',['../class_move_action_plataform_corrutine.html#a3fcd4e2933ca293758de23da1bd3b091',1,'MoveActionPlataformCorrutine']]]
+  ['actorid_0',['ActorID',['../interface_i_actor.html#a2485f7733d2eb783c8a28735c70272f9',1,'IActor.ActorID'],['../class_player_actor.html#a30c8fd6065f715400791b396344bcc19',1,'PlayerActor.ActorID']]]
 ];

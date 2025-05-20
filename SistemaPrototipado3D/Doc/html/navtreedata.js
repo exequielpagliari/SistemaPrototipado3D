@@ -33,6 +33,7 @@ var NAVTREE =
         [ "Todos", "functions.html", null ],
         [ "Funciones", "functions_func.html", null ],
         [ "Variables", "functions_vars.html", null ],
+        [ "Enumeraciones", "functions_enum.html", null ],
         [ "Propiedades", "functions_prop.html", null ]
       ] ]
     ] ]

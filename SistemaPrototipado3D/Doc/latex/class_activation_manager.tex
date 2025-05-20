@@ -2,7 +2,8 @@
 \hypertarget{class_activation_manager}{}\label{class_activation_manager}\index{ActivationManager@{ActivationManager}}
 
 
-Diagrama de herencia de Activation\+Manager\nopagebreak
+Diagrama de herencia de Activation\+Manager
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -11,7 +12,8 @@ Diagrama de herencia de Activation\+Manager\nopagebreak
 \end{figure}
 
 
-Diagrama de colaboración de Activation\+Manager\+:\nopagebreak
+Diagrama de colaboración de Activation\+Manager\+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -22,9 +24,9 @@ Diagrama de colaboración de Activation\+Manager\+:\nopagebreak
 \begin{DoxyCompactItemize}
 \item 
 void \mbox{\hyperlink{class_activation_manager_a82aa93e6873811b26255fba694722b9d}{Register\+Activator}} (\mbox{\hyperlink{interface_i_activator}{IActivator}} activator)
-\item 
+\begin{DoxyCompactList}\small\item\em Se subscribe como posible activador. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{class_activation_manager_a49fd9fd36e0eedb832e596a6ce4c34bb}{Unregister\+Activator}} (\mbox{\hyperlink{interface_i_activator}{IActivator}} activator)
-\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em Se desubscribe como posible activador. \end{DoxyCompactList}\end{DoxyCompactItemize}
 \doxysubsubsection*{Atributos públicos}
 \begin{DoxyCompactItemize}
 \item 
@@ -42,7 +44,11 @@ void Activation\+Manager.\+Register\+Activator (\begin{DoxyParamCaption}\item[{\
 
 
 
-Implementa \mbox{\hyperlink{interface_i_activator_receiver}{IActivator\+Receiver}}.
+Se subscribe como posible activador. 
+
+
+
+Implementa \mbox{\hyperlink{interface_i_activator_receiver_a8b35822c3b379ca8879fc196f110559f}{IActivator\+Receiver}}.
 
 \Hypertarget{class_activation_manager_a49fd9fd36e0eedb832e596a6ce4c34bb}\index{ActivationManager@{ActivationManager}!UnregisterActivator@{UnregisterActivator}}
 \index{UnregisterActivator@{UnregisterActivator}!ActivationManager@{ActivationManager}}
@@ -52,7 +58,11 @@ void Activation\+Manager.\+Unregister\+Activator (\begin{DoxyParamCaption}\item[
 
 
 
-Implementa \mbox{\hyperlink{interface_i_activator_receiver}{IActivator\+Receiver}}.
+Se desubscribe como posible activador. 
+
+
+
+Implementa \mbox{\hyperlink{interface_i_activator_receiver_a546d08fd12a317fc307a872ccfa087bb}{IActivator\+Receiver}}.
 
 
 

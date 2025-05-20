@@ -109,12 +109,15 @@ $(function(){initNavTree('interface_i_actor.html',''); initResizable(true); });
   <div class="headertitle"><div class="title">Referencia de la interface IActor</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>Interfaz dedicada a la interacción con Actores.  
+ <a href="#details">Más...</a></p>
 <div class="dynheader">
 Diagrama de herencia de IActor</div>
 <div class="dyncontent">
 <div class="center"><img src="interface_i_actor__inherit__graph.png" border="0" usemap="#a_i_actor_inherit__map" alt="Inheritance graph"/></div>
 <map name="a_i_actor_inherit__map" id="a_i_actor_inherit__map">
-<area shape="rect" title=" " alt="" coords="22,5,78,32"/>
+<area shape="rect" title="Interfaz dedicada a la interacción con Actores." alt="" coords="22,5,78,32"/>
 <area shape="rect" href="class_player_actor.html" title=" " alt="" coords="5,80,95,107"/>
 <area shape="poly" title=" " alt="" coords="53,48,53,80,47,80,47,48"/>
 </map>
@@ -122,22 +125,120 @@ Diagrama de herencia de IActor</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Métodos públicos</h2></td></tr>
-<tr class="memitem:aeec80de605198b6c313523f812c9945f" id="r_aeec80de605198b6c313523f812c9945f"><td class="memItemLeft" align="right" valign="top"><a id="aeec80de605198b6c313523f812c9945f" name="aeec80de605198b6c313523f812c9945f"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>CanActivate</b> (<a class="el" href="interface_i_activator.html">IActivator</a> activator)</td></tr>
+<tr class="memitem:aeec80de605198b6c313523f812c9945f" id="r_aeec80de605198b6c313523f812c9945f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeec80de605198b6c313523f812c9945f">CanActivate</a> (<a class="el" href="interface_i_activator.html">IActivator</a> activator)</td></tr>
+<tr class="memdesc:aeec80de605198b6c313523f812c9945f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Si puede activar determinado Activador.  <br /></td></tr>
 <tr class="separator:aeec80de605198b6c313523f812c9945f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a046e3ea21e47fa604a4f5b2681a40f9c" id="r_a046e3ea21e47fa604a4f5b2681a40f9c"><td class="memItemLeft" align="right" valign="top"><a id="a046e3ea21e47fa604a4f5b2681a40f9c" name="a046e3ea21e47fa604a4f5b2681a40f9c"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>Dead</b> ()</td></tr>
+<tr class="memitem:a046e3ea21e47fa604a4f5b2681a40f9c" id="r_a046e3ea21e47fa604a4f5b2681a40f9c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a046e3ea21e47fa604a4f5b2681a40f9c">Dead</a> ()</td></tr>
+<tr class="memdesc:a046e3ea21e47fa604a4f5b2681a40f9c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Método de muerte del Actor.  <br /></td></tr>
 <tr class="separator:a046e3ea21e47fa604a4f5b2681a40f9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Propiedades</h2></td></tr>
-<tr class="memitem:a2485f7733d2eb783c8a28735c70272f9" id="r_a2485f7733d2eb783c8a28735c70272f9"><td class="memItemLeft" align="right" valign="top"><a id="a2485f7733d2eb783c8a28735c70272f9" name="a2485f7733d2eb783c8a28735c70272f9"></a>
-string&#160;</td><td class="memItemRight" valign="bottom"><b>ActorID</b><code> [get]</code></td></tr>
+<tr class="memitem:a2485f7733d2eb783c8a28735c70272f9" id="r_a2485f7733d2eb783c8a28735c70272f9"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2485f7733d2eb783c8a28735c70272f9">ActorID</a><code> [get]</code></td></tr>
+<tr class="memdesc:a2485f7733d2eb783c8a28735c70272f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">String representativo del Actor.  <br /></td></tr>
 <tr class="separator:a2485f7733d2eb783c8a28735c70272f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a022e6914eadd4dc01557850f2586aded" id="r_a022e6914eadd4dc01557850f2586aded"><td class="memItemLeft" align="right" valign="top"><a id="a022e6914eadd4dc01557850f2586aded" name="a022e6914eadd4dc01557850f2586aded"></a>
-Transform&#160;</td><td class="memItemRight" valign="bottom"><b>Transform</b><code> [get]</code></td></tr>
+<tr class="memitem:a022e6914eadd4dc01557850f2586aded" id="r_a022e6914eadd4dc01557850f2586aded"><td class="memItemLeft" align="right" valign="top">Transform&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a022e6914eadd4dc01557850f2586aded">Transform</a><code> [get]</code></td></tr>
+<tr class="memdesc:a022e6914eadd4dc01557850f2586aded"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transform del Actor.  <br /></td></tr>
 <tr class="separator:a022e6914eadd4dc01557850f2586aded"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p>Interfaz dedicada a la interacción con Actores. </p>
+</div><h2 class="groupheader">Documentación de funciones miembro</h2>
+<a id="aeec80de605198b6c313523f812c9945f" name="aeec80de605198b6c313523f812c9945f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeec80de605198b6c313523f812c9945f">&#9670;&#160;</a></span>CanActivate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool IActor.CanActivate </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interface_i_activator.html">IActivator</a></td>          <td class="paramname"><span class="paramname"><em>activator</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Si puede activar determinado Activador. </p>
+
+<p>Implementado en <a class="el" href="class_player_actor.html#af117b65b7899d91e56ced1520f970901">PlayerActor</a>.</p>
+
+</div>
+</div>
+<a id="a046e3ea21e47fa604a4f5b2681a40f9c" name="a046e3ea21e47fa604a4f5b2681a40f9c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a046e3ea21e47fa604a4f5b2681a40f9c">&#9670;&#160;</a></span>Dead()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void IActor.Dead </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Método de muerte del Actor. </p>
+
+<p>Implementado en <a class="el" href="class_player_actor.html#a1721eba477f3944c108cbd9b683f30ea">PlayerActor</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Documentación de propiedades</h2>
+<a id="a2485f7733d2eb783c8a28735c70272f9" name="a2485f7733d2eb783c8a28735c70272f9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2485f7733d2eb783c8a28735c70272f9">&#9670;&#160;</a></span>ActorID</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string IActor.ActorID</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel get">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>String representativo del Actor. </p>
+
+<p>Implementado en <a class="el" href="class_player_actor.html#a30c8fd6065f715400791b396344bcc19">PlayerActor</a>.</p>
+
+</div>
+</div>
+<a id="a022e6914eadd4dc01557850f2586aded" name="a022e6914eadd4dc01557850f2586aded"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a022e6914eadd4dc01557850f2586aded">&#9670;&#160;</a></span>Transform</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Transform IActor.Transform</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel get">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Transform del Actor. </p>
+
+<p>Implementado en <a class="el" href="class_player_actor.html#a297486b6699faf0ba505091ae2f7aa30">PlayerActor</a>.</p>
+
+</div>
+</div>
 <hr/>La documentación de esta interface está generada del siguiente archivo:<ul>
 <li>C:/Users/exepa/source/repos/SistemaPrototipado3D/SistemaPrototipado3D/Assets/Script/Interfaces/<b>IActor.cs</b></li>
 </ul>

@@ -24,10 +24,6 @@ var hierarchy =
       [ "ActivationManager", "class_activation_manager.html", null ],
       [ "ActorManager", "class_actor_manager.html", null ],
       [ "ColliderGizmoDrawer", "class_collider_gizmo_drawer.html", null ],
-      [ "EnvironmentAction", "class_environment_action.html", [
-        [ "OpenDoorAction", "class_open_door_action.html", null ],
-        [ "PlataformaAction", "class_plataforma_action.html", null ]
-      ] ],
       [ "EventEmitterByID", "class_event_emitter_by_i_d.html", null ],
       [ "EventReceiverByID", "class_event_receiver_by_i_d.html", null ],
       [ "InputEventEmitter", "class_input_event_emitter.html", null ],

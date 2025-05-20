@@ -2,7 +2,8 @@
 \hypertarget{class_player_actor}{}\label{class_player_actor}\index{PlayerActor@{PlayerActor}}
 
 
-Diagrama de herencia de Player\+Actor\nopagebreak
+Diagrama de herencia de Player\+Actor
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -11,7 +12,8 @@ Diagrama de herencia de Player\+Actor\nopagebreak
 \end{figure}
 
 
-Diagrama de colaboración de Player\+Actor\+:\nopagebreak
+Diagrama de colaboración de Player\+Actor\+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -22,16 +24,16 @@ Diagrama de colaboración de Player\+Actor\+:\nopagebreak
 \begin{DoxyCompactItemize}
 \item 
 bool \mbox{\hyperlink{class_player_actor_af117b65b7899d91e56ced1520f970901}{Can\+Activate}} (\mbox{\hyperlink{interface_i_activator}{IActivator}} activator)
-\item 
+\begin{DoxyCompactList}\small\item\em Si puede activar determinado Activador. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{class_player_actor_a1721eba477f3944c108cbd9b683f30ea}{Dead}} ()
-\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em Método de muerte del Actor. \end{DoxyCompactList}\end{DoxyCompactItemize}
 \doxysubsubsection*{Propiedades}
 \begin{DoxyCompactItemize}
 \item 
 string \mbox{\hyperlink{class_player_actor_a30c8fd6065f715400791b396344bcc19}{Actor\+ID}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
-\item 
+\begin{DoxyCompactList}\small\item\em String representativo del Actor. \end{DoxyCompactList}\item 
 Transform \mbox{\hyperlink{class_player_actor_a297486b6699faf0ba505091ae2f7aa30}{Transform}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
-\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em Transform del Actor. \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
 \doxysubsection{Documentación de funciones miembro}
@@ -43,7 +45,11 @@ bool Player\+Actor.\+Can\+Activate (\begin{DoxyParamCaption}\item[{\mbox{\hyperl
 
 
 
-Implementa \mbox{\hyperlink{interface_i_actor}{IActor}}.
+Si puede activar determinado Activador. 
+
+
+
+Implementa \mbox{\hyperlink{interface_i_actor_aeec80de605198b6c313523f812c9945f}{IActor}}.
 
 \Hypertarget{class_player_actor_a1721eba477f3944c108cbd9b683f30ea}\index{PlayerActor@{PlayerActor}!Dead@{Dead}}
 \index{Dead@{Dead}!PlayerActor@{PlayerActor}}
@@ -53,7 +59,11 @@ void Player\+Actor.\+Dead (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\h
 
 
 
-Implementa \mbox{\hyperlink{interface_i_actor}{IActor}}.
+Método de muerte del Actor. 
+
+
+
+Implementa \mbox{\hyperlink{interface_i_actor_a046e3ea21e47fa604a4f5b2681a40f9c}{IActor}}.
 
 
 
@@ -66,7 +76,11 @@ string Player\+Actor.\+Actor\+ID\hspace{0.3cm}{\ttfamily [get]}}
 
 
 
-Implementa \mbox{\hyperlink{interface_i_actor}{IActor}}.
+String representativo del Actor. 
+
+
+
+Implementa \mbox{\hyperlink{interface_i_actor_a2485f7733d2eb783c8a28735c70272f9}{IActor}}.
 
 \Hypertarget{class_player_actor_a297486b6699faf0ba505091ae2f7aa30}\index{PlayerActor@{PlayerActor}!Transform@{Transform}}
 \index{Transform@{Transform}!PlayerActor@{PlayerActor}}
@@ -76,7 +90,11 @@ Transform Player\+Actor.\+Transform\hspace{0.3cm}{\ttfamily [get]}}
 
 
 
-Implementa \mbox{\hyperlink{interface_i_actor}{IActor}}.
+Transform del Actor. 
+
+
+
+Implementa \mbox{\hyperlink{interface_i_actor_a022e6914eadd4dc01557850f2586aded}{IActor}}.
 
 
 
