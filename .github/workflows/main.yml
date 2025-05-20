@@ -34,7 +34,7 @@ jobs:
           projectPath: SistemaPrototipado3D
 
       # Doxyge
-      - name: Run tests
+      - name: Doxygen Documentation
         uses: mattnotmitt/doxygen-action@v1.9.5
         with:
               working-directory: 'submodule/'
