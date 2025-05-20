@@ -1,28 +1,43 @@
 using UnityEngine;
 
 
+/// <summary>
+/// Controla el movimiento del Player utilizando un CharacterController.
+/// </summary>
 
+
+/// <remarks>
+/// Requiere un CharacterController, RaycastGround e InputManager.
+/// </remarks>
+[RequireComponent (typeof(CharacterController))]
+[RequireComponent (typeof(RaycastGround))]
 public class MovementCC : MonoBehaviour
 {
     private CharacterController cc;
+    /// <summary>
+    /// Velocidad base del movimiento del jugador.
+    /// </summary>
     public float speed = 1f;
     private float gravityValue = -9.81f;
     private float jumpHeight = 1.0f;
-    public bool groundedPlayer;
+    private bool groundedPlayer;
     private Vector3 playerVelocity;
     private RaycastGround raycastGround;
 
 
+    /// <summary>
+    /// Referencia de Plataforma para desplazar al jugador al momento de estar sobre una.
+    /// </summary>
+    [HideInInspector]
     public MoveActionPlataformCorrutine currentPlatform;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Awake()
     {
         cc = GetComponent<CharacterController>();
         raycastGround = GetComponent<RaycastGround>();
     }
 
-    // Update is called once per frame
+
     void Update()
     {
 
@@ -35,15 +50,15 @@ public class MovementCC : MonoBehaviour
         Vector3 horizontalVelocity = cc.velocity;
         horizontalVelocity = new Vector3(-InputManager.Instance.MoveInput.y, 0, InputManager.Instance.MoveInput.x);
         
-        // Jump
+
         if (InputManager.Instance.JumpPressed && raycastGround.IsGrounded())
         {
             playerVelocity.y = Mathf.Sqrt(jumpHeight * -2.0f * gravityValue);
         }
-        // Apply gravity
+
         playerVelocity.y += gravityValue * Time.deltaTime;
 
-        // Combine horizontal and vertical movement
+
         Vector3 finalMove = (horizontalVelocity * speed) + (playerVelocity.y * Vector3.up);
         cc.Move(finalMove * Time.deltaTime);
 
