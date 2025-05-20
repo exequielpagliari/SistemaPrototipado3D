@@ -1,9 +1,0 @@
-<map id="PlataformaBase" name="PlataformaBase">
-<area shape="rect" id="Node000001" title=" " alt="" coords="25,80,140,107"/>
-<area shape="rect" id="Node000003" href="$class_plataforma.html" title=" " alt="" coords="40,155,125,181"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="85,122,85,154,80,154,80,122"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="27,5,138,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="85,48,85,80,80,80,80,48"/>
-<area shape="rect" id="Node000004" href="$class_plataforma_con_retardo.html" title=" " alt="" coords="5,229,160,256"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="85,197,85,229,80,229,80,197"/>
-</map>

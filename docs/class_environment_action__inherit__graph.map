@@ -1,9 +1,0 @@
-<map id="EnvironmentAction" name="EnvironmentAction">
-<area shape="rect" id="Node000001" title=" " alt="" coords="70,80,202,107"/>
-<area shape="rect" id="Node000003" href="$class_open_door_action.html" title=" " alt="" coords="5,155,123,181"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="115,120,78,156,75,152,111,116"/>
-<area shape="rect" id="Node000004" href="$class_plataforma_action.html" title=" " alt="" coords="147,155,269,181"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="161,116,197,152,194,156,157,120"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="80,5,192,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="139,48,139,80,133,80,133,48"/>
-</map>

@@ -1,7 +1,0 @@
-<map id="VolumenAction" name="VolumenAction">
-<area shape="rect" id="Node000001" title="Clase dedicada a la emisión de un evento cuando una interfaz IActivator ejecuta Activate." alt="" coords="66,80,174,107"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,117,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="83,43,112,78,107,81,79,46"/>
-<area shape="rect" id="Node000003" href="$interface_i_activator.html" title="Interfaz dedicada a la interacción de activadores." alt="" coords="141,5,218,32"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="162,46,132,81,128,78,158,42"/>
-</map>
