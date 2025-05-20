@@ -110,12 +110,15 @@ $(function(){initNavTree('class_input_manager.html',''); initResizable(true); })
   <div class="headertitle"><div class="title">Referencia de la clase InputManager</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>Clase singleton dedicada a conectar InputAction con el proyecto.  
+ <a href="#details">Más...</a></p>
 <div class="dynheader">
 Diagrama de herencia de InputManager</div>
 <div class="dyncontent">
 <div class="center"><img src="class_input_manager__inherit__graph.png" border="0" usemap="#a_input_manager_inherit__map" alt="Inheritance graph"/></div>
 <map name="a_input_manager_inherit__map" id="a_input_manager_inherit__map">
-<area shape="rect" title=" " alt="" coords="11,80,111,107"/>
+<area shape="rect" title="Clase singleton dedicada a conectar InputAction con el proyecto." alt="" coords="11,80,111,107"/>
 <area shape="rect" title=" " alt="" coords="5,5,117,32"/>
 <area shape="poly" title=" " alt="" coords="64,48,64,80,58,80,58,48"/>
 </map>
@@ -125,7 +128,7 @@ Diagrama de colaboración de InputManager:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_input_manager__coll__graph.png" border="0" usemap="#a_input_manager_coll__map" alt="Collaboration graph"/></div>
 <map name="a_input_manager_coll__map" id="a_input_manager_coll__map">
-<area shape="rect" title=" " alt="" coords="11,80,111,107"/>
+<area shape="rect" title="Clase singleton dedicada a conectar InputAction con el proyecto." alt="" coords="11,80,111,107"/>
 <area shape="rect" title=" " alt="" coords="5,5,117,32"/>
 <area shape="poly" title=" " alt="" coords="64,48,64,80,58,80,58,48"/>
 </map>
@@ -135,33 +138,42 @@ Diagrama de colaboración de InputManager:</div>
 Métodos públicos</h2></td></tr>
 <tr class="memitem:a299bbafea54437e9de874d8deaf62e2b" id="r_a299bbafea54437e9de874d8deaf62e2b"><td class="memItemLeft" align="right" valign="top"><a id="a299bbafea54437e9de874d8deaf62e2b" name="a299bbafea54437e9de874d8deaf62e2b"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>EnableGameplayInput</b> ()</td></tr>
+<tr class="memdesc:a299bbafea54437e9de874d8deaf62e2b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Método para Activación del InputActions del Player. <br /></td></tr>
 <tr class="separator:a299bbafea54437e9de874d8deaf62e2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad6c255b92382a6c3f436d1aab22be152" id="r_ad6c255b92382a6c3f436d1aab22be152"><td class="memItemLeft" align="right" valign="top"><a id="ad6c255b92382a6c3f436d1aab22be152" name="ad6c255b92382a6c3f436d1aab22be152"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>DisableGameplayInput</b> ()</td></tr>
+<tr class="memdesc:ad6c255b92382a6c3f436d1aab22be152"><td class="mdescLeft">&#160;</td><td class="mdescRight">Método para Activación del InputActions del Player. <br /></td></tr>
 <tr class="separator:ad6c255b92382a6c3f436d1aab22be152"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Atributos públicos</h2></td></tr>
 <tr class="memitem:a694c64f63fe845819d2728282cbe76af" id="r_a694c64f63fe845819d2728282cbe76af"><td class="memItemLeft" align="right" valign="top"><a id="a694c64f63fe845819d2728282cbe76af" name="a694c64f63fe845819d2728282cbe76af"></a>
 InputSystem_Actions&#160;</td><td class="memItemRight" valign="bottom"><b>inputActions</b></td></tr>
+<tr class="memdesc:a694c64f63fe845819d2728282cbe76af"><td class="mdescLeft">&#160;</td><td class="mdescRight">Referencia de InputActions de la clase. <br /></td></tr>
 <tr class="separator:a694c64f63fe845819d2728282cbe76af"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Propiedades</h2></td></tr>
 <tr class="memitem:afb55d4ebb7290ab0950c3fd7d3825729" id="r_afb55d4ebb7290ab0950c3fd7d3825729"><td class="memItemLeft" align="right" valign="top"><a id="afb55d4ebb7290ab0950c3fd7d3825729" name="afb55d4ebb7290ab0950c3fd7d3825729"></a>
 static <a class="el" href="class_input_manager.html">InputManager</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Instance</b><code> [get]</code></td></tr>
+<tr class="memdesc:afb55d4ebb7290ab0950c3fd7d3825729"><td class="mdescLeft">&#160;</td><td class="mdescRight">Variable de instancia Singleton de la Clase. <br /></td></tr>
 <tr class="separator:afb55d4ebb7290ab0950c3fd7d3825729"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aca8bfee47ae99162f606486a348ed13f" id="r_aca8bfee47ae99162f606486a348ed13f"><td class="memItemLeft" align="right" valign="top"><a id="aca8bfee47ae99162f606486a348ed13f" name="aca8bfee47ae99162f606486a348ed13f"></a>
 Vector2&#160;</td><td class="memItemRight" valign="bottom"><b>MoveInput</b><code> [get]</code></td></tr>
+<tr class="memdesc:aca8bfee47ae99162f606486a348ed13f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vector2 de Input de movimiento. <br /></td></tr>
 <tr class="separator:aca8bfee47ae99162f606486a348ed13f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa3589a7b037005a5252a2a990190844a" id="r_aa3589a7b037005a5252a2a990190844a"><td class="memItemLeft" align="right" valign="top"><a id="aa3589a7b037005a5252a2a990190844a" name="aa3589a7b037005a5252a2a990190844a"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>InteractPressed</b><code> [get]</code></td></tr>
+<tr class="memdesc:aa3589a7b037005a5252a2a990190844a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Booleano del botón de Interacción del <a class="el" href="class_input_manager.html" title="Clase singleton dedicada a conectar InputAction con el proyecto.">InputManager</a>. <br /></td></tr>
 <tr class="separator:aa3589a7b037005a5252a2a990190844a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a060bb39b0b76aea53da144cd94f3d890" id="r_a060bb39b0b76aea53da144cd94f3d890"><td class="memItemLeft" align="right" valign="top"><a id="a060bb39b0b76aea53da144cd94f3d890" name="a060bb39b0b76aea53da144cd94f3d890"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>JumpPressed</b><code> [get]</code></td></tr>
+<tr class="memdesc:a060bb39b0b76aea53da144cd94f3d890"><td class="mdescLeft">&#160;</td><td class="mdescRight">Booleano del botón de Salto del <a class="el" href="class_input_manager.html" title="Clase singleton dedicada a conectar InputAction con el proyecto.">InputManager</a>. <br /></td></tr>
 <tr class="separator:a060bb39b0b76aea53da144cd94f3d890"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<hr/>La documentación de esta clase está generada del siguiente archivo:<ul>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p>Clase singleton dedicada a conectar InputAction con el proyecto. </p>
+</div><hr/>La documentación de esta clase está generada del siguiente archivo:<ul>
 <li>C:/Users/exepa/source/repos/SistemaPrototipado3D/SistemaPrototipado3D/Assets/Script/Manager/<b>InputManager.cs</b></li>
 </ul>
 </div><!-- contents -->

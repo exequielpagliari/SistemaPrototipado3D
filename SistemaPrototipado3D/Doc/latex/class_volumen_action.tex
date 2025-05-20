@@ -2,6 +2,11 @@
 \hypertarget{class_volumen_action}{}\label{class_volumen_action}\index{VolumenAction@{VolumenAction}}
 
 
+Clase dedicada a la emisión de un evento cuando una interfaz \doxylink{interface_i_activator}{IActivator} ejecuta Activate.  
+
+
+
+
 Diagrama de herencia de Volumen\+Action
 \nopagebreak
 \begin{figure}[H]
@@ -25,7 +30,19 @@ Diagrama de colaboración de Volumen\+Action\+:
 \item 
 void \mbox{\hyperlink{class_volumen_action_ae7443142f6a5c3b7f00afd9fea1107f9}{Activate}} ()
 \begin{DoxyCompactList}\small\item\em Método único para realizar una activación. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Atributos públicos}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_volumen_action_a08e6b09a0fda940e3f278813e6b7ae54}\label{class_volumen_action_a08e6b09a0fda940e3f278813e6b7ae54} 
+Event\+Channel\+ID {\bfseries channel\+To\+Activate}
+\begin{DoxyCompactList}\small\item\em Enum dedicado a la selección de canal para evento. \end{DoxyCompactList}\item 
+\Hypertarget{class_volumen_action_a4e21d157dae51820f1ae4e27e9b9e032}\label{class_volumen_action_a4e21d157dae51820f1ae4e27e9b9e032} 
+bool {\bfseries log}
+\begin{DoxyCompactList}\small\item\em Bool activa el Log\+Warning para test de funcionamiento. \end{DoxyCompactList}\end{DoxyCompactItemize}
 
+
+\doxysubsection{Descripción detallada}
+Clase dedicada a la emisión de un evento cuando una interfaz \doxylink{interface_i_activator}{IActivator} ejecuta Activate. 
 
 \doxysubsection{Documentación de funciones miembro}
 \Hypertarget{class_volumen_action_ae7443142f6a5c3b7f00afd9fea1107f9}\index{VolumenAction@{VolumenAction}!Activate@{Activate}}

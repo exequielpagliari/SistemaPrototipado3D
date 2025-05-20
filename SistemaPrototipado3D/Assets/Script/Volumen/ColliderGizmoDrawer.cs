@@ -1,8 +1,14 @@
 using UnityEngine;
 
 [ExecuteAlways]
+/// <summary>
+/// Clase dedicada al dibujado de Colliders en el Editor.
+/// </summary>
 public class ColliderGizmoDrawer : MonoBehaviour
 {
+    /// <summary>
+    /// Color a representar el Gizmo del Collider.
+    /// </summary>
     public Color color = Color.cyan;
     private void OnDrawGizmos()
     {

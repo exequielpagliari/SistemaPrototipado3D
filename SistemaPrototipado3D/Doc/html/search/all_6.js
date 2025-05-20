@@ -1,6 +1,15 @@
 var searchData=
 [
-  ['lastposition_0',['lastPosition',['../class_move_action_plataform_corrutine.html#aabfec85ee21d023d63bc5d7688e1c16a',1,'MoveActionPlataformCorrutine']]],
-  ['log_1',['Log',['../class_event_emitter_by_i_d.html#ae7ed91bfaad104d208af2ce6064b82e5',1,'EventEmitterByID.Log'],['../class_event_receiver_by_i_d.html#a80d6086aedde7fdef81a7978a0e6a652',1,'EventReceiverByID.Log'],['../class_input_event_emitter.html#a527d02ad4823638292490bb7ccd82800',1,'InputEventEmitter.Log']]],
-  ['loop_2',['loop',['../class_move_action.html#af781b21b40db5f206459652a94504576',1,'MoveAction.loop'],['../class_move_action_corrutine.html#a2d2986f4fcd6c206b66cd70e9deb9267',1,'MoveActionCorrutine.loop'],['../class_move_action_plataform_corrutine.html#ae6c433ebbabda1ba7e227945c3ea374d',1,'MoveActionPlataformCorrutine.loop']]]
+  ['iaction_0',['IAction',['../interface_i_action.html',1,'']]],
+  ['iactivator_1',['IActivator',['../interface_i_activator.html',1,'']]],
+  ['iactivatorreceiver_2',['IActivatorReceiver',['../interface_i_activator_receiver.html',1,'']]],
+  ['iactor_3',['IActor',['../interface_i_actor.html',1,'']]],
+  ['inputaction_4',['inputAction',['../class_input_event_emitter.html#a188ebe704de8ff2a8e4ad33936944771',1,'InputEventEmitter']]],
+  ['inputactions_5',['inputActions',['../class_input_manager.html#a694c64f63fe845819d2728282cbe76af',1,'InputManager']]],
+  ['inputeventemitter_6',['InputEventEmitter',['../class_input_event_emitter.html',1,'']]],
+  ['inputmanager_7',['InputManager',['../class_input_manager.html',1,'']]],
+  ['instance_8',['Instance',['../class_input_manager.html#afb55d4ebb7290ab0950c3fd7d3825729',1,'InputManager']]],
+  ['interactpressed_9',['InteractPressed',['../class_input_manager.html#aa3589a7b037005a5252a2a990190844a',1,'InputManager']]],
+  ['isdoor_10',['isDoor',['../class_rotate_action.html#a2b8513171f8f0c59a7ac31b154675446',1,'RotateAction']]],
+  ['isgrounded_11',['IsGrounded',['../class_raycast_ground.html#a6b765493d88cdbd5b00b2a3714b57730',1,'RaycastGround']]]
 ];

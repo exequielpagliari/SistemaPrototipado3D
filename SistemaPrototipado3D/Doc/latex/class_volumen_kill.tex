@@ -2,7 +2,13 @@
 \hypertarget{class_volumen_kill}{}\label{class_volumen_kill}\index{VolumenKill@{VolumenKill}}
 
 
-Diagrama de herencia de Volumen\+Kill\nopagebreak
+Clase dedicada destrucción de un \doxylink{interface_i_actor}{IActor} y a la emisión de un evento cuando una interfaz \doxylink{interface_i_activator}{IActivator} ejecuta Activate.  
+
+
+
+
+Diagrama de herencia de Volumen\+Kill
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -11,7 +17,8 @@ Diagrama de herencia de Volumen\+Kill\nopagebreak
 \end{figure}
 
 
-Diagrama de colaboración de Volumen\+Kill\+:\nopagebreak
+Diagrama de colaboración de Volumen\+Kill\+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -23,8 +30,20 @@ Diagrama de colaboración de Volumen\+Kill\+:\nopagebreak
 \item 
 \Hypertarget{class_volumen_kill_a2626d8d91412f009538ff1ddc3f33594}\label{class_volumen_kill_a2626d8d91412f009538ff1ddc3f33594} 
 void {\bfseries Kill} (\mbox{\hyperlink{interface_i_actor}{IActor}} actor)
-\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em Método que emite evento y llama al método Dead() de un \doxylink{interface_i_actor}{IActor}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Atributos públicos}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_volumen_kill_a5f9a747a11bea80a570ceb11dbf9105a}\label{class_volumen_kill_a5f9a747a11bea80a570ceb11dbf9105a} 
+Event\+Channel\+ID {\bfseries channel\+To\+Activate}
+\begin{DoxyCompactList}\small\item\em Enum dedicado a la selección de canal para evento. \end{DoxyCompactList}\item 
+\Hypertarget{class_volumen_kill_a7257d5e2c38576cdaac1f23aefb7bda8}\label{class_volumen_kill_a7257d5e2c38576cdaac1f23aefb7bda8} 
+bool {\bfseries log}
+\begin{DoxyCompactList}\small\item\em Bool activa el Log\+Warning para test de funcionamiento. \end{DoxyCompactList}\end{DoxyCompactItemize}
 
+
+\doxysubsection{Descripción detallada}
+Clase dedicada destrucción de un \doxylink{interface_i_actor}{IActor} y a la emisión de un evento cuando una interfaz \doxylink{interface_i_activator}{IActivator} ejecuta Activate. 
 
 La documentación de esta clase está generada del siguiente archivo\+:\begin{DoxyCompactItemize}
 \item 

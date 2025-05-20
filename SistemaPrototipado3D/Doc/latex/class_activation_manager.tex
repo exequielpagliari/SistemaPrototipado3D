@@ -2,8 +2,12 @@
 \hypertarget{class_activation_manager}{}\label{class_activation_manager}\index{ActivationManager@{ActivationManager}}
 
 
-Diagrama de herencia de Activation\+Manager
-\nopagebreak
+Clase dedicada a la manipualación de IActivators en el Actor.  
+
+
+
+
+Diagrama de herencia de Activation\+Manager\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -12,8 +16,7 @@ Diagrama de herencia de Activation\+Manager
 \end{figure}
 
 
-Diagrama de colaboración de Activation\+Manager\+:
-\nopagebreak
+Diagrama de colaboración de Activation\+Manager\+:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -32,8 +35,11 @@ void \mbox{\hyperlink{class_activation_manager_a49fd9fd36e0eedb832e596a6ce4c34bb
 \item 
 \Hypertarget{class_activation_manager_a40907386b3ffe4863e039137b7b83f02}\label{class_activation_manager_a40907386b3ffe4863e039137b7b83f02} 
 Game\+Object {\bfseries UI}
-\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em UI dedicada a la representación de interacción. \end{DoxyCompactList}\end{DoxyCompactItemize}
 
+
+\doxysubsection{Descripción detallada}
+Clase dedicada a la manipualación de IActivators en el Actor. 
 
 \doxysubsection{Documentación de funciones miembro}
 \Hypertarget{class_activation_manager_a82aa93e6873811b26255fba694722b9d}\index{ActivationManager@{ActivationManager}!RegisterActivator@{RegisterActivator}}
@@ -46,6 +52,11 @@ void Activation\+Manager.\+Register\+Activator (\begin{DoxyParamCaption}\item[{\
 
 Se subscribe como posible activador. 
 
+
+\begin{DoxyParams}{Parámetros}
+{\em activator} & Un objeto del tipo \doxylink{interface_i_activator}{IActivator} a registrar.\\
+\hline
+\end{DoxyParams}
 
 
 Implementa \mbox{\hyperlink{interface_i_activator_receiver_a8b35822c3b379ca8879fc196f110559f}{IActivator\+Receiver}}.
@@ -60,6 +71,11 @@ void Activation\+Manager.\+Unregister\+Activator (\begin{DoxyParamCaption}\item[
 
 Se desubscribe como posible activador. 
 
+
+\begin{DoxyParams}{Parámetros}
+{\em activator} & Un objeto del tipo \doxylink{interface_i_activator}{IActivator} a desregistrar.\\
+\hline
+\end{DoxyParams}
 
 
 Implementa \mbox{\hyperlink{interface_i_activator_receiver_a546d08fd12a317fc307a872ccfa087bb}{IActivator\+Receiver}}.

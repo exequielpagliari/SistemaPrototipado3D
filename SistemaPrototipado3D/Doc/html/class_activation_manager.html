@@ -109,12 +109,15 @@ $(function(){initNavTree('class_activation_manager.html',''); initResizable(true
   <div class="headertitle"><div class="title">Referencia de la clase ActivationManager</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>Clase dedicada a la manipualación de IActivators en el Actor.  
+ <a href="#details">Más...</a></p>
 <div class="dynheader">
 Diagrama de herencia de ActivationManager</div>
 <div class="dyncontent">
 <div class="center"><img src="class_activation_manager__inherit__graph.png" border="0" usemap="#a_activation_manager_inherit__map" alt="Inheritance graph"/></div>
 <map name="a_activation_manager_inherit__map" id="a_activation_manager_inherit__map">
-<area shape="rect" title=" " alt="" coords="68,80,198,107"/>
+<area shape="rect" title="Clase dedicada a la manipualación de IActivators en el Actor." alt="" coords="68,80,198,107"/>
 <area shape="rect" title=" " alt="" coords="5,5,117,32"/>
 <area shape="poly" title=" " alt="" coords="86,41,122,78,119,81,82,45"/>
 <area shape="rect" href="interface_i_activator_receiver.html" title="Interfaz dedicada a la subscripción de activadores." alt="" coords="140,5,270,32"/>
@@ -126,7 +129,7 @@ Diagrama de colaboración de ActivationManager:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_activation_manager__coll__graph.png" border="0" usemap="#a_activation_manager_coll__map" alt="Collaboration graph"/></div>
 <map name="a_activation_manager_coll__map" id="a_activation_manager_coll__map">
-<area shape="rect" title=" " alt="" coords="68,80,198,107"/>
+<area shape="rect" title="Clase dedicada a la manipualación de IActivators en el Actor." alt="" coords="68,80,198,107"/>
 <area shape="rect" title=" " alt="" coords="5,5,117,32"/>
 <area shape="poly" title=" " alt="" coords="86,41,122,78,119,81,82,45"/>
 <area shape="rect" href="interface_i_activator_receiver.html" title="Interfaz dedicada a la subscripción de activadores." alt="" coords="140,5,270,32"/>
@@ -147,9 +150,12 @@ Métodos públicos</h2></td></tr>
 Atributos públicos</h2></td></tr>
 <tr class="memitem:a40907386b3ffe4863e039137b7b83f02" id="r_a40907386b3ffe4863e039137b7b83f02"><td class="memItemLeft" align="right" valign="top"><a id="a40907386b3ffe4863e039137b7b83f02" name="a40907386b3ffe4863e039137b7b83f02"></a>
 GameObject&#160;</td><td class="memItemRight" valign="bottom"><b>UI</b></td></tr>
+<tr class="memdesc:a40907386b3ffe4863e039137b7b83f02"><td class="mdescLeft">&#160;</td><td class="mdescRight">UI dedicada a la representación de interacción. <br /></td></tr>
 <tr class="separator:a40907386b3ffe4863e039137b7b83f02"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Documentación de funciones miembro</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p>Clase dedicada a la manipualación de IActivators en el Actor. </p>
+</div><h2 class="groupheader">Documentación de funciones miembro</h2>
 <a id="a82aa93e6873811b26255fba694722b9d" name="a82aa93e6873811b26255fba694722b9d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a82aa93e6873811b26255fba694722b9d">&#9670;&#160;</a></span>RegisterActivator()</h2>
 
@@ -174,6 +180,12 @@ GameObject&#160;</td><td class="memItemRight" valign="bottom"><b>UI</b></td></tr
 </div><div class="memdoc">
 
 <p>Se subscribe como posible activador. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">activator</td><td>Un objeto del tipo <a class="el" href="interface_i_activator.html" title="Interfaz dedicada a la interacción de activadores.">IActivator</a> a registrar.</td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p>Implementa <a class="el" href="interface_i_activator_receiver.html#a8b35822c3b379ca8879fc196f110559f">IActivatorReceiver</a>.</p>
 
@@ -203,6 +215,12 @@ GameObject&#160;</td><td class="memItemRight" valign="bottom"><b>UI</b></td></tr
 </div><div class="memdoc">
 
 <p>Se desubscribe como posible activador. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">activator</td><td>Un objeto del tipo <a class="el" href="interface_i_activator.html" title="Interfaz dedicada a la interacción de activadores.">IActivator</a> a desregistrar.</td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p>Implementa <a class="el" href="interface_i_activator_receiver.html#a546d08fd12a317fc307a872ccfa087bb">IActivatorReceiver</a>.</p>
 

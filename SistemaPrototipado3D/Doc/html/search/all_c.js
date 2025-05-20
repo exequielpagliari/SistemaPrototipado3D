@@ -1,5 +1,7 @@
 var searchData=
 [
-  ['target_0',['target',['../class_rotate_action.html#a98f8b63321a89f432d40c979225723b3',1,'RotateAction']]],
-  ['transform_1',['Transform',['../interface_i_actor.html#a022e6914eadd4dc01557850f2586aded',1,'IActor.Transform'],['../class_player_actor.html#a297486b6699faf0ba505091ae2f7aa30',1,'PlayerActor.Transform']]]
+  ['playeractor_0',['PlayerActor',['../class_player_actor.html',1,'']]],
+  ['playerbuildlocation_1',['playerBuildLocation',['../class_player_buillder.html#ab26dda3c0189649bb7fc7994b67fe4c9',1,'PlayerBuillder']]],
+  ['playerbuillder_2',['PlayerBuillder',['../class_player_buillder.html',1,'']]],
+  ['playergo_3',['playerGO',['../class_player_buillder.html#a472185f23ee1a845c19992e7c68a106c',1,'PlayerBuillder']]]
 ];

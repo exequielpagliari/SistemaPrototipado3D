@@ -104,16 +104,20 @@ $(function(){initNavTree('class_volumen_kill.html',''); initResizable(true); });
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Métodos públicos</a> &#124;
+<a href="#pub-attribs">Atributos públicos</a> &#124;
 <a href="class_volumen_kill-members.html">Lista de todos los miembros</a>  </div>
   <div class="headertitle"><div class="title">Referencia de la clase VolumenKill</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>Clase dedicada destrucción de un <a class="el" href="interface_i_actor.html" title="Interfaz dedicada a la interacción con Actores.">IActor</a> y a la emisión de un evento cuando una interfaz <a class="el" href="interface_i_activator.html" title="Interfaz dedicada a la interacción de activadores.">IActivator</a> ejecuta Activate.  
+ <a href="#details">Más...</a></p>
 <div class="dynheader">
 Diagrama de herencia de VolumenKill</div>
 <div class="dyncontent">
 <div class="center"><img src="class_volumen_kill__inherit__graph.png" border="0" usemap="#a_volumen_kill_inherit__map" alt="Inheritance graph"/></div>
 <map name="a_volumen_kill_inherit__map" id="a_volumen_kill_inherit__map">
-<area shape="rect" title=" " alt="" coords="16,80,106,107"/>
+<area shape="rect" title="Clase dedicada destrucción de un IActor y a la emisión de un evento cuando una interfaz IActivator ej..." alt="" coords="16,80,106,107"/>
 <area shape="rect" title=" " alt="" coords="5,5,117,32"/>
 <area shape="poly" title=" " alt="" coords="64,48,64,80,58,80,58,48"/>
 </map>
@@ -123,7 +127,7 @@ Diagrama de colaboración de VolumenKill:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_volumen_kill__coll__graph.png" border="0" usemap="#a_volumen_kill_coll__map" alt="Collaboration graph"/></div>
 <map name="a_volumen_kill_coll__map" id="a_volumen_kill_coll__map">
-<area shape="rect" title=" " alt="" coords="16,80,106,107"/>
+<area shape="rect" title="Clase dedicada destrucción de un IActor y a la emisión de un evento cuando una interfaz IActivator ej..." alt="" coords="16,80,106,107"/>
 <area shape="rect" title=" " alt="" coords="5,5,117,32"/>
 <area shape="poly" title=" " alt="" coords="64,48,64,80,58,80,58,48"/>
 </map>
@@ -133,9 +137,23 @@ Diagrama de colaboración de VolumenKill:</div>
 Métodos públicos</h2></td></tr>
 <tr class="memitem:a2626d8d91412f009538ff1ddc3f33594" id="r_a2626d8d91412f009538ff1ddc3f33594"><td class="memItemLeft" align="right" valign="top"><a id="a2626d8d91412f009538ff1ddc3f33594" name="a2626d8d91412f009538ff1ddc3f33594"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>Kill</b> (<a class="el" href="interface_i_actor.html">IActor</a> actor)</td></tr>
+<tr class="memdesc:a2626d8d91412f009538ff1ddc3f33594"><td class="mdescLeft">&#160;</td><td class="mdescRight">Método que emite evento y llama al método Dead() de un <a class="el" href="interface_i_actor.html" title="Interfaz dedicada a la interacción con Actores.">IActor</a>. <br /></td></tr>
 <tr class="separator:a2626d8d91412f009538ff1ddc3f33594"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Atributos públicos</h2></td></tr>
+<tr class="memitem:a5f9a747a11bea80a570ceb11dbf9105a" id="r_a5f9a747a11bea80a570ceb11dbf9105a"><td class="memItemLeft" align="right" valign="top"><a id="a5f9a747a11bea80a570ceb11dbf9105a" name="a5f9a747a11bea80a570ceb11dbf9105a"></a>
+EventChannelID&#160;</td><td class="memItemRight" valign="bottom"><b>channelToActivate</b></td></tr>
+<tr class="memdesc:a5f9a747a11bea80a570ceb11dbf9105a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enum dedicado a la selección de canal para evento. <br /></td></tr>
+<tr class="separator:a5f9a747a11bea80a570ceb11dbf9105a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7257d5e2c38576cdaac1f23aefb7bda8" id="r_a7257d5e2c38576cdaac1f23aefb7bda8"><td class="memItemLeft" align="right" valign="top"><a id="a7257d5e2c38576cdaac1f23aefb7bda8" name="a7257d5e2c38576cdaac1f23aefb7bda8"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>log</b></td></tr>
+<tr class="memdesc:a7257d5e2c38576cdaac1f23aefb7bda8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bool activa el LogWarning para test de funcionamiento. <br /></td></tr>
+<tr class="separator:a7257d5e2c38576cdaac1f23aefb7bda8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<hr/>La documentación de esta clase está generada del siguiente archivo:<ul>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p>Clase dedicada destrucción de un <a class="el" href="interface_i_actor.html" title="Interfaz dedicada a la interacción con Actores.">IActor</a> y a la emisión de un evento cuando una interfaz <a class="el" href="interface_i_activator.html" title="Interfaz dedicada a la interacción de activadores.">IActivator</a> ejecuta Activate. </p>
+</div><hr/>La documentación de esta clase está generada del siguiente archivo:<ul>
 <li>C:/Users/exepa/source/repos/SistemaPrototipado3D/SistemaPrototipado3D/Assets/Script/Volumen/<b>VolumenKill.cs</b></li>
 </ul>
 </div><!-- contents -->

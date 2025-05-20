@@ -7,7 +7,7 @@ public class EventEmitterByID : MonoBehaviour
     /// <summary>
     /// Enum dedicado a la selección de canal para evento.
     /// </summary>
-    [SerializeField] private EventChannelID channel;
+    public EventChannelID channel;
 
     /// <summary>
     /// Bool activa el LogWarning para test de funcionamiento.
@@ -20,7 +20,7 @@ public class EventEmitterByID : MonoBehaviour
     public void Emit()
     {
         if(Log)
-        Debug.LogWarning("Emitio desde EventEmitter");
+            Debug.LogWarning("Emitio desde EventEmitter");
         EventChannelManager.RaiseEvent(channel);
     }
 }

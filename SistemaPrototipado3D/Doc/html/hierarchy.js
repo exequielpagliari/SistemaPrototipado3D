@@ -3,14 +3,11 @@ var hierarchy =
     [ "IAction", "interface_i_action.html", [
       [ "MoveAction", "class_move_action.html", null ],
       [ "MoveActionCorrutine", "class_move_action_corrutine.html", null ],
-      [ "MoveActionPlataformCorrutine", "class_move_action_plataform_corrutine.html", null ],
-      [ "Plataforma", "class_plataforma.html", [
-        [ "PlataformaConRetardo", "class_plataforma_con_retardo.html", null ]
-      ] ],
       [ "PlayerBuillder", "class_player_buillder.html", null ],
       [ "RotateAction", "class_rotate_action.html", null ]
     ] ],
     [ "IActivator", "interface_i_activator.html", [
+      [ "MoveActionPlataformCorrutine", "class_move_action_plataform_corrutine.html", null ],
       [ "VolumenAction", "class_volumen_action.html", null ],
       [ "VolumenActionActivator", "class_volumen_action_activator.html", null ]
     ] ],
@@ -33,9 +30,6 @@ var hierarchy =
       [ "MoveActionPlataformCorrutine", "class_move_action_plataform_corrutine.html", null ],
       [ "Movement", "class_movement.html", null ],
       [ "MovementCC", "class_movement_c_c.html", null ],
-      [ "PlataformaBase", "class_plataforma_base.html", [
-        [ "Plataforma", "class_plataforma.html", null ]
-      ] ],
       [ "PlayerActor", "class_player_actor.html", null ],
       [ "PlayerBuillder", "class_player_buillder.html", null ],
       [ "RaycastGround", "class_raycast_ground.html", null ],
