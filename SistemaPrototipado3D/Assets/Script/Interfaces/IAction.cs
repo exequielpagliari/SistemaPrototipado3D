@@ -5,7 +5,7 @@ using UnityEngine;
 public interface IAction
 {
     /// <summary>
-    /// Método único para realizar una acción.
+    /// Método único para realizar una acción. 
     /// </summary>
     void Execute();
 }
