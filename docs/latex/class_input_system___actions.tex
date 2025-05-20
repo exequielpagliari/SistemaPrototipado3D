@@ -1,0 +1,240 @@
+\doxysection{Referencia de la clase Input\+System\+\_\+\+Actions}
+\hypertarget{class_input_system___actions}{}\label{class_input_system___actions}\index{InputSystem\_Actions@{InputSystem\_Actions}}
+
+
+Provides programmatic access to Input\+Action\+Asset, Input\+Action\+Map, Input\+Action and Input\+Control\+Scheme instances defined in asset "{}\+Assets/\+Input\+System\+\_\+\+Actions.\+inputactions"{}.  
+
+
+
+
+Diagrama de herencia de Input\+System\+\_\+\+Actions
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=284pt]{class_input_system___actions__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Diagrama de colaboración de Input\+System\+\_\+\+Actions\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=284pt]{class_input_system___actions__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Clases}
+\begin{DoxyCompactItemize}
+\item 
+interface \mbox{\hyperlink{interface_input_system___actions_1_1_i_player_actions}{IPlayer\+Actions}}
+\begin{DoxyCompactList}\small\item\em Interface to implement callback methods for all input action callbacks associated with input actions defined by "{}\+Player"{} which allows adding and removing callbacks. \end{DoxyCompactList}\item 
+interface \mbox{\hyperlink{interface_input_system___actions_1_1_i_u_i_actions}{IUIActions}}
+\begin{DoxyCompactList}\small\item\em Interface to implement callback methods for all input action callbacks associated with input actions defined by "{}\+UI"{} which allows adding and removing callbacks. \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{struct_input_system___actions_1_1_player_actions}{Player\+Actions}}
+\begin{DoxyCompactList}\small\item\em Provides access to input actions defined in input action map "{}\+Player"{}. \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{struct_input_system___actions_1_1_u_i_actions}{UIActions}}
+\begin{DoxyCompactList}\small\item\em Provides access to input actions defined in input action map "{}\+UI"{}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Métodos públicos}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_input_system___actions_a61685bf23c9929ed79a3f35740d27e3e}\label{class_input_system___actions_a61685bf23c9929ed79a3f35740d27e3e} 
+{\bfseries Input\+System\+\_\+\+Actions} ()
+\begin{DoxyCompactList}\small\item\em Constructs a new instance. \end{DoxyCompactList}\item 
+\Hypertarget{class_input_system___actions_a2a0f0750b4e4917ef46652f206a8a917}\label{class_input_system___actions_a2a0f0750b4e4917ef46652f206a8a917} 
+void {\bfseries Dispose} ()
+\begin{DoxyCompactList}\small\item\em Destroys this asset and all associated Input\+Action instances. \end{DoxyCompactList}\item 
+\Hypertarget{class_input_system___actions_ace5e42998b0480fea1dc647b76a90c72}\label{class_input_system___actions_ace5e42998b0480fea1dc647b76a90c72} 
+bool {\bfseries Contains} (Input\+Action action)
+\item 
+\Hypertarget{class_input_system___actions_a84a19f8ac0699ae462677928ad87f115}\label{class_input_system___actions_a84a19f8ac0699ae462677928ad87f115} 
+IEnumerator$<$ Input\+Action $>$ {\bfseries Get\+Enumerator} ()
+\item 
+\Hypertarget{class_input_system___actions_ad67c2eb183b87cdd13a5e447a93c6dda}\label{class_input_system___actions_ad67c2eb183b87cdd13a5e447a93c6dda} 
+void {\bfseries Enable} ()
+\item 
+\Hypertarget{class_input_system___actions_acf08c125a9632fc8f90fa0afb42b7780}\label{class_input_system___actions_acf08c125a9632fc8f90fa0afb42b7780} 
+void {\bfseries Disable} ()
+\item 
+\Hypertarget{class_input_system___actions_a75fa1066891b6ee600e87459b7cb9bcf}\label{class_input_system___actions_a75fa1066891b6ee600e87459b7cb9bcf} 
+Input\+Action {\bfseries Find\+Action} (string action\+Name\+Or\+Id, bool throw\+If\+Not\+Found=false)
+\item 
+\Hypertarget{class_input_system___actions_a0f3d66e8ab2b691309ab6e41bf98dd84}\label{class_input_system___actions_a0f3d66e8ab2b691309ab6e41bf98dd84} 
+int {\bfseries Find\+Binding} (Input\+Binding \mbox{\hyperlink{class_input_system___actions_aca7eb231b35ef3bcf2adea625b1a36a9}{binding\+Mask}}, out Input\+Action action)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Propiedades}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_input_system___actions_a3efb45eb88773efcd1380348c301f432}\label{class_input_system___actions_a3efb45eb88773efcd1380348c301f432} 
+Input\+Action\+Asset {\bfseries asset}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Provides access to the underlying asset instance. \end{DoxyCompactList}\item 
+\Hypertarget{class_input_system___actions_aca7eb231b35ef3bcf2adea625b1a36a9}\label{class_input_system___actions_aca7eb231b35ef3bcf2adea625b1a36a9} 
+Input\+Binding? {\bfseries binding\+Mask}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+\Hypertarget{class_input_system___actions_ae4e07340febc1e2c0e899d86c9961db4}\label{class_input_system___actions_ae4e07340febc1e2c0e899d86c9961db4} 
+Read\+Only\+Array$<$ Input\+Device $>$? {\bfseries devices}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+\Hypertarget{class_input_system___actions_a3676db858bdde9d09feaabe73b5fea05}\label{class_input_system___actions_a3676db858bdde9d09feaabe73b5fea05} 
+Read\+Only\+Array$<$ Input\+Control\+Scheme $>$ {\bfseries control\+Schemes}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+\Hypertarget{class_input_system___actions_a2287fb6c4b7f3da732a7957616231e04}\label{class_input_system___actions_a2287fb6c4b7f3da732a7957616231e04} 
+IEnumerable$<$ Input\+Binding $>$ {\bfseries bindings}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+\Hypertarget{class_input_system___actions_a20a11f2c906449516e76165274a386e3}\label{class_input_system___actions_a20a11f2c906449516e76165274a386e3} 
+\mbox{\hyperlink{struct_input_system___actions_1_1_player_actions}{Player\+Actions}} {\bfseries Player}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Provides a new \doxylink{struct_input_system___actions_1_1_player_actions}{Player\+Actions} instance referencing this action map. \end{DoxyCompactList}\item 
+\Hypertarget{class_input_system___actions_a96b4c890dc28186270b2fdcc8993bf45}\label{class_input_system___actions_a96b4c890dc28186270b2fdcc8993bf45} 
+\mbox{\hyperlink{struct_input_system___actions_1_1_u_i_actions}{UIActions}} {\bfseries UI}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Provides a new \doxylink{struct_input_system___actions_1_1_u_i_actions}{UIActions} instance referencing this action map. \end{DoxyCompactList}\item 
+Input\+Control\+Scheme \mbox{\hyperlink{class_input_system___actions_a0a319d1f8048d61a94c33db03bf97f7b}{Keyboard\+Mouse\+Scheme}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Provides access to the input control scheme. \end{DoxyCompactList}\item 
+Input\+Control\+Scheme \mbox{\hyperlink{class_input_system___actions_a59c074693bfa09385e92d8602d12d3ca}{Gamepad\+Scheme}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Provides access to the input control scheme. \end{DoxyCompactList}\item 
+Input\+Control\+Scheme \mbox{\hyperlink{class_input_system___actions_a4b6b930ea364d4cf35846b022b59bb0e}{Touch\+Scheme}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Provides access to the input control scheme. \end{DoxyCompactList}\item 
+Input\+Control\+Scheme \mbox{\hyperlink{class_input_system___actions_abaa76ebd2b08fb1cae691fb2698331e8}{Joystick\+Scheme}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Provides access to the input control scheme. \end{DoxyCompactList}\item 
+Input\+Control\+Scheme \mbox{\hyperlink{class_input_system___actions_a8e99bf66921c8355aff2aacb90aaf9d6}{XRScheme}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Provides access to the input control scheme. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Descripción detallada}
+Provides programmatic access to Input\+Action\+Asset, Input\+Action\+Map, Input\+Action and Input\+Control\+Scheme instances defined in asset "{}\+Assets/\+Input\+System\+\_\+\+Actions.\+inputactions"{}. 
+
+This class is source generated and any manual edits will be discarded if the associated asset is reimported or modified. 
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\textcolor{keyword}{using\ namespace\ }UnityEngine;}
+\DoxyCodeLine{\textcolor{keyword}{using\ }UnityEngine.InputSystem;}
+\DoxyCodeLine{}
+\DoxyCodeLine{\textcolor{comment}{//\ Example\ of\ using\ an\ InputActionMap\ named\ "{}Player"{}\ from\ a\ UnityEngine.MonoBehaviour\ implementing\ callback\ interface.}}
+\DoxyCodeLine{\textcolor{keyword}{public}\ \textcolor{keyword}{class\ }Example\ :\ MonoBehaviour,\ MyActions.\mbox{\hyperlink{interface_input_system___actions_1_1_i_player_actions}{IPlayerActions}}}
+\DoxyCodeLine{\{}
+\DoxyCodeLine{\ \ \ \ \textcolor{keyword}{private}\ MyActions\_Actions\ m\_Actions;\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{comment}{//\ Source\ code\ representation\ of\ asset.}}
+\DoxyCodeLine{\ \ \ \ \textcolor{keyword}{private}\ MyActions\_Actions.PlayerActions\ m\_Player;\ \ \ \ \ \textcolor{comment}{//\ Source\ code\ representation\ of\ action\ map.}}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \textcolor{keywordtype}{void}\ Awake()}
+\DoxyCodeLine{\ \ \ \ \{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ m\_Actions\ =\ \textcolor{keyword}{new}\ MyActions\_Actions();\ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{comment}{//\ Create\ asset\ object.}}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ m\_Player\ =\ m\_Actions.Player;\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{comment}{//\ Extract\ action\ map\ object.}}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ m\_Player.AddCallbacks(\textcolor{keyword}{this});\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{comment}{//\ Register\ callback\ interface\ IPlayerActions.}}
+\DoxyCodeLine{\ \ \ \ \}}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \textcolor{keywordtype}{void}\ OnDestroy()}
+\DoxyCodeLine{\ \ \ \ \{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ m\_Actions.Dispose();\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{comment}{//\ Destroy\ asset\ object.}}
+\DoxyCodeLine{\ \ \ \ \}}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \textcolor{keywordtype}{void}\ OnEnable()}
+\DoxyCodeLine{\ \ \ \ \{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ m\_Player.Enable();\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{comment}{//\ Enable\ all\ actions\ within\ map.}}
+\DoxyCodeLine{\ \ \ \ \}}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \textcolor{keywordtype}{void}\ OnDisable()}
+\DoxyCodeLine{\ \ \ \ \{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ m\_Player.Disable();\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{comment}{//\ Disable\ all\ actions\ within\ map.}}
+\DoxyCodeLine{\ \ \ \ \}}
+\DoxyCodeLine{}
+\DoxyCodeLine{\textcolor{preprocessor}{\ \ \ \ \#region\ Interface\ implementation\ of\ MyActions.IPlayerActions}}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \textcolor{comment}{//\ Invoked\ when\ "{}Move"{}\ action\ is\ either\ started,\ performed\ or\ canceled.}}
+\DoxyCodeLine{\ \ \ \ \textcolor{keyword}{public}\ \textcolor{keywordtype}{void}\ OnMove(InputAction.CallbackContext\ context)}
+\DoxyCodeLine{\ \ \ \ \{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ Debug.Log(\$\textcolor{stringliteral}{"{}OnMove:\ \{context.ReadValue<Vector2>()\}"{}});}
+\DoxyCodeLine{\ \ \ \ \}}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \textcolor{comment}{//\ Invoked\ when\ "{}Attack"{}\ action\ is\ either\ started,\ performed\ or\ canceled.}}
+\DoxyCodeLine{\ \ \ \ \textcolor{keyword}{public}\ \textcolor{keywordtype}{void}\ OnAttack(InputAction.CallbackContext\ context)}
+\DoxyCodeLine{\ \ \ \ \{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ Debug.Log(\$\textcolor{stringliteral}{"{}OnAttack:\ \{context.ReadValue<float>()\}"{}});}
+\DoxyCodeLine{\ \ \ \ \}}
+\DoxyCodeLine{}
+\DoxyCodeLine{\textcolor{preprocessor}{\ \ \ \ \#endregion}}
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+ 
+
+\doxysubsection{Documentación de propiedades}
+\Hypertarget{class_input_system___actions_a59c074693bfa09385e92d8602d12d3ca}\index{InputSystem\_Actions@{InputSystem\_Actions}!GamepadScheme@{GamepadScheme}}
+\index{GamepadScheme@{GamepadScheme}!InputSystem\_Actions@{InputSystem\_Actions}}
+\doxysubsubsection{\texorpdfstring{GamepadScheme}{GamepadScheme}}
+{\footnotesize\ttfamily \label{class_input_system___actions_a59c074693bfa09385e92d8602d12d3ca} 
+Input\+Control\+Scheme Input\+System\+\_\+\+Actions.\+Gamepad\+Scheme\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Provides access to the input control scheme. 
+
+\begin{DoxySeeAlso}{Ver también}
+Unity\+Engine.\+Input\+System.\+Input\+Control\+Scheme
+
+
+\end{DoxySeeAlso}
+\Hypertarget{class_input_system___actions_abaa76ebd2b08fb1cae691fb2698331e8}\index{InputSystem\_Actions@{InputSystem\_Actions}!JoystickScheme@{JoystickScheme}}
+\index{JoystickScheme@{JoystickScheme}!InputSystem\_Actions@{InputSystem\_Actions}}
+\doxysubsubsection{\texorpdfstring{JoystickScheme}{JoystickScheme}}
+{\footnotesize\ttfamily \label{class_input_system___actions_abaa76ebd2b08fb1cae691fb2698331e8} 
+Input\+Control\+Scheme Input\+System\+\_\+\+Actions.\+Joystick\+Scheme\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Provides access to the input control scheme. 
+
+\begin{DoxySeeAlso}{Ver también}
+Unity\+Engine.\+Input\+System.\+Input\+Control\+Scheme
+
+
+\end{DoxySeeAlso}
+\Hypertarget{class_input_system___actions_a0a319d1f8048d61a94c33db03bf97f7b}\index{InputSystem\_Actions@{InputSystem\_Actions}!KeyboardMouseScheme@{KeyboardMouseScheme}}
+\index{KeyboardMouseScheme@{KeyboardMouseScheme}!InputSystem\_Actions@{InputSystem\_Actions}}
+\doxysubsubsection{\texorpdfstring{KeyboardMouseScheme}{KeyboardMouseScheme}}
+{\footnotesize\ttfamily \label{class_input_system___actions_a0a319d1f8048d61a94c33db03bf97f7b} 
+Input\+Control\+Scheme Input\+System\+\_\+\+Actions.\+Keyboard\+Mouse\+Scheme\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Provides access to the input control scheme. 
+
+\begin{DoxySeeAlso}{Ver también}
+Unity\+Engine.\+Input\+System.\+Input\+Control\+Scheme
+
+
+\end{DoxySeeAlso}
+\Hypertarget{class_input_system___actions_a4b6b930ea364d4cf35846b022b59bb0e}\index{InputSystem\_Actions@{InputSystem\_Actions}!TouchScheme@{TouchScheme}}
+\index{TouchScheme@{TouchScheme}!InputSystem\_Actions@{InputSystem\_Actions}}
+\doxysubsubsection{\texorpdfstring{TouchScheme}{TouchScheme}}
+{\footnotesize\ttfamily \label{class_input_system___actions_a4b6b930ea364d4cf35846b022b59bb0e} 
+Input\+Control\+Scheme Input\+System\+\_\+\+Actions.\+Touch\+Scheme\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Provides access to the input control scheme. 
+
+\begin{DoxySeeAlso}{Ver también}
+Unity\+Engine.\+Input\+System.\+Input\+Control\+Scheme
+
+
+\end{DoxySeeAlso}
+\Hypertarget{class_input_system___actions_a8e99bf66921c8355aff2aacb90aaf9d6}\index{InputSystem\_Actions@{InputSystem\_Actions}!XRScheme@{XRScheme}}
+\index{XRScheme@{XRScheme}!InputSystem\_Actions@{InputSystem\_Actions}}
+\doxysubsubsection{\texorpdfstring{XRScheme}{XRScheme}}
+{\footnotesize\ttfamily \label{class_input_system___actions_a8e99bf66921c8355aff2aacb90aaf9d6} 
+Input\+Control\+Scheme Input\+System\+\_\+\+Actions.\+XRScheme\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Provides access to the input control scheme. 
+
+\begin{DoxySeeAlso}{Ver también}
+Unity\+Engine.\+Input\+System.\+Input\+Control\+Scheme
+
+
+\end{DoxySeeAlso}
+
+
+La documentación de esta clase está generada del siguiente archivo\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/exepa/source/repos/\+Sistema\+Prototipado3\+D/\+Sistema\+Prototipado3\+D/\+Assets/Input\+System\+\_\+\+Actions.\+cs\end{DoxyCompactItemize}

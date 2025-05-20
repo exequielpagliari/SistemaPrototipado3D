@@ -1,0 +1,134 @@
+\doxysection{Referencia de la estructura Input\+System\+\_\+\+Actions.\+Player\+Actions}
+\hypertarget{struct_input_system___actions_1_1_player_actions}{}\label{struct_input_system___actions_1_1_player_actions}\index{InputSystem\_Actions.PlayerActions@{InputSystem\_Actions.PlayerActions}}
+
+
+Provides access to input actions defined in input action map "{}\+Player"{}.  
+
+
+\doxysubsubsection*{Métodos públicos}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{struct_input_system___actions_1_1_player_actions_abd8a679d073686875777d2cdf4cd4e41}\label{struct_input_system___actions_1_1_player_actions_abd8a679d073686875777d2cdf4cd4e41} 
+{\bfseries Player\+Actions} (@\mbox{\hyperlink{class_input_system___actions}{Input\+System\+\_\+\+Actions}} wrapper)
+\begin{DoxyCompactList}\small\item\em Construct a new instance of the input action map wrapper class. \end{DoxyCompactList}\item 
+\Hypertarget{struct_input_system___actions_1_1_player_actions_ae1ce06fd43620a4d2e64faf84508e850}\label{struct_input_system___actions_1_1_player_actions_ae1ce06fd43620a4d2e64faf84508e850} 
+Input\+Action\+Map {\bfseries Get} ()
+\begin{DoxyCompactList}\small\item\em Provides access to the underlying input action map instance. \end{DoxyCompactList}\item 
+\Hypertarget{struct_input_system___actions_1_1_player_actions_aaaece65f0570756a3c77ee12493e140f}\label{struct_input_system___actions_1_1_player_actions_aaaece65f0570756a3c77ee12493e140f} 
+void {\bfseries Enable} ()
+\item 
+\Hypertarget{struct_input_system___actions_1_1_player_actions_ab198d32b5dc2ba18700c31bb340a6518}\label{struct_input_system___actions_1_1_player_actions_ab198d32b5dc2ba18700c31bb340a6518} 
+void {\bfseries Disable} ()
+\item 
+void \mbox{\hyperlink{struct_input_system___actions_1_1_player_actions_a59ea99548b2f7daf3e3e4343446bff3b}{Add\+Callbacks}} (\mbox{\hyperlink{interface_input_system___actions_1_1_i_player_actions}{IPlayer\+Actions}} instance)
+\begin{DoxyCompactList}\small\item\em Adds Input\+Action.\+started, Input\+Action.\+performed and Input\+Action.\+canceled callbacks provided via  on all input actions contained in this map. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{struct_input_system___actions_1_1_player_actions_aa05e9dcee22245c5c70747415e644400}{Remove\+Callbacks}} (\mbox{\hyperlink{interface_input_system___actions_1_1_i_player_actions}{IPlayer\+Actions}} instance)
+\begin{DoxyCompactList}\small\item\em Unregisters  and unregisters all input action callbacks via Player\+Actions.\+Unregister\+Callbacks(\+IPlayer\+Actions). \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{struct_input_system___actions_1_1_player_actions_a8d325b740e7c6e1fd330045f48720e49}{Set\+Callbacks}} (\mbox{\hyperlink{interface_input_system___actions_1_1_i_player_actions}{IPlayer\+Actions}} instance)
+\begin{DoxyCompactList}\small\item\em Replaces all existing callback instances and previously registered input action callbacks associated with them with callbacks provided via . \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Métodos públicos estáticos}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{struct_input_system___actions_1_1_player_actions_a8dd5ab45c6bc121318e5f53beaca6574}\label{struct_input_system___actions_1_1_player_actions_a8dd5ab45c6bc121318e5f53beaca6574} 
+static implicit {\bfseries operator Input\+Action\+Map} (\mbox{\hyperlink{struct_input_system___actions_1_1_player_actions}{Player\+Actions}} set)
+\begin{DoxyCompactList}\small\item\em Implicitly converts an  to an  instance. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Propiedades}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{struct_input_system___actions_1_1_player_actions_a7e7614c3db5d083c1efb8f54d5c644bb}\label{struct_input_system___actions_1_1_player_actions_a7e7614c3db5d083c1efb8f54d5c644bb} 
+Input\+Action {\bfseries Move}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Provides access to the underlying input action "{}\+Player/\+Move"{}. \end{DoxyCompactList}\item 
+\Hypertarget{struct_input_system___actions_1_1_player_actions_a67c2ac0d22f1bbc7623a301260179dcb}\label{struct_input_system___actions_1_1_player_actions_a67c2ac0d22f1bbc7623a301260179dcb} 
+Input\+Action {\bfseries Look}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Provides access to the underlying input action "{}\+Player/\+Look"{}. \end{DoxyCompactList}\item 
+\Hypertarget{struct_input_system___actions_1_1_player_actions_a0ade3ec192a89da9b7091da21b626b96}\label{struct_input_system___actions_1_1_player_actions_a0ade3ec192a89da9b7091da21b626b96} 
+Input\+Action {\bfseries Attack}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Provides access to the underlying input action "{}\+Player/\+Attack"{}. \end{DoxyCompactList}\item 
+\Hypertarget{struct_input_system___actions_1_1_player_actions_abd6bded9dc7287fd4e30a1cda56e29a9}\label{struct_input_system___actions_1_1_player_actions_abd6bded9dc7287fd4e30a1cda56e29a9} 
+Input\+Action {\bfseries Interact}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Provides access to the underlying input action "{}\+Player/\+Interact"{}. \end{DoxyCompactList}\item 
+\Hypertarget{struct_input_system___actions_1_1_player_actions_a1f41fa983b8f0db745160f7a3749d1fb}\label{struct_input_system___actions_1_1_player_actions_a1f41fa983b8f0db745160f7a3749d1fb} 
+Input\+Action {\bfseries Crouch}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Provides access to the underlying input action "{}\+Player/\+Crouch"{}. \end{DoxyCompactList}\item 
+\Hypertarget{struct_input_system___actions_1_1_player_actions_af6c99e636d1767f58d4f12af247dd059}\label{struct_input_system___actions_1_1_player_actions_af6c99e636d1767f58d4f12af247dd059} 
+Input\+Action {\bfseries Jump}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Provides access to the underlying input action "{}\+Player/\+Jump"{}. \end{DoxyCompactList}\item 
+\Hypertarget{struct_input_system___actions_1_1_player_actions_a640c43b0d40109f2191aa8c27327d0f2}\label{struct_input_system___actions_1_1_player_actions_a640c43b0d40109f2191aa8c27327d0f2} 
+Input\+Action {\bfseries Previous}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Provides access to the underlying input action "{}\+Player/\+Previous"{}. \end{DoxyCompactList}\item 
+\Hypertarget{struct_input_system___actions_1_1_player_actions_af0ad7df6bcd5034fdc8f21699b689c7b}\label{struct_input_system___actions_1_1_player_actions_af0ad7df6bcd5034fdc8f21699b689c7b} 
+Input\+Action {\bfseries Next}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Provides access to the underlying input action "{}\+Player/\+Next"{}. \end{DoxyCompactList}\item 
+\Hypertarget{struct_input_system___actions_1_1_player_actions_a5dd62dfb3d23e6dfec32615020a040fe}\label{struct_input_system___actions_1_1_player_actions_a5dd62dfb3d23e6dfec32615020a040fe} 
+Input\+Action {\bfseries Sprint}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Provides access to the underlying input action "{}\+Player/\+Sprint"{}. \end{DoxyCompactList}\item 
+\Hypertarget{struct_input_system___actions_1_1_player_actions_ae222832e75ceaea0d6837a72bfd84cc0}\label{struct_input_system___actions_1_1_player_actions_ae222832e75ceaea0d6837a72bfd84cc0} 
+bool {\bfseries enabled}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Descripción detallada}
+Provides access to input actions defined in input action map "{}\+Player"{}. 
+
+\doxysubsection{Documentación de funciones miembro}
+\Hypertarget{struct_input_system___actions_1_1_player_actions_a59ea99548b2f7daf3e3e4343446bff3b}\index{InputSystem\_Actions.PlayerActions@{InputSystem\_Actions.PlayerActions}!AddCallbacks@{AddCallbacks}}
+\index{AddCallbacks@{AddCallbacks}!InputSystem\_Actions.PlayerActions@{InputSystem\_Actions.PlayerActions}}
+\doxysubsubsection{\texorpdfstring{AddCallbacks()}{AddCallbacks()}}
+{\footnotesize\ttfamily \label{struct_input_system___actions_1_1_player_actions_a59ea99548b2f7daf3e3e4343446bff3b} 
+void Input\+System\+\_\+\+Actions.\+Player\+Actions.\+Add\+Callbacks (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interface_input_system___actions_1_1_i_player_actions}{IPlayer\+Actions}}}]{instance}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Adds Input\+Action.\+started, Input\+Action.\+performed and Input\+Action.\+canceled callbacks provided via  on all input actions contained in this map. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em instance} & Callback instance.\\
+\hline
+\end{DoxyParams}
+
+
+If {\itshape instance}  is {\ttfamily null} or {\itshape instance}  have already been added this method does nothing. 
+
+\begin{DoxySeeAlso}{Ver también}
+\doxylink{struct_input_system___actions_1_1_player_actions}{Player\+Actions}
+
+
+\end{DoxySeeAlso}
+\Hypertarget{struct_input_system___actions_1_1_player_actions_aa05e9dcee22245c5c70747415e644400}\index{InputSystem\_Actions.PlayerActions@{InputSystem\_Actions.PlayerActions}!RemoveCallbacks@{RemoveCallbacks}}
+\index{RemoveCallbacks@{RemoveCallbacks}!InputSystem\_Actions.PlayerActions@{InputSystem\_Actions.PlayerActions}}
+\doxysubsubsection{\texorpdfstring{RemoveCallbacks()}{RemoveCallbacks()}}
+{\footnotesize\ttfamily \label{struct_input_system___actions_1_1_player_actions_aa05e9dcee22245c5c70747415e644400} 
+void Input\+System\+\_\+\+Actions.\+Player\+Actions.\+Remove\+Callbacks (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interface_input_system___actions_1_1_i_player_actions}{IPlayer\+Actions}}}]{instance}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Unregisters  and unregisters all input action callbacks via Player\+Actions.\+Unregister\+Callbacks(\+IPlayer\+Actions). 
+
+\begin{DoxySeeAlso}{Ver también}
+Player\+Actions.\+Unregister\+Callbacks(\+IPlayer\+Actions)
+
+
+\end{DoxySeeAlso}
+\Hypertarget{struct_input_system___actions_1_1_player_actions_a8d325b740e7c6e1fd330045f48720e49}\index{InputSystem\_Actions.PlayerActions@{InputSystem\_Actions.PlayerActions}!SetCallbacks@{SetCallbacks}}
+\index{SetCallbacks@{SetCallbacks}!InputSystem\_Actions.PlayerActions@{InputSystem\_Actions.PlayerActions}}
+\doxysubsubsection{\texorpdfstring{SetCallbacks()}{SetCallbacks()}}
+{\footnotesize\ttfamily \label{struct_input_system___actions_1_1_player_actions_a8d325b740e7c6e1fd330045f48720e49} 
+void Input\+System\+\_\+\+Actions.\+Player\+Actions.\+Set\+Callbacks (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interface_input_system___actions_1_1_i_player_actions}{IPlayer\+Actions}}}]{instance}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Replaces all existing callback instances and previously registered input action callbacks associated with them with callbacks provided via . 
+
+If {\itshape instance}  is {\ttfamily null}, calling this method will only unregister all existing callbacks but not register any new callbacks. 
+
+\begin{DoxySeeAlso}{Ver también}
+\doxylink{struct_input_system___actions_1_1_player_actions_a59ea99548b2f7daf3e3e4343446bff3b}{Player\+Actions.\+Add\+Callbacks(\+IPlayer\+Actions)}, \doxylink{struct_input_system___actions_1_1_player_actions_aa05e9dcee22245c5c70747415e644400}{Player\+Actions.\+Remove\+Callbacks(\+IPlayer\+Actions)}, Player\+Actions.\+Unregister\+Callbacks(\+IPlayer\+Actions)
+
+
+\end{DoxySeeAlso}
+
+
+La documentación de esta estructura está generada del siguiente archivo\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/exepa/source/repos/\+Sistema\+Prototipado3\+D/\+Sistema\+Prototipado3\+D/\+Assets/Input\+System\+\_\+\+Actions.\+cs\end{DoxyCompactItemize}

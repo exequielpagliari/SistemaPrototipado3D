@@ -1,0 +1,5 @@
+var searchData=
+[
+  ['navigate_0',['Navigate',['../struct_input_system___actions_1_1_u_i_actions.html#a586ed801552f10957e51e5200e37572b',1,'InputSystem_Actions::UIActions']]],
+  ['next_1',['Next',['../struct_input_system___actions_1_1_player_actions.html#af0ad7df6bcd5034fdc8f21699b689c7b',1,'InputSystem_Actions::PlayerActions']]]
+];

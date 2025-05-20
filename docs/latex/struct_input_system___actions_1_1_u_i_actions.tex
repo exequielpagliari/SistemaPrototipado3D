@@ -1,0 +1,137 @@
+\doxysection{Referencia de la estructura Input\+System\+\_\+\+Actions.\+UIActions}
+\hypertarget{struct_input_system___actions_1_1_u_i_actions}{}\label{struct_input_system___actions_1_1_u_i_actions}\index{InputSystem\_Actions.UIActions@{InputSystem\_Actions.UIActions}}
+
+
+Provides access to input actions defined in input action map "{}\+UI"{}.  
+
+
+\doxysubsubsection*{Métodos públicos}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{struct_input_system___actions_1_1_u_i_actions_a645c07fe90deb3c7b625cd4d3801da1c}\label{struct_input_system___actions_1_1_u_i_actions_a645c07fe90deb3c7b625cd4d3801da1c} 
+{\bfseries UIActions} (@\mbox{\hyperlink{class_input_system___actions}{Input\+System\+\_\+\+Actions}} wrapper)
+\begin{DoxyCompactList}\small\item\em Construct a new instance of the input action map wrapper class. \end{DoxyCompactList}\item 
+\Hypertarget{struct_input_system___actions_1_1_u_i_actions_aba86cce77eb9cedd49e58d2f561ee52d}\label{struct_input_system___actions_1_1_u_i_actions_aba86cce77eb9cedd49e58d2f561ee52d} 
+Input\+Action\+Map {\bfseries Get} ()
+\begin{DoxyCompactList}\small\item\em Provides access to the underlying input action map instance. \end{DoxyCompactList}\item 
+\Hypertarget{struct_input_system___actions_1_1_u_i_actions_a6ec0b9711783ef74e04f7c522c656d5b}\label{struct_input_system___actions_1_1_u_i_actions_a6ec0b9711783ef74e04f7c522c656d5b} 
+void {\bfseries Enable} ()
+\item 
+\Hypertarget{struct_input_system___actions_1_1_u_i_actions_a452de795a0cd11e58d2b3c16bb66971d}\label{struct_input_system___actions_1_1_u_i_actions_a452de795a0cd11e58d2b3c16bb66971d} 
+void {\bfseries Disable} ()
+\item 
+void \mbox{\hyperlink{struct_input_system___actions_1_1_u_i_actions_a116611ffabbf5ed2fbb356127a409b0e}{Add\+Callbacks}} (\mbox{\hyperlink{interface_input_system___actions_1_1_i_u_i_actions}{IUIActions}} instance)
+\begin{DoxyCompactList}\small\item\em Adds Input\+Action.\+started, Input\+Action.\+performed and Input\+Action.\+canceled callbacks provided via  on all input actions contained in this map. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{struct_input_system___actions_1_1_u_i_actions_ab9b01702cb63557009b54e8cd1f4ad69}{Remove\+Callbacks}} (\mbox{\hyperlink{interface_input_system___actions_1_1_i_u_i_actions}{IUIActions}} instance)
+\begin{DoxyCompactList}\small\item\em Unregisters  and unregisters all input action callbacks via UIActions.\+Unregister\+Callbacks(\+IUIActions). \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{struct_input_system___actions_1_1_u_i_actions_a3c1c598b95c89cc9a40d79aa41e19876}{Set\+Callbacks}} (\mbox{\hyperlink{interface_input_system___actions_1_1_i_u_i_actions}{IUIActions}} instance)
+\begin{DoxyCompactList}\small\item\em Replaces all existing callback instances and previously registered input action callbacks associated with them with callbacks provided via . \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Métodos públicos estáticos}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{struct_input_system___actions_1_1_u_i_actions_a42fff9f6b880c8c2c3411a434950ee81}\label{struct_input_system___actions_1_1_u_i_actions_a42fff9f6b880c8c2c3411a434950ee81} 
+static implicit {\bfseries operator Input\+Action\+Map} (\mbox{\hyperlink{struct_input_system___actions_1_1_u_i_actions}{UIActions}} set)
+\begin{DoxyCompactList}\small\item\em Implicitly converts an  to an  instance. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Propiedades}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{struct_input_system___actions_1_1_u_i_actions_a586ed801552f10957e51e5200e37572b}\label{struct_input_system___actions_1_1_u_i_actions_a586ed801552f10957e51e5200e37572b} 
+Input\+Action {\bfseries Navigate}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Provides access to the underlying input action "{}\+UI/\+Navigate"{}. \end{DoxyCompactList}\item 
+\Hypertarget{struct_input_system___actions_1_1_u_i_actions_ae7bda16d86a106e5b07739c4e688cba8}\label{struct_input_system___actions_1_1_u_i_actions_ae7bda16d86a106e5b07739c4e688cba8} 
+Input\+Action {\bfseries Submit}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Provides access to the underlying input action "{}\+UI/\+Submit"{}. \end{DoxyCompactList}\item 
+\Hypertarget{struct_input_system___actions_1_1_u_i_actions_a8988bb2f08dedd4136aaf3234d8c31f4}\label{struct_input_system___actions_1_1_u_i_actions_a8988bb2f08dedd4136aaf3234d8c31f4} 
+Input\+Action {\bfseries Cancel}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Provides access to the underlying input action "{}\+UI/\+Cancel"{}. \end{DoxyCompactList}\item 
+\Hypertarget{struct_input_system___actions_1_1_u_i_actions_a91c2d6753123e102ab21d0a42940e446}\label{struct_input_system___actions_1_1_u_i_actions_a91c2d6753123e102ab21d0a42940e446} 
+Input\+Action {\bfseries Point}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Provides access to the underlying input action "{}\+UI/\+Point"{}. \end{DoxyCompactList}\item 
+\Hypertarget{struct_input_system___actions_1_1_u_i_actions_a81adc4b2857fd73fa04ded87ac3724a7}\label{struct_input_system___actions_1_1_u_i_actions_a81adc4b2857fd73fa04ded87ac3724a7} 
+Input\+Action {\bfseries Click}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Provides access to the underlying input action "{}\+UI/\+Click"{}. \end{DoxyCompactList}\item 
+\Hypertarget{struct_input_system___actions_1_1_u_i_actions_a2152f5179436211fa0eba66c3870cbe4}\label{struct_input_system___actions_1_1_u_i_actions_a2152f5179436211fa0eba66c3870cbe4} 
+Input\+Action {\bfseries Right\+Click}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Provides access to the underlying input action "{}\+UI/\+Right\+Click"{}. \end{DoxyCompactList}\item 
+\Hypertarget{struct_input_system___actions_1_1_u_i_actions_a90ec653b68d5f6e9b9149305d0014084}\label{struct_input_system___actions_1_1_u_i_actions_a90ec653b68d5f6e9b9149305d0014084} 
+Input\+Action {\bfseries Middle\+Click}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Provides access to the underlying input action "{}\+UI/\+Middle\+Click"{}. \end{DoxyCompactList}\item 
+\Hypertarget{struct_input_system___actions_1_1_u_i_actions_a3311fec28136d69c12495e9b1bf7525b}\label{struct_input_system___actions_1_1_u_i_actions_a3311fec28136d69c12495e9b1bf7525b} 
+Input\+Action {\bfseries Scroll\+Wheel}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Provides access to the underlying input action "{}\+UI/\+Scroll\+Wheel"{}. \end{DoxyCompactList}\item 
+\Hypertarget{struct_input_system___actions_1_1_u_i_actions_a931870fbe88fc3e31853ea16d7908ccf}\label{struct_input_system___actions_1_1_u_i_actions_a931870fbe88fc3e31853ea16d7908ccf} 
+Input\+Action {\bfseries Tracked\+Device\+Position}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Provides access to the underlying input action "{}\+UI/\+Tracked\+Device\+Position"{}. \end{DoxyCompactList}\item 
+\Hypertarget{struct_input_system___actions_1_1_u_i_actions_a23d94820d4bb8edcd0688b5c946be731}\label{struct_input_system___actions_1_1_u_i_actions_a23d94820d4bb8edcd0688b5c946be731} 
+Input\+Action {\bfseries Tracked\+Device\+Orientation}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Provides access to the underlying input action "{}\+UI/\+Tracked\+Device\+Orientation"{}. \end{DoxyCompactList}\item 
+\Hypertarget{struct_input_system___actions_1_1_u_i_actions_a705a73b11171a6434e815133a91e33fc}\label{struct_input_system___actions_1_1_u_i_actions_a705a73b11171a6434e815133a91e33fc} 
+bool {\bfseries enabled}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Descripción detallada}
+Provides access to input actions defined in input action map "{}\+UI"{}. 
+
+\doxysubsection{Documentación de funciones miembro}
+\Hypertarget{struct_input_system___actions_1_1_u_i_actions_a116611ffabbf5ed2fbb356127a409b0e}\index{InputSystem\_Actions.UIActions@{InputSystem\_Actions.UIActions}!AddCallbacks@{AddCallbacks}}
+\index{AddCallbacks@{AddCallbacks}!InputSystem\_Actions.UIActions@{InputSystem\_Actions.UIActions}}
+\doxysubsubsection{\texorpdfstring{AddCallbacks()}{AddCallbacks()}}
+{\footnotesize\ttfamily \label{struct_input_system___actions_1_1_u_i_actions_a116611ffabbf5ed2fbb356127a409b0e} 
+void Input\+System\+\_\+\+Actions.\+UIActions.\+Add\+Callbacks (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interface_input_system___actions_1_1_i_u_i_actions}{IUIActions}}}]{instance}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Adds Input\+Action.\+started, Input\+Action.\+performed and Input\+Action.\+canceled callbacks provided via  on all input actions contained in this map. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em instance} & Callback instance.\\
+\hline
+\end{DoxyParams}
+
+
+If {\itshape instance}  is {\ttfamily null} or {\itshape instance}  have already been added this method does nothing. 
+
+\begin{DoxySeeAlso}{Ver también}
+\doxylink{struct_input_system___actions_1_1_u_i_actions}{UIActions}
+
+
+\end{DoxySeeAlso}
+\Hypertarget{struct_input_system___actions_1_1_u_i_actions_ab9b01702cb63557009b54e8cd1f4ad69}\index{InputSystem\_Actions.UIActions@{InputSystem\_Actions.UIActions}!RemoveCallbacks@{RemoveCallbacks}}
+\index{RemoveCallbacks@{RemoveCallbacks}!InputSystem\_Actions.UIActions@{InputSystem\_Actions.UIActions}}
+\doxysubsubsection{\texorpdfstring{RemoveCallbacks()}{RemoveCallbacks()}}
+{\footnotesize\ttfamily \label{struct_input_system___actions_1_1_u_i_actions_ab9b01702cb63557009b54e8cd1f4ad69} 
+void Input\+System\+\_\+\+Actions.\+UIActions.\+Remove\+Callbacks (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interface_input_system___actions_1_1_i_u_i_actions}{IUIActions}}}]{instance}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Unregisters  and unregisters all input action callbacks via UIActions.\+Unregister\+Callbacks(\+IUIActions). 
+
+\begin{DoxySeeAlso}{Ver también}
+UIActions.\+Unregister\+Callbacks(\+IUIActions)
+
+
+\end{DoxySeeAlso}
+\Hypertarget{struct_input_system___actions_1_1_u_i_actions_a3c1c598b95c89cc9a40d79aa41e19876}\index{InputSystem\_Actions.UIActions@{InputSystem\_Actions.UIActions}!SetCallbacks@{SetCallbacks}}
+\index{SetCallbacks@{SetCallbacks}!InputSystem\_Actions.UIActions@{InputSystem\_Actions.UIActions}}
+\doxysubsubsection{\texorpdfstring{SetCallbacks()}{SetCallbacks()}}
+{\footnotesize\ttfamily \label{struct_input_system___actions_1_1_u_i_actions_a3c1c598b95c89cc9a40d79aa41e19876} 
+void Input\+System\+\_\+\+Actions.\+UIActions.\+Set\+Callbacks (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interface_input_system___actions_1_1_i_u_i_actions}{IUIActions}}}]{instance}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Replaces all existing callback instances and previously registered input action callbacks associated with them with callbacks provided via . 
+
+If {\itshape instance}  is {\ttfamily null}, calling this method will only unregister all existing callbacks but not register any new callbacks. 
+
+\begin{DoxySeeAlso}{Ver también}
+\doxylink{struct_input_system___actions_1_1_u_i_actions_a116611ffabbf5ed2fbb356127a409b0e}{UIActions.\+Add\+Callbacks(\+IUIActions)}, \doxylink{struct_input_system___actions_1_1_u_i_actions_ab9b01702cb63557009b54e8cd1f4ad69}{UIActions.\+Remove\+Callbacks(\+IUIActions)}, UIActions.\+Unregister\+Callbacks(\+IUIActions)
+
+
+\end{DoxySeeAlso}
+
+
+La documentación de esta estructura está generada del siguiente archivo\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/exepa/source/repos/\+Sistema\+Prototipado3\+D/\+Sistema\+Prototipado3\+D/\+Assets/Input\+System\+\_\+\+Actions.\+cs\end{DoxyCompactItemize}
