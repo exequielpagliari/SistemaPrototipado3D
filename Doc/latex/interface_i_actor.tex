@@ -1,0 +1,100 @@
+\doxysection{Referencia de la interface IActor}
+\hypertarget{interface_i_actor}{}\label{interface_i_actor}\index{IActor@{IActor}}
+
+
+Interfaz dedicada a la interacción con Actores.  
+
+
+
+
+Diagrama de herencia de IActor\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=147pt]{interface_i_actor__inherit__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Métodos públicos}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{interface_i_actor_aeec80de605198b6c313523f812c9945f}{Can\+Activate}} (\mbox{\hyperlink{interface_i_activator}{IActivator}} activator)
+\begin{DoxyCompactList}\small\item\em Si puede activar determinado Activador. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{interface_i_actor_a046e3ea21e47fa604a4f5b2681a40f9c}{Dead}} ()
+\begin{DoxyCompactList}\small\item\em Método de muerte del Actor. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Propiedades}
+\begin{DoxyCompactItemize}
+\item 
+string \mbox{\hyperlink{interface_i_actor_a2485f7733d2eb783c8a28735c70272f9}{Actor\+ID}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em String representativo del Actor. \end{DoxyCompactList}\item 
+Transform \mbox{\hyperlink{interface_i_actor_a022e6914eadd4dc01557850f2586aded}{Transform}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Transform del Actor. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Descripción detallada}
+Interfaz dedicada a la interacción con Actores. 
+
+\doxysubsection{Documentación de funciones miembro}
+\Hypertarget{interface_i_actor_aeec80de605198b6c313523f812c9945f}\index{IActor@{IActor}!CanActivate@{CanActivate}}
+\index{CanActivate@{CanActivate}!IActor@{IActor}}
+\doxysubsubsection{\texorpdfstring{CanActivate()}{CanActivate()}}
+{\footnotesize\ttfamily \label{interface_i_actor_aeec80de605198b6c313523f812c9945f} 
+bool IActor.\+Can\+Activate (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interface_i_activator}{IActivator}}}]{activator}{}\end{DoxyParamCaption})}
+
+
+
+Si puede activar determinado Activador. 
+
+
+
+Implementado en \mbox{\hyperlink{class_player_actor_af117b65b7899d91e56ced1520f970901}{Player\+Actor}}.
+
+\Hypertarget{interface_i_actor_a046e3ea21e47fa604a4f5b2681a40f9c}\index{IActor@{IActor}!Dead@{Dead}}
+\index{Dead@{Dead}!IActor@{IActor}}
+\doxysubsubsection{\texorpdfstring{Dead()}{Dead()}}
+{\footnotesize\ttfamily \label{interface_i_actor_a046e3ea21e47fa604a4f5b2681a40f9c} 
+void IActor.\+Dead (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Método de muerte del Actor. 
+
+
+
+Implementado en \mbox{\hyperlink{class_player_actor_a1721eba477f3944c108cbd9b683f30ea}{Player\+Actor}}.
+
+
+
+\doxysubsection{Documentación de propiedades}
+\Hypertarget{interface_i_actor_a2485f7733d2eb783c8a28735c70272f9}\index{IActor@{IActor}!ActorID@{ActorID}}
+\index{ActorID@{ActorID}!IActor@{IActor}}
+\doxysubsubsection{\texorpdfstring{ActorID}{ActorID}}
+{\footnotesize\ttfamily \label{interface_i_actor_a2485f7733d2eb783c8a28735c70272f9} 
+string IActor.\+Actor\+ID\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+String representativo del Actor. 
+
+
+
+Implementado en \mbox{\hyperlink{class_player_actor_a30c8fd6065f715400791b396344bcc19}{Player\+Actor}}.
+
+\Hypertarget{interface_i_actor_a022e6914eadd4dc01557850f2586aded}\index{IActor@{IActor}!Transform@{Transform}}
+\index{Transform@{Transform}!IActor@{IActor}}
+\doxysubsubsection{\texorpdfstring{Transform}{Transform}}
+{\footnotesize\ttfamily \label{interface_i_actor_a022e6914eadd4dc01557850f2586aded} 
+Transform IActor.\+Transform\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Transform del Actor. 
+
+
+
+Implementado en \mbox{\hyperlink{class_player_actor_a297486b6699faf0ba505091ae2f7aa30}{Player\+Actor}}.
+
+
+
+La documentación de esta interface está generada del siguiente archivo\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/exepa/source/repos/\+Sistema\+Prototipado3\+D/\+Sistema\+Prototipado3\+D/\+Assets/\+Script/\+Interfaces/IActor.\+cs\end{DoxyCompactItemize}
