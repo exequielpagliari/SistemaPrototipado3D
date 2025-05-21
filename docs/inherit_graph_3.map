@@ -1,3 +1,7 @@
 <map id="Gráfico de jerarquía de clases" name="Gráfico de jerarquía de clases">
-<area shape="rect" id="Node000000" href="$interface_input_system___actions_1_1_i_u_i_actions.html" title="Interface to implement callback methods for all input action callbacks associated with input actions ..." alt="" coords="5,5,218,32"/>
+<area shape="rect" id="Node000000" title=" " alt="" coords="38,5,129,32"/>
+<area shape="rect" id="Node000001" href="$class_input_system___actions.html" title="Provides programmatic access to InputActionAsset, InputActionMap, InputAction and InputControlScheme ..." alt="" coords="210,31,356,57"/>
+<area shape="poly" id="edge30_Node000000_Node000001" title=" " alt="" coords="144,24,210,32,209,37,144,29"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,56,162,83"/>
+<area shape="poly" id="edge31_Node000002_Node000001" title=" " alt="" coords="177,55,209,51,209,56,177,60"/>
 </map>
