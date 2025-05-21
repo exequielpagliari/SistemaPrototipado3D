@@ -5,7 +5,7 @@ using UnityEngine;
 /// <summary>
 /// Clase dedicada a generar una Plataforma con un desplazamiento con Corrutina por medio de la Interfaz IAction.
 /// </summary>
-public class MoveActionPlataformCorrutine : MonoBehaviour, IActivator
+public class MoveActionPlataformCorrutine : MonoBehaviour, IAction
 {
     /// <summary>
     /// Vector3 de última posición de la plataforma.
@@ -57,7 +57,7 @@ public class MoveActionPlataformCorrutine : MonoBehaviour, IActivator
     /// <summary>
     /// Método para modificar la posición en función de un Transform externo.
     /// </summary>
-    public void Activate()
+    public void Execute()
     {
         if (!action)
             return;

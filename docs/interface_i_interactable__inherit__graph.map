@@ -1,0 +1,7 @@
+<map id="IInteractable" name="IInteractable">
+<area shape="rect" id="Node000001" title="Interfaz dedicada a la interacción." alt="" coords="130,5,223,32"/>
+<area shape="rect" id="Node000002" href="$class_volumen_auto_interactable.html" title="Clase dedicada a la emisión de un evento cuando una interfaz IActivator ejecuta Activate." alt="" coords="5,80,172,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="151,44,105,82,102,78,148,40"/>
+<area shape="rect" id="Node000003" href="$class_volumen_interactable.html" title="Clase dedicada a la emisión de un evento cuando una interfaz IActivator ejecuta Activate." alt="" coords="196,80,336,107"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="206,40,252,78,249,82,202,44"/>
+</map>

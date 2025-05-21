@@ -7,28 +7,26 @@ Clase dedicada a generar una Plataforma con un desplazamiento con Corrutina por 
 
 
 
-Diagrama de herencia de Move\+Action\+Plataform\+Corrutine
-\nopagebreak
+Diagrama de herencia de Move\+Action\+Plataform\+Corrutine\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
-\includegraphics[width=241pt]{class_move_action_plataform_corrutine__inherit__graph}
+\includegraphics[width=238pt]{class_move_action_plataform_corrutine__inherit__graph}
 \end{center}
 \end{figure}
 
 
-Diagrama de colaboración de Move\+Action\+Plataform\+Corrutine\+:
-\nopagebreak
+Diagrama de colaboración de Move\+Action\+Plataform\+Corrutine\+:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
-\includegraphics[width=241pt]{class_move_action_plataform_corrutine__coll__graph}
+\includegraphics[width=238pt]{class_move_action_plataform_corrutine__coll__graph}
 \end{center}
 \end{figure}
 \doxysubsubsection*{Métodos públicos}
 \begin{DoxyCompactItemize}
 \item 
-void \mbox{\hyperlink{class_move_action_plataform_corrutine_ac54094ec7360247bc3d6c98a258fb87d}{Activate}} ()
+void \mbox{\hyperlink{class_move_action_plataform_corrutine_a731126bc5a7c326b929678221290ac02}{Execute}} ()
 \begin{DoxyCompactList}\small\item\em Método para modificar la posición en función de un Transform externo. \end{DoxyCompactList}\item 
 \Hypertarget{class_move_action_plataform_corrutine_abd75cd802e06805958e96ad37785a9b8}\label{class_move_action_plataform_corrutine_abd75cd802e06805958e96ad37785a9b8} 
 void {\bfseries Close\+Door} ()
@@ -43,7 +41,7 @@ Vector3 {\bfseries last\+Position}
 \begin{DoxyCompactList}\small\item\em Vector3 de última posición de la plataforma. \end{DoxyCompactList}\item 
 \Hypertarget{class_move_action_plataform_corrutine_ae6c433ebbabda1ba7e227945c3ea374d}\label{class_move_action_plataform_corrutine_ae6c433ebbabda1ba7e227945c3ea374d} 
 bool {\bfseries loop}
-\begin{DoxyCompactList}\small\item\em Booleano que determina si la acción se repite o no al ejecutarse el método Execute(). \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em Booleano que determina si la acción se repite o no al ejecutarse el método \doxylink{class_move_action_plataform_corrutine_a731126bc5a7c326b929678221290ac02}{Execute()}. \end{DoxyCompactList}\item 
 \Hypertarget{class_move_action_plataform_corrutine_af3f129a361ef2e97d867cd8bed0ca002}\label{class_move_action_plataform_corrutine_af3f129a361ef2e97d867cd8bed0ca002} 
 bool {\bfseries action}
 \begin{DoxyCompactList}\small\item\em Booleano que determina si la acción se ejecuta o no. \end{DoxyCompactList}\item 
@@ -74,11 +72,11 @@ Vector3 {\bfseries Movement\+Delta}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}
 Clase dedicada a generar una Plataforma con un desplazamiento con Corrutina por medio de la Interfaz \doxylink{interface_i_action}{IAction}. 
 
 \doxysubsection{Documentación de funciones miembro}
-\Hypertarget{class_move_action_plataform_corrutine_ac54094ec7360247bc3d6c98a258fb87d}\index{MoveActionPlataformCorrutine@{MoveActionPlataformCorrutine}!Activate@{Activate}}
-\index{Activate@{Activate}!MoveActionPlataformCorrutine@{MoveActionPlataformCorrutine}}
-\doxysubsubsection{\texorpdfstring{Activate()}{Activate()}}
-{\footnotesize\ttfamily \label{class_move_action_plataform_corrutine_ac54094ec7360247bc3d6c98a258fb87d} 
-void Move\+Action\+Plataform\+Corrutine.\+Activate (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+\Hypertarget{class_move_action_plataform_corrutine_a731126bc5a7c326b929678221290ac02}\index{MoveActionPlataformCorrutine@{MoveActionPlataformCorrutine}!Execute@{Execute}}
+\index{Execute@{Execute}!MoveActionPlataformCorrutine@{MoveActionPlataformCorrutine}}
+\doxysubsubsection{\texorpdfstring{Execute()}{Execute()}}
+{\footnotesize\ttfamily \label{class_move_action_plataform_corrutine_a731126bc5a7c326b929678221290ac02} 
+void Move\+Action\+Plataform\+Corrutine.\+Execute (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
 
 
 
@@ -86,7 +84,7 @@ Método para modificar la posición en función de un Transform externo.
 
 
 
-Implementa \mbox{\hyperlink{interface_i_activator_a24dae6df449c9c7f62a3a9deb6dce979}{IActivator}}.
+Implementa \mbox{\hyperlink{interface_i_action_ac414e5ec9d6b0592f913cd1db978bd74}{IAction}}.
 
 \Hypertarget{class_move_action_plataform_corrutine_a36501323ebc34398db226d63d5a28f24}\index{MoveActionPlataformCorrutine@{MoveActionPlataformCorrutine}!OpenDoor@{OpenDoor}}
 \index{OpenDoor@{OpenDoor}!MoveActionPlataformCorrutine@{MoveActionPlataformCorrutine}}

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['ui_0',['UI',['../class_activation_manager.html#a40907386b3ffe4863e039137b7b83f02',1,'ActivationManager']]]
+  ['ui_0',['UI',['../class_interactable_manager.html#ac78ca66474d4c50593bed53ca76b6544',1,'InteractableManager']]]
 ];
