@@ -1,16 +1,35 @@
-name: Actions 😎
+name: Doxygen 😎
 
-on: [pull_request]
+on:
+  push:
+    branches:
+      - main  # Se ejecuta solo cuando haces merge a 'main'
 
 jobs:
   build:
-    permissions: write-all
-    name: Build doc
+    name: Build and Deploy Doxygen Docs
     runs-on: ubuntu-latest
+    permissions:
+      contents: write  # Necesario para pushear a gh-pages
+
     steps:
-      # Doxyge
-      - name: Doxygen Documentation
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python (para ghp-import)
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install ghp-import
+        run: pip install ghp-import
+
+      - name: Generate Doxygen documentation
         uses: mattnotmitt/doxygen-action@v1.9.5
         with:
-              working-directory: 'docs/'
-              doxyfile-path: 'docs/Doxygen'  
+          working-directory: 'docs/'
+          doxyfile-path: 'docs/Doxygen/Doxyfile'
+
+      - name: Deploy to GitHub Pages branch
+        run: |
+          ghp-import -n -p docs/ -f -b gh-pages
