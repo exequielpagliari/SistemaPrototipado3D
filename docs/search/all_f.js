@@ -1,11 +1,11 @@
 var searchData=
 [
-  ['raycastground_0',['RaycastGround',['../class_raycast_ground.html',1,'']]],
-  ['registeractivator_1',['RegisterActivator',['../interface_i_activator_receiver.html#a8b35822c3b379ca8879fc196f110559f',1,'IActivatorReceiver']]],
-  ['removecallbacks_2',['RemoveCallbacks',['../struct_input_system___actions_1_1_player_actions.html#aa05e9dcee22245c5c70747415e644400',1,'InputSystem_Actions.PlayerActions.RemoveCallbacks()'],['../struct_input_system___actions_1_1_u_i_actions.html#ab9b01702cb63557009b54e8cd1f4ad69',1,'InputSystem_Actions.UIActions.RemoveCallbacks()']]],
-  ['retard_3',['retard',['../class_move_action_corrutine.html#add27ecf1ed5bf64695387e312f6951fd',1,'MoveActionCorrutine.retard'],['../class_move_action_plataform_corrutine.html#af705db90ab618f41b13019c8ab70bbfe',1,'MoveActionPlataformCorrutine.retard']]],
-  ['rightclick_4',['RightClick',['../struct_input_system___actions_1_1_u_i_actions.html#a2152f5179436211fa0eba66c3870cbe4',1,'InputSystem_Actions::UIActions']]],
-  ['rotateaction_5',['RotateAction',['../class_rotate_action.html',1,'']]],
-  ['rotationaxis_6',['rotationAxis',['../class_rotate_action.html#a1ad3acfcd8369e7d686b49f7504aefdc',1,'RotateAction']]],
-  ['runinsequence_7',['runInSequence',['../class_action_chainer.html#a396b3e60bc0dc4d3f095207c708a0e70',1,'ActionChainer']]]
+  ['player_0',['Player',['../class_input_system___actions.html#a20a11f2c906449516e76165274a386e3',1,'InputSystem_Actions']]],
+  ['playeractions_1',['PlayerActions',['../struct_input_system___actions_1_1_player_actions.html',1,'InputSystem_Actions.PlayerActions'],['../struct_input_system___actions_1_1_player_actions.html#abd8a679d073686875777d2cdf4cd4e41',1,'InputSystem_Actions.PlayerActions.PlayerActions()']]],
+  ['playeractor_2',['PlayerActor',['../class_player_actor.html',1,'']]],
+  ['playerbuildlocation_3',['playerBuildLocation',['../class_player_buillder.html#ab26dda3c0189649bb7fc7994b67fe4c9',1,'PlayerBuillder']]],
+  ['playerbuillder_4',['PlayerBuillder',['../class_player_buillder.html',1,'']]],
+  ['playergo_5',['playerGO',['../class_player_buillder.html#a472185f23ee1a845c19992e7c68a106c',1,'PlayerBuillder']]],
+  ['point_6',['Point',['../struct_input_system___actions_1_1_u_i_actions.html#a91c2d6753123e102ab21d0a42940e446',1,'InputSystem_Actions::UIActions']]],
+  ['previous_7',['Previous',['../struct_input_system___actions_1_1_player_actions.html#a640c43b0d40109f2191aa8c27327d0f2',1,'InputSystem_Actions::PlayerActions']]]
 ];
