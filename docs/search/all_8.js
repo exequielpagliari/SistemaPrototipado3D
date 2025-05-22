@@ -1,6 +1,25 @@
 var searchData=
 [
-  ['joystickscheme_0',['JoystickScheme',['../class_input_system___actions.html#abaa76ebd2b08fb1cae691fb2698331e8',1,'InputSystem_Actions']]],
-  ['jump_1',['Jump',['../struct_input_system___actions_1_1_player_actions.html#af6c99e636d1767f58d4f12af247dd059',1,'InputSystem_Actions::PlayerActions']]],
-  ['jumppressed_2',['JumpPressed',['../class_input_manager.html#a060bb39b0b76aea53da144cd94f3d890',1,'InputManager']]]
+  ['iaction_0',['IAction',['../interface_i_action.html',1,'']]],
+  ['iactivator_1',['IActivator',['../interface_i_activator.html',1,'']]],
+  ['iactivatorreceiver_2',['IActivatorReceiver',['../interface_i_activator_receiver.html',1,'']]],
+  ['iactor_3',['IActor',['../interface_i_actor.html',1,'']]],
+  ['icondition_4',['ICondition',['../interface_i_condition.html',1,'']]],
+  ['iinteractable_5',['IInteractable',['../interface_i_interactable.html',1,'']]],
+  ['inputaction_6',['inputAction',['../class_input_event_emitter.html#a188ebe704de8ff2a8e4ad33936944771',1,'InputEventEmitter']]],
+  ['inputactions_7',['inputActions',['../class_input_manager.html#a694c64f63fe845819d2728282cbe76af',1,'InputManager']]],
+  ['inputeventemitter_8',['InputEventEmitter',['../class_input_event_emitter.html',1,'']]],
+  ['inputmanager_9',['InputManager',['../class_input_manager.html',1,'']]],
+  ['inputsystem_5factions_10',['InputSystem_Actions',['../class_input_system___actions.html',1,'InputSystem_Actions'],['../class_input_system___actions.html#a61685bf23c9929ed79a3f35740d27e3e',1,'InputSystem_Actions.InputSystem_Actions()']]],
+  ['instance_11',['Instance',['../class_inventory_system.html#a5c5fcf3680e8c3b23821f5384ce6d689',1,'InventorySystem.Instance'],['../class_input_manager.html#afb55d4ebb7290ab0950c3fd7d3825729',1,'InputManager.Instance']]],
+  ['interact_12',['Interact',['../struct_input_system___actions_1_1_player_actions.html#abd6bded9dc7287fd4e30a1cda56e29a9',1,'InputSystem_Actions.PlayerActions.Interact'],['../interface_i_interactable.html#a6e8c9bc1f27bc2a5c81f674ceeac024c',1,'IInteractable.Interact()'],['../class_volumen_auto_interactable.html#a57f67b5bc579a1c402668970ae214d76',1,'VolumenAutoInteractable.Interact()'],['../class_volumen_interactable.html#ae720f155b9ac7ec065d81ce1cbacfcad',1,'VolumenInteractable.Interact()']]],
+  ['interactablemanager_13',['InteractableManager',['../class_interactable_manager.html',1,'']]],
+  ['interactpressed_14',['InteractPressed',['../class_input_manager.html#aa3589a7b037005a5252a2a990190844a',1,'InputManager']]],
+  ['inventorynames_15',['inventoryNames',['../class_inventory_system.html#a11028944ed84cc91d01ee2818b1f7edf',1,'InventorySystem']]],
+  ['inventorysystem_16',['InventorySystem',['../class_inventory_system.html',1,'']]],
+  ['iplayeractions_17',['IPlayerActions',['../interface_input_system___actions_1_1_i_player_actions.html',1,'InputSystem_Actions']]],
+  ['isdoor_18',['isDoor',['../class_rotate_action.html#a2b8513171f8f0c59a7ac31b154675446',1,'RotateAction']]],
+  ['isgrounded_19',['IsGrounded',['../class_raycast_ground.html#a6b765493d88cdbd5b00b2a3714b57730',1,'RaycastGround']]],
+  ['ismet_20',['IsMet',['../class_multiple_condition.html#ae1d0febf318b6b82aa8fd0f3d2c1ab1c',1,'MultipleCondition.IsMet()'],['../class_has_key_condition.html#af6d97104bfa1cbfcce59ed0b1325a504',1,'HasKeyCondition.IsMet()'],['../interface_i_condition.html#a8d512d6a70a5f9d98beefaeaef6194e6',1,'ICondition.IsMet()']]],
+  ['iuiactions_21',['IUIActions',['../interface_input_system___actions_1_1_i_u_i_actions.html',1,'InputSystem_Actions']]]
 ];

@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['setcallbacks_0',['SetCallbacks',['../struct_input_system___actions_1_1_player_actions.html#a8d325b740e7c6e1fd330045f48720e49',1,'InputSystem_Actions.PlayerActions.SetCallbacks()'],['../struct_input_system___actions_1_1_u_i_actions.html#a3c1c598b95c89cc9a40d79aa41e19876',1,'InputSystem_Actions.UIActions.SetCallbacks()']]]
+  ['registeractivator_0',['RegisterActivator',['../interface_i_activator_receiver.html#a8b35822c3b379ca8879fc196f110559f',1,'IActivatorReceiver']]],
+  ['removecallbacks_1',['RemoveCallbacks',['../struct_input_system___actions_1_1_player_actions.html#aa05e9dcee22245c5c70747415e644400',1,'InputSystem_Actions.PlayerActions.RemoveCallbacks()'],['../struct_input_system___actions_1_1_u_i_actions.html#ab9b01702cb63557009b54e8cd1f4ad69',1,'InputSystem_Actions.UIActions.RemoveCallbacks()']]]
 ];

@@ -5,6 +5,8 @@ var searchData=
   ['cincam_2',['cinCam',['../class_player_buillder.html#a55104512184e3148875096b4bf7ff2eb',1,'PlayerBuillder']]],
   ['closedposition_3',['closedPosition',['../class_move_action_corrutine.html#a498968ef7842d82ce70fd934a034cc8b',1,'MoveActionCorrutine.closedPosition'],['../class_move_action_plataform_corrutine.html#a58ba9fabcacebcac7ff680e0222ac4da',1,'MoveActionPlataformCorrutine.closedPosition']]],
   ['color_4',['color',['../class_collider_gizmo_drawer.html#a55d6d387cb4159dfd6a15532a22cfe07',1,'ColliderGizmoDrawer']]],
-  ['currentplatform_5',['currentPlatform',['../class_movement_c_c.html#afbd64db04a6a9ae54f64fbc19dfc319f',1,'MovementCC']]],
-  ['customaxis_6',['customAxis',['../class_rotate_action.html#aab2b6fb8fc2f22ffc6bdaf3877a6bd92',1,'RotateAction']]]
+  ['conditioncomponent_5',['conditionComponent',['../class_conditional_action.html#a44c980447f15472c4e0f7e28584e4654',1,'ConditionalAction']]],
+  ['conditions_6',['conditions',['../class_multiple_condition.html#a4b2dd22e9f0b5da02d92601050464847',1,'MultipleCondition']]],
+  ['currentplatform_7',['currentPlatform',['../class_movement_c_c.html#afbd64db04a6a9ae54f64fbc19dfc319f',1,'MovementCC']]],
+  ['customaxis_8',['customAxis',['../class_rotate_action.html#aab2b6fb8fc2f22ffc6bdaf3877a6bd92',1,'RotateAction']]]
 ];
