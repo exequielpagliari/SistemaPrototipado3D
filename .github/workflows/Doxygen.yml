@@ -27,8 +27,8 @@ jobs:
       - name: Generate Doxygen documentation
         uses: mattnotmitt/doxygen-action@v1.9.5
         with:
-          working-directory: 'docs/'
-          doxyfile-path: 'Doxygen/Doxygen'
+            working-directory: 'docs/Doxygen'
+            doxyfile-path: 'Doxygen'
 
       - name: Deploy to GitHub Pages branch
         run: |
