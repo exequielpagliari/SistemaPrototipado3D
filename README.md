@@ -34,6 +34,17 @@ Permitir el diseño y prueba rápida de sistemas interactivos para escenarios 3D
 | `IAction` / `MoveAction` | Acciones del entorno modularizadas         |
 | `ActivatorButton`  | Interacción física con el jugador (botones, etc)  |
 | `MoveAction`| Componente base para mover o activar objetos      |
+| `VolumenInteractable`                | Area de activación por input.                 | 
+| `VolumenAutoInteractable`         | Area de Zona de activación.       | 
+| `KillVolumen`            |  Zona de destrucción del Player y activación.       | 
+| `RotateAction`                   | Acción de rotación | 
+| `MoveActionPlataformCorrutine` 		     | Plataforma, con funcionamiento por corrutina.         | 
+| `MoveActionCorrutine` 		     | Acción de desplazamiento por Corrutina      |
+| `ActionChainer` 		     | Acctivación de conjunto de Acciones en una sola interacción.         | 
+| `IActor` 		     | Interfaz IActor. | 
+| `ActorManager` 		     | Clase que manipula Actores. | 
+| `MovementCC` 		     | Clase de movimiento para CharacterController. | 
+| `RaycastGround` 		     | Implementación de Raycast para detección de Ground. | 
 
 ---
 
@@ -48,6 +59,8 @@ public class OpenDoorAction : MonoBehaviour, IAction
     }
 }
 ```
+
+
 
 - Agregá este script a una puerta.
 
