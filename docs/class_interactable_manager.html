@@ -110,14 +110,14 @@ $(function(){initNavTree('class_interactable_manager.html',''); initResizable(tr
 </div><!--header-->
 <div class="contents">
 
-<p>Clase dedicada a la manipualación de IActivators en el Actor.  
+<p>Clase dedicada a la manipualación de Interactables.  
  <a href="#details">Más...</a></p>
 <div class="dynheader">
 Diagrama de herencia de InteractableManager</div>
 <div class="dyncontent">
 <div class="center"><img src="class_interactable_manager__inherit__graph.png" border="0" usemap="#a_interactable_manager_inherit__map" alt="Inheritance graph"/></div>
 <map name="a_interactable_manager_inherit__map" id="a_interactable_manager_inherit__map">
-<area shape="rect" title="Clase dedicada a la manipualación de IActivators en el Actor." alt="" coords="5,80,145,107"/>
+<area shape="rect" title="Clase dedicada a la manipualación de Interactables." alt="" coords="5,80,145,107"/>
 <area shape="rect" title=" " alt="" coords="19,5,131,32"/>
 <area shape="poly" title=" " alt="" coords="78,48,78,80,72,80,72,48"/>
 </map>
@@ -127,18 +127,25 @@ Diagrama de colaboración de InteractableManager:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_interactable_manager__coll__graph.png" border="0" usemap="#a_interactable_manager_coll__map" alt="Collaboration graph"/></div>
 <map name="a_interactable_manager_coll__map" id="a_interactable_manager_coll__map">
-<area shape="rect" title="Clase dedicada a la manipualación de IActivators en el Actor." alt="" coords="74,112,213,139"/>
-<area shape="rect" title=" " alt="" coords="5,13,117,40"/>
-<area shape="poly" title=" " alt="" coords="84,50,135,110,131,113,80,54"/>
-<area shape="rect" href="interface_prototipe_1_1_core_1_1_interfaces_1_1_i_interactable.html" title="Interfaz dedicada a la interacción." alt="" coords="141,5,312,48"/>
-<area shape="poly" title=" " alt="" coords="201,62,156,113,152,110,197,58"/>
+<area shape="rect" title="Clase dedicada a la manipualación de Interactables." alt="" coords="498,57,638,83"/>
+<area shape="rect" href="class_interaction_volumen.html" title="Clase dedicada a la manipualación de Triggers." alt="" coords="807,10,939,37"/>
+<area shape="poly" title=" " alt="" coords="652,52,661,50,806,29,807,34,662,55,653,57"/>
+<area shape="rect" title=" " alt="" coords="5,11,117,38"/>
+<area shape="poly" title=" " alt="" coords="132,24,289,33,475,50,498,54,497,59,474,55,289,38,132,30"/>
+<area shape="poly" title=" " alt="" coords="132,7,141,6,142,6,462,3,603,4,783,11,806,13,806,18,783,17,603,9,463,8,142,11,141,11,133,12"/>
+<area shape="rect" href="class_interaction_raycast.html" title="Clase dedicada a la manipualación de RaycastInteractable." alt="" coords="186,129,317,155"/>
+<area shape="poly" title=" " alt="" coords="86,48,122,82,167,114,193,126,191,130,165,119,119,86,83,52"/>
+<area shape="rect" href="interface_prototipe_1_1_core_1_1_interfaces_1_1_i_interactable.html" title="Interfaz dedicada a la interacción." alt="" coords="166,62,337,105"/>
+<area shape="poly" title=" " alt="" coords="353,76,498,70,498,76,353,82"/>
+<area shape="poly" title=" " alt="" coords="839,47,813,61,783,71,709,81,638,80,638,75,708,76,782,66,811,56,837,43"/>
+<area shape="poly" title=" " alt="" coords="332,126,474,97,526,81,527,86,475,102,333,132"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">leyenda</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Métodos públicos</h2></td></tr>
-<tr class="memitem:a67f74ae4a6c5c1aaf3e5d3ecb3cd59e8" id="r_a67f74ae4a6c5c1aaf3e5d3ecb3cd59e8"><td class="memItemLeft" align="right" valign="top"><a id="a67f74ae4a6c5c1aaf3e5d3ecb3cd59e8" name="a67f74ae4a6c5c1aaf3e5d3ecb3cd59e8"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>RegisterInteractable</b> (<a class="el" href="interface_prototipe_1_1_core_1_1_interfaces_1_1_i_interactable.html">IInteractable</a> interactable)</td></tr>
+<tr class="memitem:a67f74ae4a6c5c1aaf3e5d3ecb3cd59e8" id="r_a67f74ae4a6c5c1aaf3e5d3ecb3cd59e8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a67f74ae4a6c5c1aaf3e5d3ecb3cd59e8">RegisterInteractable</a> (<a class="el" href="interface_prototipe_1_1_core_1_1_interfaces_1_1_i_interactable.html">IInteractable</a> interactable)</td></tr>
+<tr class="memdesc:a67f74ae4a6c5c1aaf3e5d3ecb3cd59e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Se subscribe como posible activador.  <br /></td></tr>
 <tr class="separator:a67f74ae4a6c5c1aaf3e5d3ecb3cd59e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1fb151458939efbdd85d623b72c74036" id="r_a1fb151458939efbdd85d623b72c74036"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1fb151458939efbdd85d623b72c74036">UnregisterInteractable</a> (<a class="el" href="interface_prototipe_1_1_core_1_1_interfaces_1_1_i_interactable.html">IInteractable</a> interactable)</td></tr>
 <tr class="memdesc:a1fb151458939efbdd85d623b72c74036"><td class="mdescLeft">&#160;</td><td class="mdescRight">Se desubscribe como posible activador.  <br /></td></tr>
@@ -148,7 +155,20 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>RegisterInteractable<
 Atributos públicos</h2></td></tr>
 <tr class="memitem:a43a6c1f354e2351517a47ce07a6aa6d5" id="r_a43a6c1f354e2351517a47ce07a6aa6d5"><td class="memItemLeft" align="right" valign="top"><a id="a43a6c1f354e2351517a47ce07a6aa6d5" name="a43a6c1f354e2351517a47ce07a6aa6d5"></a>
 <a class="el" href="interface_prototipe_1_1_core_1_1_interfaces_1_1_i_interactable.html">IInteractable</a>&#160;</td><td class="memItemRight" valign="bottom"><b>currentInteractable</b></td></tr>
+<tr class="memdesc:a43a6c1f354e2351517a47ce07a6aa6d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Referencia de actual Interactable. <br /></td></tr>
 <tr class="separator:a43a6c1f354e2351517a47ce07a6aa6d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00de1a4194ba0edd3fbdb30e97dd89cc" id="r_a00de1a4194ba0edd3fbdb30e97dd89cc"><td class="memItemLeft" align="right" valign="top"><a id="a00de1a4194ba0edd3fbdb30e97dd89cc" name="a00de1a4194ba0edd3fbdb30e97dd89cc"></a>
+<a class="el" href="class_interaction_volumen.html">InteractionVolumen</a>&#160;</td><td class="memItemRight" valign="bottom"><b>interactionVolumen</b></td></tr>
+<tr class="memdesc:a00de1a4194ba0edd3fbdb30e97dd89cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Referencia a InteractableVolumen. <br /></td></tr>
+<tr class="separator:a00de1a4194ba0edd3fbdb30e97dd89cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a424ebb1fe05baaec6bf06ee79c121c93" id="r_a424ebb1fe05baaec6bf06ee79c121c93"><td class="memItemLeft" align="right" valign="top"><a id="a424ebb1fe05baaec6bf06ee79c121c93" name="a424ebb1fe05baaec6bf06ee79c121c93"></a>
+<a class="el" href="class_interaction_raycast.html">InteractionRaycast</a>&#160;</td><td class="memItemRight" valign="bottom"><b>interactionRaycast</b></td></tr>
+<tr class="memdesc:a424ebb1fe05baaec6bf06ee79c121c93"><td class="mdescLeft">&#160;</td><td class="mdescRight">Referencia a <a class="el" href="class_interaction_raycast.html" title="Clase dedicada a la manipualación de RaycastInteractable.">InteractionRaycast</a>. <br /></td></tr>
+<tr class="separator:a424ebb1fe05baaec6bf06ee79c121c93"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6cb46ab3da9585efa153eff0dd4b153" id="r_ad6cb46ab3da9585efa153eff0dd4b153"><td class="memItemLeft" align="right" valign="top"><a id="ad6cb46ab3da9585efa153eff0dd4b153" name="ad6cb46ab3da9585efa153eff0dd4b153"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>raycastInteraction</b></td></tr>
+<tr class="memdesc:ad6cb46ab3da9585efa153eff0dd4b153"><td class="mdescLeft">&#160;</td><td class="mdescRight">Booleano para configurar interacción por Raycast. <br /></td></tr>
+<tr class="separator:ad6cb46ab3da9585efa153eff0dd4b153"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac78ca66474d4c50593bed53ca76b6544" id="r_ac78ca66474d4c50593bed53ca76b6544"><td class="memItemLeft" align="right" valign="top"><a id="ac78ca66474d4c50593bed53ca76b6544" name="ac78ca66474d4c50593bed53ca76b6544"></a>
 GameObject&#160;</td><td class="memItemRight" valign="bottom"><b>UI</b></td></tr>
 <tr class="memdesc:ac78ca66474d4c50593bed53ca76b6544"><td class="mdescLeft">&#160;</td><td class="mdescRight">UI dedicada a la representación de interacción. <br /></td></tr>
@@ -158,8 +178,41 @@ Text&#160;</td><td class="memItemRight" valign="bottom"><b>text</b></td></tr>
 <tr class="separator:a1d9de859281e1547bac663834e38ab0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
-<div class="textblock"><p>Clase dedicada a la manipualación de IActivators en el Actor. </p>
+<div class="textblock"><p>Clase dedicada a la manipualación de Interactables. </p>
 </div><h2 class="groupheader">Documentación de funciones miembro</h2>
+<a id="a67f74ae4a6c5c1aaf3e5d3ecb3cd59e8" name="a67f74ae4a6c5c1aaf3e5d3ecb3cd59e8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a67f74ae4a6c5c1aaf3e5d3ecb3cd59e8">&#9670;&#160;</a></span>RegisterInteractable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void InteractableManager.RegisterInteractable </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interface_prototipe_1_1_core_1_1_interfaces_1_1_i_interactable.html">IInteractable</a></td>          <td class="paramname"><span class="paramname"><em>interactable</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Se subscribe como posible activador. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">interactable</td><td>Un objeto del tipo Interactable a registrar.</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="a1fb151458939efbdd85d623b72c74036" name="a1fb151458939efbdd85d623b72c74036"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1fb151458939efbdd85d623b72c74036">&#9670;&#160;</a></span>UnregisterInteractable()</h2>
 

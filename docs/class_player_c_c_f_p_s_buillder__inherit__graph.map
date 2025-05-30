@@ -1,0 +1,7 @@
+<map id="PlayerCCFPSBuillder" name="PlayerCCFPSBuillder">
+<area shape="rect" id="Node000001" title="Clase dedicada a la Construcción del PlayerFPS." alt="" coords="70,96,217,123"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,13,117,40"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="86,49,133,94,129,98,83,53"/>
+<area shape="rect" id="Node000003" href="$interface_prototipe_1_1_core_1_1_interfaces_1_1_i_action.html" title="Interfaz dedicada a la interacción de acciones." alt="" coords="141,5,312,48"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="196,61,158,97,155,94,192,57"/>
+</map>

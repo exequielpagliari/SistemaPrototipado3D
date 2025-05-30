@@ -1,5 +1,7 @@
 var searchData=
 [
-  ['slideduration_0',['slideDuration',['../class_prototipe_1_1_core_1_1_actions_1_1_move_action_corrutine.html#a6abde470eaa811a35d7161cf82bfbf17',1,'Prototipe.Core.Actions.MoveActionCorrutine.slideDuration'],['../class_prototipe_1_1_core_1_1_actions_1_1_move_action_plataform_corrutine.html#a856eef059725b3f0fc1f7c7269b39f47',1,'Prototipe.Core.Actions.MoveActionPlataformCorrutine.slideDuration']]],
-  ['speed_1',['speed',['../class_movement_c_c.html#a70e3797d3e23b8fd319a65deaa809faa',1,'MovementCC.speed'],['../class_movement.html#aba07bc6bfeba07294bfd68dec4962388',1,'Movement.speed']]]
+  ['raycastinteraction_0',['raycastInteraction',['../class_interactable_manager.html#ad6cb46ab3da9585efa153eff0dd4b153',1,'InteractableManager']]],
+  ['retard_1',['retard',['../class_prototipe_1_1_core_1_1_actions_1_1_move_action_corrutine.html#af7d61ebe35db18e2c8550016194b9980',1,'Prototipe.Core.Actions.MoveActionCorrutine.retard'],['../class_prototipe_1_1_core_1_1_actions_1_1_move_action_plataform_corrutine.html#ac90361b226f0c91bb8a8c67586276b8b',1,'Prototipe.Core.Actions.MoveActionPlataformCorrutine.retard']]],
+  ['rotationaxis_2',['rotationAxis',['../class_prototipe_1_1_core_1_1_actions_1_1_rotate_action.html#a30bf6e7eae5333786e4fe37fcf205614',1,'Prototipe::Core::Actions::RotateAction']]],
+  ['runinsequence_3',['runInSequence',['../class_prototipe_1_1_core_1_1_actions_1_1_action_chainer.html#abd19cfcd2ebd672091ae7c76d3eb7dfc',1,'Prototipe::Core::Actions::ActionChainer']]]
 ];

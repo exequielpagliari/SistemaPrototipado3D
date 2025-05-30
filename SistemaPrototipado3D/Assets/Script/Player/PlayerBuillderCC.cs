@@ -5,12 +5,12 @@ using Prototipe.Core.Interfaces;
 /// <summary>
 /// Clase dedicada a la Construcción del Player.
 /// </summary>
-public class PlayerBuillder : MonoBehaviour, IAction
+public class PlayerCCBuillder : MonoBehaviour, IAction
 {
     /// <summary>
     /// GameObject de Player.
     /// </summary>
-    public GameObject playerGO;
+    public GameObject playerCC;
     /// <summary>
     /// Locación de creacion del Player.
     /// </summary>
@@ -31,7 +31,7 @@ public class PlayerBuillder : MonoBehaviour, IAction
     /// </summary>
     public void Execute()
     {
-        am.Build(playerGO, playerBuildLocation.transform, playerBuildLocation.transform.rotation);
+        am.Build(playerCC, playerBuildLocation.transform, playerBuildLocation.transform.rotation);
         cinCam.Target.TrackingTarget = FindAnyObjectByType<PlayerActor>().gameObject.transform;
     }
 

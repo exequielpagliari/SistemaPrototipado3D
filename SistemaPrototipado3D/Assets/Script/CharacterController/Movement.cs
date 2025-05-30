@@ -1,0 +1,166 @@
+﻿using UnityEngine;
+using Prototipe.Core.Actions;
+
+[RequireComponent(typeof(CharacterController))]
+public class FirstPersonController : MonoBehaviour
+{
+    [Header("Movimiento")]
+    public float speed = 5f;
+    public float jumpHeight = 2f;
+    public float gravity = -9.81f;
+
+    [Header("Swing")]
+    public float swimSpeed = 3f;
+    public float verticalSwimSpeed = 2f;
+    public float waterDrag = 1f;
+    private bool isSwimming;
+
+    private CharacterController controller;
+    private Vector3 velocity;
+    private bool isGrounded;
+    public float velocityMagnitude;
+ 
+
+
+    [Header("Efectos")]
+    public AnimationCurve bobCurve;
+    public float bobDuration = 1f; 
+
+    public float bobAmplitude = 0.05f;
+    public Transform cameraHolder;
+
+    private float bobTimer = 0f;
+    private Vector3 defaultCamLocalPos;
+
+
+    [Header("Dash")]
+    public float dashSpeed = 20f;
+    public float dashDuration = 0.2f;
+    public float dashCooldown = 1f;
+
+    private bool isDashing = false;
+    private float dashTimer = 0f;
+    private float dashCooldownTimer = 0f;
+    private Vector3 dashDirection;
+    public AudioClip dashClip;
+    public AudioSource dashSource;
+
+    [Header("Ladder")]
+    public float climbSpeed = 3f;
+
+    private bool isClimbing = false;
+    private Collider currentLadder;
+    private RaycastGround raycastGround;
+
+
+    /// <summary>
+    /// Referencia de Plataforma para desplazar al jugador al momento de estar sobre una.
+    /// </summary>
+    [HideInInspector]
+    public MoveActionPlataformCorrutine currentPlatform;
+
+    void Start()
+    {
+        controller = GetComponent<CharacterController>();
+        defaultCamLocalPos = cameraHolder.localPosition;
+        Cursor.lockState = CursorLockMode.Locked;
+        raycastGround = GetComponent<RaycastGround>();
+    }
+
+    void Update()
+    {
+
+
+
+
+
+        if (dashCooldownTimer > 0f)
+            dashCooldownTimer -= Time.deltaTime;
+
+ 
+
+
+        Vector3 input = new Vector3(InputManager.Instance.MoveInput.x, 0, InputManager.Instance.MoveInput.y);
+
+
+
+            MoveOnGround(input);
+
+
+        if (InputManager.Instance.SprintPressed && dashCooldownTimer <= 0f && !isDashing)
+        {
+            isDashing = true;
+            dashTimer = dashDuration;
+            dashCooldownTimer = dashCooldown;
+
+            Vector3 inputDir = new Vector3(InputManager.Instance.MoveInput.x, 0, InputManager.Instance.MoveInput.y);
+            dashDirection = inputDir.magnitude > 0.1f ? inputDir.normalized : transform.forward;
+            dashDirection = transform.TransformDirection(dashDirection);
+        }
+
+        
+
+        if (isDashing)
+        {
+            
+            controller.Move(dashDirection * dashSpeed * Time.deltaTime);
+
+            dashTimer -= Time.deltaTime;
+            if (dashTimer <= 0f)
+            {
+                isDashing = false;
+            }
+
+            return;
+        }
+
+        
+
+       
+
+    }
+
+    void MoveOnGround(Vector3 input)
+    {
+        
+
+        Vector3 move = transform.right * input.x + transform.forward * input.z;
+        controller.Move(move * speed * Time.deltaTime);
+        velocityMagnitude = move.magnitude;
+
+
+        if (raycastGround.IsGrounded() && velocity.y < 0)
+        {
+            velocity.y = 0f;
+        }
+
+        if (InputManager.Instance.JumpPressed && raycastGround.IsGrounded())
+        {
+            velocity.y += Mathf.Sqrt(jumpHeight * -2.0f * gravity);
+        }
+
+        velocity.y += gravity * Time.deltaTime;
+        controller.Move(velocity * Time.deltaTime);
+        bool isMoving = move.magnitude > 0.1f && raycastGround.IsGrounded();
+
+
+
+    }
+
+
+
+    void OnControllerColliderHit(ControllerColliderHit hit)
+    {
+        var platform = hit.collider.GetComponentInParent<MoveActionPlataformCorrutine>();
+        if (platform != null)
+            currentPlatform = platform;
+        else
+            currentPlatform = null;
+    }
+
+    void LateUpdate()
+    {
+        if (currentPlatform != null)
+            controller.Move(currentPlatform.MovementDelta);
+    }
+}

@@ -1,8 +1,14 @@
 using Prototipe.Core.Interfaces;
 using UnityEngine;
 
+/// <summary>
+/// Clase dedicada a la manipualación de Triggers.
+/// </summary>
 public class InteractionVolumen : MonoBehaviour
 {
+    /// <summary>
+    /// Referencia a InteractableManager.
+    /// </summary>
     public InteractableManager interactableManager;
     private void Start()
     {

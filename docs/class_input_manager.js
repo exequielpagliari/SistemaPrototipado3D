@@ -5,5 +5,7 @@ var class_input_manager =
     [ "inputActions", "class_input_manager.html#a694c64f63fe845819d2728282cbe76af", null ],
     [ "InteractPressed", "class_input_manager.html#aa3589a7b037005a5252a2a990190844a", null ],
     [ "JumpPressed", "class_input_manager.html#a060bb39b0b76aea53da144cd94f3d890", null ],
-    [ "MoveInput", "class_input_manager.html#aca8bfee47ae99162f606486a348ed13f", null ]
+    [ "LookInput", "class_input_manager.html#a73c73715c347470ba459afc97632f71e", null ],
+    [ "MoveInput", "class_input_manager.html#aca8bfee47ae99162f606486a348ed13f", null ],
+    [ "SprintPressed", "class_input_manager.html#a4310491791def617b7cb193236730b5d", null ]
 ];
