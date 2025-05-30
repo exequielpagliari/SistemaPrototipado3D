@@ -5,6 +5,5 @@ var namespace_prototipe_1_1_core_1_1_interfaces =
     [ "IActivatorReceiver", "interface_prototipe_1_1_core_1_1_interfaces_1_1_i_activator_receiver.html", "interface_prototipe_1_1_core_1_1_interfaces_1_1_i_activator_receiver" ],
     [ "IActor", "interface_prototipe_1_1_core_1_1_interfaces_1_1_i_actor.html", "interface_prototipe_1_1_core_1_1_interfaces_1_1_i_actor" ],
     [ "ICondition", "interface_prototipe_1_1_core_1_1_interfaces_1_1_i_condition.html", "interface_prototipe_1_1_core_1_1_interfaces_1_1_i_condition" ],
-    [ "IInteractable", "interface_prototipe_1_1_core_1_1_interfaces_1_1_i_interactable.html", "interface_prototipe_1_1_core_1_1_interfaces_1_1_i_interactable" ],
-    [ "MoveAction", "class_prototipe_1_1_core_1_1_interfaces_1_1_move_action.html", "class_prototipe_1_1_core_1_1_interfaces_1_1_move_action" ]
+    [ "IInteractable", "interface_prototipe_1_1_core_1_1_interfaces_1_1_i_interactable.html", "interface_prototipe_1_1_core_1_1_interfaces_1_1_i_interactable" ]
 ];

@@ -5,6 +5,7 @@ var annotated_dup =
         [ "Actions", "namespace_prototipe_1_1_core_1_1_actions.html", [
           [ "ActionChainer", "class_prototipe_1_1_core_1_1_actions_1_1_action_chainer.html", "class_prototipe_1_1_core_1_1_actions_1_1_action_chainer" ],
           [ "ConditionalAction", "class_prototipe_1_1_core_1_1_actions_1_1_conditional_action.html", "class_prototipe_1_1_core_1_1_actions_1_1_conditional_action" ],
+          [ "MoveAction", "class_prototipe_1_1_core_1_1_actions_1_1_move_action.html", "class_prototipe_1_1_core_1_1_actions_1_1_move_action" ],
           [ "MoveActionCorrutine", "class_prototipe_1_1_core_1_1_actions_1_1_move_action_corrutine.html", "class_prototipe_1_1_core_1_1_actions_1_1_move_action_corrutine" ],
           [ "MoveActionPlataformCorrutine", "class_prototipe_1_1_core_1_1_actions_1_1_move_action_plataform_corrutine.html", "class_prototipe_1_1_core_1_1_actions_1_1_move_action_plataform_corrutine" ],
           [ "RotateAction", "class_prototipe_1_1_core_1_1_actions_1_1_rotate_action.html", "class_prototipe_1_1_core_1_1_actions_1_1_rotate_action" ]
@@ -20,8 +21,7 @@ var annotated_dup =
           [ "IActivatorReceiver", "interface_prototipe_1_1_core_1_1_interfaces_1_1_i_activator_receiver.html", "interface_prototipe_1_1_core_1_1_interfaces_1_1_i_activator_receiver" ],
           [ "IActor", "interface_prototipe_1_1_core_1_1_interfaces_1_1_i_actor.html", "interface_prototipe_1_1_core_1_1_interfaces_1_1_i_actor" ],
           [ "ICondition", "interface_prototipe_1_1_core_1_1_interfaces_1_1_i_condition.html", "interface_prototipe_1_1_core_1_1_interfaces_1_1_i_condition" ],
-          [ "IInteractable", "interface_prototipe_1_1_core_1_1_interfaces_1_1_i_interactable.html", "interface_prototipe_1_1_core_1_1_interfaces_1_1_i_interactable" ],
-          [ "MoveAction", "class_prototipe_1_1_core_1_1_interfaces_1_1_move_action.html", "class_prototipe_1_1_core_1_1_interfaces_1_1_move_action" ]
+          [ "IInteractable", "interface_prototipe_1_1_core_1_1_interfaces_1_1_i_interactable.html", "interface_prototipe_1_1_core_1_1_interfaces_1_1_i_interactable" ]
         ] ]
       ] ]
     ] ],
