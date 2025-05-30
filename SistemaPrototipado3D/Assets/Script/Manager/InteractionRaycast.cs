@@ -1,9 +1,21 @@
 using UnityEngine;
 
+/// <summary>
+/// Clase dedicada a la manipualación de RaycastInteractable.
+/// </summary>
 public class InteractionRaycast : MonoBehaviour
 {
+    /// <summary>
+    /// Referencia a RaycastInteractable.
+    /// </summary>
     RaycastInteractable raycastInteractable;
+    /// <summary>
+    /// Referencia a InteractableManager.
+    /// </summary>
     InteractableManager interactableManager;
+    /// <summary>
+    /// Booleano para hacer test de Raycast.
+    /// </summary>
     public bool testRay;
     private void Start()
     {

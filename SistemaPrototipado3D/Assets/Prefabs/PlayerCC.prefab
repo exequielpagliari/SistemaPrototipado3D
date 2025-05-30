@@ -199,6 +199,9 @@ GameObject:
   - component: {fileID: 2622923223729663308}
   - component: {fileID: 5769314502326178490}
   - component: {fileID: 4666121092079708420}
+  - component: {fileID: 6947017723664325505}
+  - component: {fileID: 4061192783725158922}
+  - component: {fileID: 8070817026995783169}
   m_Layer: 0
   m_Name: PlayerCC
   m_TagString: Player
@@ -367,6 +370,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87d646ac52261b242bd4a0449779fdfd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  interactionVolumen: {fileID: 6947017723664325505}
+  interactionRaycast: {fileID: 4061192783725158922}
+  raycastInteraction: 1
   UI: {fileID: 3462363040946960789}
   text: {fileID: 0}
 --- !u!114 &5769314502326178490
@@ -407,3 +413,47 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &6947017723664325505
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8516737819851993589}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41771c0e98ab7c74cbde561d16d61167, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactableManager: {fileID: 0}
+--- !u!114 &4061192783725158922
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8516737819851993589}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a5501b0cb59e5249838b39231c71b67, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  testRay: 1
+--- !u!114 &8070817026995783169
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8516737819851993589}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb282a50653f34d4f9d32490a160f6b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactableMask:
+    serializedVersion: 2
+    m_Bits: 128
+  CheckDistance: 2
+  mainCamera: {fileID: 0}
+  testRay: 1

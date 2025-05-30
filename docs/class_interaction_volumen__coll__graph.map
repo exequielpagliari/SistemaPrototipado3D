@@ -1,0 +1,14 @@
+<map id="InteractionVolumen" name="InteractionVolumen">
+<area shape="rect" id="Node000001" title="Clase dedicada a la manipualación de Triggers." alt="" coords="71,89,203,116"/>
+<area shape="rect" id="Node000003" href="$class_interactable_manager.html" title="Clase dedicada a la manipualación de Interactables." alt="" coords="208,188,348,215"/>
+<area shape="poly" id="edge5_Node000003_Node000001" title=" " alt="" coords="56,120,32,128,15,138,8,149,14,162,26,171,44,179,94,190,152,196,208,198,208,203,151,201,93,195,43,184,23,176,10,166,3,148,12,134,30,123,55,115"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="222,5,334,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="245,42,160,91,157,87,242,38"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="281,48,281,188,275,188,275,48"/>
+<area shape="rect" id="Node000005" href="$class_interaction_raycast.html" title="Clase dedicada a la manipualación de RaycastInteractable." alt="" coords="315,89,446,116"/>
+<area shape="poly" id="edge7_Node000005_Node000002" title=" " alt="" coords="307,39,367,87,363,91,304,44"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="193,189,158,179,136,166,130,154,128,140,130,116,136,117,133,140,135,152,140,162,161,174,194,184"/>
+<area shape="rect" id="Node000004" href="$interface_prototipe_1_1_core_1_1_interfaces_1_1_i_interactable.html" title="Interfaz dedicada a la interacción." alt="" coords="471,81,642,124"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="515,135,452,166,400,182,349,193,348,188,399,177,450,162,513,130"/>
+<area shape="poly" id="edge6_Node000003_Node000005" title=" " alt="" coords="358,129,293,190,289,186,355,125"/>
+</map>

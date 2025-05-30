@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['playerbuildlocation_0',['playerBuildLocation',['../class_player_buillder.html#ab26dda3c0189649bb7fc7994b67fe4c9',1,'PlayerBuillder']]],
-  ['playergo_1',['playerGO',['../class_player_buillder.html#a472185f23ee1a845c19992e7c68a106c',1,'PlayerBuillder']]]
+  ['openedposition_0',['openedPosition',['../class_prototipe_1_1_core_1_1_actions_1_1_move_action_corrutine.html#a8c89fe2af1d2ede9e86684d34302dc3d',1,'Prototipe.Core.Actions.MoveActionCorrutine.openedPosition'],['../class_prototipe_1_1_core_1_1_actions_1_1_move_action_plataform_corrutine.html#aa0d11316d45f83e4e268d46e2de03ea4',1,'Prototipe.Core.Actions.MoveActionPlataformCorrutine.openedPosition']]]
 ];

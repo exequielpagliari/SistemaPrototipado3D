@@ -2,7 +2,7 @@
 \hypertarget{class_interactable_manager}{}\label{class_interactable_manager}\index{InteractableManager@{InteractableManager}}
 
 
-Clase dedicada a la manipualación de IActivators en el Actor.  
+Clase dedicada a la manipualación de Interactables.  
 
 
 
@@ -20,15 +20,14 @@ Diagrama de colaboración de Interactable\+Manager\+:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
-\includegraphics[width=310pt]{class_interactable_manager__coll__graph}
+\includegraphics[width=350pt]{class_interactable_manager__coll__graph}
 \end{center}
 \end{figure}
 \doxysubsubsection*{Métodos públicos}
 \begin{DoxyCompactItemize}
 \item 
-\Hypertarget{class_interactable_manager_a67f74ae4a6c5c1aaf3e5d3ecb3cd59e8}\label{class_interactable_manager_a67f74ae4a6c5c1aaf3e5d3ecb3cd59e8} 
-void {\bfseries Register\+Interactable} (\mbox{\hyperlink{interface_prototipe_1_1_core_1_1_interfaces_1_1_i_interactable}{IInteractable}} interactable)
-\item 
+void \mbox{\hyperlink{class_interactable_manager_a67f74ae4a6c5c1aaf3e5d3ecb3cd59e8}{Register\+Interactable}} (\mbox{\hyperlink{interface_prototipe_1_1_core_1_1_interfaces_1_1_i_interactable}{IInteractable}} interactable)
+\begin{DoxyCompactList}\small\item\em Se subscribe como posible activador. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{class_interactable_manager_a1fb151458939efbdd85d623b72c74036}{Unregister\+Interactable}} (\mbox{\hyperlink{interface_prototipe_1_1_core_1_1_interfaces_1_1_i_interactable}{IInteractable}} interactable)
 \begin{DoxyCompactList}\small\item\em Se desubscribe como posible activador. \end{DoxyCompactList}\end{DoxyCompactItemize}
 \doxysubsubsection*{Atributos públicos}
@@ -36,7 +35,16 @@ void \mbox{\hyperlink{class_interactable_manager_a1fb151458939efbdd85d623b72c740
 \item 
 \Hypertarget{class_interactable_manager_a43a6c1f354e2351517a47ce07a6aa6d5}\label{class_interactable_manager_a43a6c1f354e2351517a47ce07a6aa6d5} 
 \mbox{\hyperlink{interface_prototipe_1_1_core_1_1_interfaces_1_1_i_interactable}{IInteractable}} {\bfseries current\+Interactable}
-\item 
+\begin{DoxyCompactList}\small\item\em Referencia de actual Interactable. \end{DoxyCompactList}\item 
+\Hypertarget{class_interactable_manager_a00de1a4194ba0edd3fbdb30e97dd89cc}\label{class_interactable_manager_a00de1a4194ba0edd3fbdb30e97dd89cc} 
+\mbox{\hyperlink{class_interaction_volumen}{Interaction\+Volumen}} {\bfseries interaction\+Volumen}
+\begin{DoxyCompactList}\small\item\em Referencia a Interactable\+Volumen. \end{DoxyCompactList}\item 
+\Hypertarget{class_interactable_manager_a424ebb1fe05baaec6bf06ee79c121c93}\label{class_interactable_manager_a424ebb1fe05baaec6bf06ee79c121c93} 
+\mbox{\hyperlink{class_interaction_raycast}{Interaction\+Raycast}} {\bfseries interaction\+Raycast}
+\begin{DoxyCompactList}\small\item\em Referencia a \doxylink{class_interaction_raycast}{Interaction\+Raycast}. \end{DoxyCompactList}\item 
+\Hypertarget{class_interactable_manager_ad6cb46ab3da9585efa153eff0dd4b153}\label{class_interactable_manager_ad6cb46ab3da9585efa153eff0dd4b153} 
+bool {\bfseries raycast\+Interaction}
+\begin{DoxyCompactList}\small\item\em Booleano para configurar interacción por Raycast. \end{DoxyCompactList}\item 
 \Hypertarget{class_interactable_manager_ac78ca66474d4c50593bed53ca76b6544}\label{class_interactable_manager_ac78ca66474d4c50593bed53ca76b6544} 
 Game\+Object {\bfseries UI}
 \begin{DoxyCompactList}\small\item\em UI dedicada a la representación de interacción. \end{DoxyCompactList}\item 
@@ -46,9 +54,24 @@ Text {\bfseries text}
 
 
 \doxysubsection{Descripción detallada}
-Clase dedicada a la manipualación de IActivators en el Actor. 
+Clase dedicada a la manipualación de Interactables. 
 
 \doxysubsection{Documentación de funciones miembro}
+\Hypertarget{class_interactable_manager_a67f74ae4a6c5c1aaf3e5d3ecb3cd59e8}\index{InteractableManager@{InteractableManager}!RegisterInteractable@{RegisterInteractable}}
+\index{RegisterInteractable@{RegisterInteractable}!InteractableManager@{InteractableManager}}
+\doxysubsubsection{\texorpdfstring{RegisterInteractable()}{RegisterInteractable()}}
+{\footnotesize\ttfamily \label{class_interactable_manager_a67f74ae4a6c5c1aaf3e5d3ecb3cd59e8} 
+void Interactable\+Manager.\+Register\+Interactable (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interface_prototipe_1_1_core_1_1_interfaces_1_1_i_interactable}{IInteractable}}}]{interactable}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Se subscribe como posible activador. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em interactable} & Un objeto del tipo Interactable a registrar.\\
+\hline
+\end{DoxyParams}
 \Hypertarget{class_interactable_manager_a1fb151458939efbdd85d623b72c74036}\index{InteractableManager@{InteractableManager}!UnregisterInteractable@{UnregisterInteractable}}
 \index{UnregisterInteractable@{UnregisterInteractable}!InteractableManager@{InteractableManager}}
 \doxysubsubsection{\texorpdfstring{UnregisterInteractable()}{UnregisterInteractable()}}

@@ -33,7 +33,7 @@ var NAVTREE =
       [ "Índice de clases", "classes.html", null ],
       [ "Jerarquía de clases", "hierarchy.html", "hierarchy" ],
       [ "Miembros de clases", "functions.html", [
-        [ "Todos", "functions.html", null ],
+        [ "Todos", "functions.html", "functions_dup" ],
         [ "Funciones", "functions_func.html", null ],
         [ "Variables", "functions_vars.html", null ],
         [ "Enumeraciones", "functions_enum.html", null ],
@@ -46,7 +46,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"class_runtime_inspector_namespace_1_1_hierarchy_data_transform.html"
+"class_runtime_inspector_namespace_1_1_color_picker_alpha_slider.html"
 ];
 
 var SYNCONMSG = 'pulsar para deshabilitar sincronización';

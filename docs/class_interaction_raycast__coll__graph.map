@@ -1,0 +1,5 @@
+<map id="InteractionRaycast" name="InteractionRaycast">
+<area shape="rect" id="Node000001" title="Clase dedicada a la manipualación de RaycastInteractable." alt="" coords="5,80,137,107"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="15,5,127,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="74,48,74,80,68,80,68,48"/>
+</map>
