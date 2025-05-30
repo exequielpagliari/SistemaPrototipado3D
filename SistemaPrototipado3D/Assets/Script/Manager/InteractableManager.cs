@@ -8,6 +8,19 @@ using Prototipe.Core.Interfaces;
 public class InteractableManager : MonoBehaviour
 {
     public IInteractable currentInteractable;
+    public InteractionVolumen interactionVolumen;
+    public InteractionRaycast interactionRaycast;
+    public bool raycastInteraction;
+
+
+
+    private void Start()
+    {
+        interactionRaycast.GetComponent<InteractionRaycast>();
+        interactionVolumen.GetComponent<InteractionVolumen>();
+        
+    }
+
     /// <summary>
     /// UI dedicada a la representación de interacción.
     /// </summary>
@@ -59,19 +72,5 @@ public class InteractableManager : MonoBehaviour
     }
 
 
-    private void OnTriggerEnter(Collider other)
-    {
-        if (other.TryGetComponent<IInteractable>(out var interactable))
-        {
-            RegisterInteractable(interactable);
-        }
-    }
 
-    private void OnTriggerExit(Collider other)
-    {
-        if (other.TryGetComponent<IInteractable>(out var interactable))
-        {
-            UnregisterInteractable(interactable);
-        }
-    }
 }
