@@ -1,0 +1,141 @@
+\doxysection{Referencia de la clase Runtime\+Inspector\+Namespace.\+Texture\+Reference\+Field}
+\hypertarget{class_runtime_inspector_namespace_1_1_texture_reference_field}{}\label{class_runtime_inspector_namespace_1_1_texture_reference_field}\index{RuntimeInspectorNamespace.TextureReferenceField@{RuntimeInspectorNamespace.TextureReferenceField}}
+
+
+Diagrama de herencia de Runtime\+Inspector\+Namespace.\+Texture\+Reference\+Field
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_runtime_inspector_namespace_1_1_texture_reference_field__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Diagrama de colaboración de Runtime\+Inspector\+Namespace.\+Texture\+Reference\+Field\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_runtime_inspector_namespace_1_1_texture_reference_field__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Métodos públicos}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_runtime_inspector_namespace_1_1_texture_reference_field_a58239fdde2fc7e0bd6469079ee04e89c}\label{class_runtime_inspector_namespace_1_1_texture_reference_field_a58239fdde2fc7e0bd6469079ee04e89c} 
+override bool {\bfseries Supports\+Type} (Type type)
+\end{DoxyCompactItemize}
+\doxysubsection*{Métodos públicos heredados de \mbox{\hyperlink{class_runtime_inspector_namespace_1_1_object_reference_field}{Runtime\+Inspector\+Namespace.\+Object\+Reference\+Field}}}
+\begin{DoxyCompactItemize}
+\item 
+override void \mbox{\hyperlink{class_runtime_inspector_namespace_1_1_object_reference_field_a815da52ce0f2900b21e40ba32e753b2d}{Initialize}} ()
+\item 
+override bool {\bfseries Supports\+Type} (Type type)
+\item 
+void {\bfseries On\+Drop} (Pointer\+Event\+Data event\+Data)
+\item 
+override void \mbox{\hyperlink{class_runtime_inspector_namespace_1_1_object_reference_field_a7e7cdadfbd1332caec461b58fc639014}{Refresh}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Métodos públicos heredados de \mbox{\hyperlink{class_runtime_inspector_namespace_1_1_inspector_field}{Runtime\+Inspector\+Namespace.\+Inspector\+Field}}}
+\begin{DoxyCompactItemize}
+\item 
+delegate object {\bfseries Getter} ()
+\item 
+delegate void {\bfseries Setter} (object value)
+\item 
+bool {\bfseries Supports\+Type} (Type type)
+\item 
+virtual bool {\bfseries Can\+Bind\+To} (Type type, Member\+Info variable)
+\item 
+void {\bfseries Bind\+To} (\mbox{\hyperlink{class_runtime_inspector_namespace_1_1_inspector_field}{Inspector\+Field}} parent, Member\+Info variable, string variable\+Name=null)
+\item 
+void {\bfseries Bind\+To} (Type variable\+Type, string variable\+Name, Getter getter, Setter setter, Member\+Info variable=null)
+\item 
+void {\bfseries Unbind} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Métodos protegidos}
+\begin{DoxyCompactItemize}
+\item 
+override void \mbox{\hyperlink{class_runtime_inspector_namespace_1_1_texture_reference_field_aae6b5dc01131c281f369bac726c877bb}{On\+Reference\+Changed}} (Object reference)
+\end{DoxyCompactItemize}
+\doxysubsection*{Métodos protegidos heredados de \mbox{\hyperlink{class_runtime_inspector_namespace_1_1_object_reference_field}{Runtime\+Inspector\+Namespace.\+Object\+Reference\+Field}}}
+\begin{DoxyCompactItemize}
+\item 
+override void \mbox{\hyperlink{class_runtime_inspector_namespace_1_1_object_reference_field_ae6829b56ac15cd78a0b0fed0e2be3332}{On\+Bound}} (Member\+Info variable)
+\item 
+override void \mbox{\hyperlink{class_runtime_inspector_namespace_1_1_object_reference_field_a2b4a3b7a92a0fb22474d76dcacb11283}{On\+Skin\+Changed}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Métodos protegidos heredados de \mbox{\hyperlink{class_runtime_inspector_namespace_1_1_inspector_field}{Runtime\+Inspector\+Namespace.\+Inspector\+Field}}}
+\begin{DoxyCompactItemize}
+\item 
+virtual void {\bfseries On\+Unbound} ()
+\item 
+virtual void {\bfseries On\+Inspector\+Changed} ()
+\item 
+virtual void {\bfseries On\+Depth\+Changed} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Propiedades}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_runtime_inspector_namespace_1_1_texture_reference_field_ae794b8a170cb33adb8716cfdd3af0b8f}\label{class_runtime_inspector_namespace_1_1_texture_reference_field_ae794b8a170cb33adb8716cfdd3af0b8f} 
+override float {\bfseries Height\+Multiplier}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Propiedades heredados de \mbox{\hyperlink{class_runtime_inspector_namespace_1_1_inspector_field}{Runtime\+Inspector\+Namespace.\+Inspector\+Field}}}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_runtime_inspector_namespace_1_1_runtime_inspector}{Runtime\+Inspector}} {\bfseries Inspector}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+\mbox{\hyperlink{class_runtime_inspector_namespace_1_1_u_i_skin}{UISkin}} {\bfseries Skin}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+Type {\bfseries Bound\+Variable\+Type}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+object {\bfseries Value}\hspace{0.3cm}{\ttfamily  \mbox{[}get, protected set\mbox{]}}
+\item 
+int {\bfseries Depth}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+bool {\bfseries Is\+Visible}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+string {\bfseries Name}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+string {\bfseries Name\+Raw}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+virtual bool {\bfseries Should\+Refresh}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+virtual float {\bfseries Height\+Multiplier}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Otros miembros heredados}
+\doxysubsection*{Atributos protegidos heredados de \mbox{\hyperlink{class_runtime_inspector_namespace_1_1_object_reference_field}{Runtime\+Inspector\+Namespace.\+Object\+Reference\+Field}}}
+\begin{DoxyCompactItemize}
+\item 
+Image {\bfseries background}
+\item 
+Text {\bfseries reference\+Name\+Text}
+\end{DoxyCompactItemize}
+\doxysubsection*{Atributos protegidos heredados de \mbox{\hyperlink{class_runtime_inspector_namespace_1_1_inspector_field}{Runtime\+Inspector\+Namespace.\+Inspector\+Field}}}
+\begin{DoxyCompactItemize}
+\item 
+Layout\+Element {\bfseries layout\+Element}
+\item 
+Text {\bfseries variable\+Name\+Text}
+\item 
+Image {\bfseries variable\+Name\+Mask}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Documentación de funciones miembro}
+\Hypertarget{class_runtime_inspector_namespace_1_1_texture_reference_field_aae6b5dc01131c281f369bac726c877bb}\index{RuntimeInspectorNamespace.TextureReferenceField@{RuntimeInspectorNamespace.TextureReferenceField}!OnReferenceChanged@{OnReferenceChanged}}
+\index{OnReferenceChanged@{OnReferenceChanged}!RuntimeInspectorNamespace.TextureReferenceField@{RuntimeInspectorNamespace.TextureReferenceField}}
+\doxysubsubsection{\texorpdfstring{OnReferenceChanged()}{OnReferenceChanged()}}
+{\footnotesize\ttfamily \label{class_runtime_inspector_namespace_1_1_texture_reference_field_aae6b5dc01131c281f369bac726c877bb} 
+override void Runtime\+Inspector\+Namespace.\+Texture\+Reference\+Field.\+On\+Reference\+Changed (\begin{DoxyParamCaption}\item[{Object}]{reference}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+Reimplementado de \mbox{\hyperlink{class_runtime_inspector_namespace_1_1_object_reference_field}{Runtime\+Inspector\+Namespace.\+Object\+Reference\+Field}}.
+
+
+
+La documentación de esta clase está generada del siguiente archivo\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/exepa/source/repos/\+Sistema\+Prototipado3\+D/\+Sistema\+Prototipado3\+D/\+Assets/\+Plugins/\+Runtime\+Inspector/\+Scripts/\+Runtime\+Inspector/\+Fields/Texture\+Reference\+Field.\+cs\end{DoxyCompactItemize}

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['axis_0',['Axis',['../class_rotate_action.html#a16e3367c77683f0375f089c155f1f152',1,'RotateAction']]]
+  ['axis_0',['Axis',['../class_prototipe_1_1_core_1_1_actions_1_1_rotate_action.html#a7ab747422c2e9fd00aa43412405a197b',1,'Prototipe::Core::Actions::RotateAction']]]
 ];

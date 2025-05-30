@@ -1,0 +1,7 @@
+<map id="Prototipe.Core.Interfaces.IInteractable" name="Prototipe.Core.Interfaces.IInteractable">
+<area shape="rect" id="Node000001" title="Interfaz dedicada a la interacción." alt="" coords="5,39,177,81"/>
+<area shape="rect" id="Node000002" href="$class_prototipe_1_1_core_1_1_activators_1_1_volumen_auto_interactable.html" title="Clase dedicada a la emisión de un evento cuando una interfaz IActivator ejecuta Activate." alt="" coords="225,5,397,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="192,42,224,37,224,42,192,47"/>
+<area shape="rect" id="Node000003" href="$class_prototipe_1_1_core_1_1_activators_1_1_volumen_interactable.html" title="Clase dedicada a la emisión de un evento cuando una interfaz IActivator ejecuta Activate." alt="" coords="225,72,397,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="192,73,224,78,224,83,192,78"/>
+</map>

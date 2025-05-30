@@ -1,7 +1,7 @@
 <map id="PlayerActor" name="PlayerActor">
-<area shape="rect" id="Node000001" title="Implementación IActor para Player." alt="" coords="70,80,159,107"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,117,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="81,43,107,78,103,81,77,46"/>
-<area shape="rect" id="Node000003" href="$interface_i_actor.html" title="Interfaz dedicada a la interacción con Actores." alt="" coords="141,5,197,32"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="152,46,126,81,122,78,148,43"/>
+<area shape="rect" id="Node000001" title="Implementación IActor para Player." alt="" coords="99,96,188,123"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,13,117,40"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="86,49,133,94,129,98,83,53"/>
+<area shape="rect" id="Node000003" href="$interface_prototipe_1_1_core_1_1_interfaces_1_1_i_actor.html" title="Interfaz dedicada a la interacción con Actores." alt="" coords="141,5,312,48"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="196,61,158,97,155,94,192,57"/>
 </map>

@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['delaybetweenactions_0',['delayBetweenActions',['../class_action_chainer.html#aa9d864c3e2c8d34fdcb6a3cea0188582',1,'ActionChainer']]],
-  ['doortransform_1',['doorTransform',['../class_move_action_corrutine.html#a49bd9ea92828c38725893dcb9d60a4ab',1,'MoveActionCorrutine.doorTransform'],['../class_move_action_plataform_corrutine.html#af6b9b1d6eb7b39ce244457bdbe4e24f4',1,'MoveActionPlataformCorrutine.doorTransform']]],
-  ['duration_2',['duration',['../class_rotate_action.html#aa02de4e43e3e368f49ecbea7f219c5bd',1,'RotateAction']]]
+  ['delaybetweenactions_0',['delayBetweenActions',['../class_prototipe_1_1_core_1_1_actions_1_1_action_chainer.html#a8835b1ed3e1c0b06d7ed7d722316ca56',1,'Prototipe::Core::Actions::ActionChainer']]],
+  ['doortransform_1',['doorTransform',['../class_prototipe_1_1_core_1_1_actions_1_1_move_action_corrutine.html#a0d06f79ff9b39c6fa0f7dc2a5002dda6',1,'Prototipe.Core.Actions.MoveActionCorrutine.doorTransform'],['../class_prototipe_1_1_core_1_1_actions_1_1_move_action_plataform_corrutine.html#a73f7244845b8d3c4d8a33868feda8b08',1,'Prototipe.Core.Actions.MoveActionPlataformCorrutine.doorTransform']]],
+  ['duration_2',['duration',['../class_prototipe_1_1_core_1_1_actions_1_1_rotate_action.html#aac1bac88a4fe5093feae1f46d1cc1954',1,'Prototipe::Core::Actions::RotateAction']]]
 ];

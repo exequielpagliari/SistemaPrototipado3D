@@ -1,8 +1,8 @@
 var searchData=
 [
-  ['action_0',['action',['../class_move_action_corrutine.html#a7dcc0a075226a129a31e576c0488d4e4',1,'MoveActionCorrutine.action'],['../class_move_action_plataform_corrutine.html#af3f129a361ef2e97d867cd8bed0ca002',1,'MoveActionPlataformCorrutine.action']]],
-  ['actioncomponent_1',['actionComponent',['../class_conditional_action.html#a4795cf3d72db42c54276192406c5f353',1,'ConditionalAction']]],
-  ['actions_2',['actions',['../class_action_chainer.html#a0953da5a5fe8fc8caeaeb686e4447b87',1,'ActionChainer.actions'],['../class_event_receiver_by_i_d.html#a5e08bc8202caac6b5f4faed196fe18e6',1,'EventReceiverByID.actions']]],
-  ['actionstring_3',['actionString',['../class_volumen_auto_interactable.html#a80d9631c5c6f24f5328d070e7835c710',1,'VolumenAutoInteractable.actionString'],['../class_volumen_interactable.html#a223191265a6f8adcc5d8b9172dd91f88',1,'VolumenInteractable.actionString']]],
-  ['angle_4',['angle',['../class_rotate_action.html#ad9fe1594fe09308e2546206477e09f38',1,'RotateAction']]]
+  ['action_0',['action',['../class_prototipe_1_1_core_1_1_actions_1_1_move_action_corrutine.html#af26f3f88b4ba09355dca55618fd8e74d',1,'Prototipe.Core.Actions.MoveActionCorrutine.action'],['../class_prototipe_1_1_core_1_1_actions_1_1_move_action_plataform_corrutine.html#afdeb398fdac495617e8bdb54a85b2444',1,'Prototipe.Core.Actions.MoveActionPlataformCorrutine.action']]],
+  ['actioncomponent_1',['actionComponent',['../class_prototipe_1_1_core_1_1_actions_1_1_conditional_action.html#a349497ab4a45285afcf8897536d5b4d9',1,'Prototipe::Core::Actions::ConditionalAction']]],
+  ['actions_2',['actions',['../class_prototipe_1_1_core_1_1_actions_1_1_action_chainer.html#a0ffdadedde0f1596402d664126db0393',1,'Prototipe.Core.Actions.ActionChainer.actions'],['../class_event_receiver_by_i_d.html#a5e08bc8202caac6b5f4faed196fe18e6',1,'EventReceiverByID.actions']]],
+  ['actionstring_3',['actionString',['../class_prototipe_1_1_core_1_1_activators_1_1_volumen_auto_interactable.html#a476da83d2a8acc058fd325ca70202dd7',1,'Prototipe.Core.Activators.VolumenAutoInteractable.actionString'],['../class_prototipe_1_1_core_1_1_activators_1_1_volumen_interactable.html#a0496e0f4c1dc6c09d497cc191d4271ea',1,'Prototipe.Core.Activators.VolumenInteractable.actionString']]],
+  ['angle_4',['angle',['../class_prototipe_1_1_core_1_1_actions_1_1_rotate_action.html#a6397e94c3261eee474ca6a490bb11b15',1,'Prototipe::Core::Actions::RotateAction']]]
 ];

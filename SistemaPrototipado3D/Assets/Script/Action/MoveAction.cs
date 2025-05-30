@@ -1,7 +1,7 @@
 using UnityEngine;
 using Prototipe.Core.Interfaces;
 
-namespace Prototipe.Core.Interfaces
+namespace Prototipe.Core.Actions
 {
     /// <summary>
     /// Clase dedicada a generar un desplazamiento por medio de la Interfaz IAction.

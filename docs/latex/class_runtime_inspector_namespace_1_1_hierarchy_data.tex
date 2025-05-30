@@ -1,0 +1,123 @@
+\doxysection{Referencia de la clase Runtime\+Inspector\+Namespace.\+Hierarchy\+Data}
+\hypertarget{class_runtime_inspector_namespace_1_1_hierarchy_data}{}\label{class_runtime_inspector_namespace_1_1_hierarchy_data}\index{RuntimeInspectorNamespace.HierarchyData@{RuntimeInspectorNamespace.HierarchyData}}
+
+
+Diagrama de herencia de Runtime\+Inspector\+Namespace.\+Hierarchy\+Data
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_runtime_inspector_namespace_1_1_hierarchy_data__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Diagrama de colaboración de Runtime\+Inspector\+Namespace.\+Hierarchy\+Data\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=277pt]{class_runtime_inspector_namespace_1_1_hierarchy_data__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Métodos públicos}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_runtime_inspector_namespace_1_1_hierarchy_data_a4f2f2fe7ffeda83fcbcd40a9d3ac86e7}\label{class_runtime_inspector_namespace_1_1_hierarchy_data_a4f2f2fe7ffeda83fcbcd40a9d3ac86e7} 
+virtual bool {\bfseries Refresh} ()
+\item 
+\Hypertarget{class_runtime_inspector_namespace_1_1_hierarchy_data_ab284445ddb90f8de161fae68258ee4fa}\label{class_runtime_inspector_namespace_1_1_hierarchy_data_ab284445ddb90f8de161fae68258ee4fa} 
+\mbox{\hyperlink{class_runtime_inspector_namespace_1_1_hierarchy_data}{Hierarchy\+Data}} {\bfseries Find\+Data\+At\+Index} (int index)
+\item 
+\Hypertarget{class_runtime_inspector_namespace_1_1_hierarchy_data_a0f05201f84bd407f3e45ee255873c114}\label{class_runtime_inspector_namespace_1_1_hierarchy_data_a0f05201f84bd407f3e45ee255873c114} 
+\mbox{\hyperlink{class_runtime_inspector_namespace_1_1_hierarchy_data_transform}{Hierarchy\+Data\+Transform}} {\bfseries Find\+Transform} (Transform target, Transform next\+In\+Path=null)
+\item 
+\Hypertarget{class_runtime_inspector_namespace_1_1_hierarchy_data_aa45eaa5659f3c7b7f4afcd9c3a109817}\label{class_runtime_inspector_namespace_1_1_hierarchy_data_aa45eaa5659f3c7b7f4afcd9c3a109817} 
+virtual \mbox{\hyperlink{class_runtime_inspector_namespace_1_1_hierarchy_data_transform}{Hierarchy\+Data\+Transform}} {\bfseries Find\+Transform\+In\+Visible\+Children} (Transform target, int target\+Depth=-\/1)
+\item 
+\Hypertarget{class_runtime_inspector_namespace_1_1_hierarchy_data_a519c72c29cd73a8ad0f8c3b291ac7002}\label{class_runtime_inspector_namespace_1_1_hierarchy_data_a519c72c29cd73a8ad0f8c3b291ac7002} 
+Transform {\bfseries Get\+Child} (int index)
+\item 
+\Hypertarget{class_runtime_inspector_namespace_1_1_hierarchy_data_a863c8d21c2238ddd25350d900781837f}\label{class_runtime_inspector_namespace_1_1_hierarchy_data_a863c8d21c2238ddd25350d900781837f} 
+int {\bfseries Index\+Of} (Transform transform)
+\item 
+\Hypertarget{class_runtime_inspector_namespace_1_1_hierarchy_data_ae0cb70671a67df7c0d1761308f6add0a}\label{class_runtime_inspector_namespace_1_1_hierarchy_data_ae0cb70671a67df7c0d1761308f6add0a} 
+void {\bfseries Get\+Sibling\+Index\+Traversal\+List} (List$<$ int $>$ traversal\+List)
+\item 
+\Hypertarget{class_runtime_inspector_namespace_1_1_hierarchy_data_a05eadb87d268361edc01ac4ec99cdc93}\label{class_runtime_inspector_namespace_1_1_hierarchy_data_a05eadb87d268361edc01ac4ec99cdc93} 
+\mbox{\hyperlink{class_runtime_inspector_namespace_1_1_hierarchy_data}{Hierarchy\+Data}} {\bfseries Traverse\+Sibling\+Index\+List} (List$<$ int $>$ traversal\+List)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Métodos públicos estáticos}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_runtime_inspector_namespace_1_1_hierarchy_data_a436894d9a167e3a2ab150dc7d5c04b9a}\label{class_runtime_inspector_namespace_1_1_hierarchy_data_a436894d9a167e3a2ab150dc7d5c04b9a} 
+static void {\bfseries Clear\+Pool} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Métodos protegidos}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_runtime_inspector_namespace_1_1_hierarchy_data_a1cd9cab408628689ff8efde1e63b8cd9}\label{class_runtime_inspector_namespace_1_1_hierarchy_data_a1cd9cab408628689ff8efde1e63b8cd9} 
+void {\bfseries Pool\+Children\+List} ()
+\item 
+\Hypertarget{class_runtime_inspector_namespace_1_1_hierarchy_data_ab63243f7b0ba69367396522764ebc63c}\label{class_runtime_inspector_namespace_1_1_hierarchy_data_ab63243f7b0ba69367396522764ebc63c} 
+void {\bfseries Pop\+Children\+List} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Atributos protegidos}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_runtime_inspector_namespace_1_1_hierarchy_data_a1f22e7c1ac6b916782c12ae2e80376d5}\label{class_runtime_inspector_namespace_1_1_hierarchy_data_a1f22e7c1ac6b916782c12ae2e80376d5} 
+List$<$ \mbox{\hyperlink{class_runtime_inspector_namespace_1_1_hierarchy_data_transform}{Hierarchy\+Data\+Transform}} $>$ {\bfseries children}
+\item 
+\Hypertarget{class_runtime_inspector_namespace_1_1_hierarchy_data_a9b2ff9685b310090dea8bbbd32a038c1}\label{class_runtime_inspector_namespace_1_1_hierarchy_data_a9b2ff9685b310090dea8bbbd32a038c1} 
+\mbox{\hyperlink{class_runtime_inspector_namespace_1_1_hierarchy_data}{Hierarchy\+Data}} {\bfseries parent}
+\item 
+\Hypertarget{class_runtime_inspector_namespace_1_1_hierarchy_data_ab54043372813b10a5849ae17fd266edb}\label{class_runtime_inspector_namespace_1_1_hierarchy_data_ab54043372813b10a5849ae17fd266edb} 
+int {\bfseries m\+\_\+index}
+\item 
+\Hypertarget{class_runtime_inspector_namespace_1_1_hierarchy_data_af2a9fc202a331abdc8c7e1913d1fc25b}\label{class_runtime_inspector_namespace_1_1_hierarchy_data_af2a9fc202a331abdc8c7e1913d1fc25b} 
+int {\bfseries m\+\_\+height} = 1
+\item 
+\Hypertarget{class_runtime_inspector_namespace_1_1_hierarchy_data_a6f19c210f7fe2f47f55ee6138a518f7e}\label{class_runtime_inspector_namespace_1_1_hierarchy_data_a6f19c210f7fe2f47f55ee6138a518f7e} 
+int {\bfseries m\+\_\+depth}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Propiedades}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_runtime_inspector_namespace_1_1_hierarchy_data_a7878733abfb32428148b0a462fb3d7f2}\label{class_runtime_inspector_namespace_1_1_hierarchy_data_a7878733abfb32428148b0a462fb3d7f2} 
+string {\bfseries Name}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+\Hypertarget{class_runtime_inspector_namespace_1_1_hierarchy_data_a0454d4ca58859930a49d123d47a60c15}\label{class_runtime_inspector_namespace_1_1_hierarchy_data_a0454d4ca58859930a49d123d47a60c15} 
+bool {\bfseries Is\+Active}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+\Hypertarget{class_runtime_inspector_namespace_1_1_hierarchy_data_af2d47e370798dd61b7112bfcb06ef1c0}\label{class_runtime_inspector_namespace_1_1_hierarchy_data_af2d47e370798dd61b7112bfcb06ef1c0} 
+int {\bfseries Child\+Count}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+\Hypertarget{class_runtime_inspector_namespace_1_1_hierarchy_data_a5ffdd5be3eda283b3f08e9618b02f456}\label{class_runtime_inspector_namespace_1_1_hierarchy_data_a5ffdd5be3eda283b3f08e9618b02f456} 
+Transform {\bfseries Bound\+Transform}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+\Hypertarget{class_runtime_inspector_namespace_1_1_hierarchy_data_a51be77118aa734127c69242096e3d8c8}\label{class_runtime_inspector_namespace_1_1_hierarchy_data_a51be77118aa734127c69242096e3d8c8} 
+\mbox{\hyperlink{class_runtime_inspector_namespace_1_1_hierarchy_data_root}{Hierarchy\+Data\+Root}} {\bfseries Root}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+\Hypertarget{class_runtime_inspector_namespace_1_1_hierarchy_data_aa863a52b9b804272775c8b320d588ca6}\label{class_runtime_inspector_namespace_1_1_hierarchy_data_aa863a52b9b804272775c8b320d588ca6} 
+int {\bfseries Index}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+\Hypertarget{class_runtime_inspector_namespace_1_1_hierarchy_data_a47f6f13fa9f2430095cbbb07b5b54aab}\label{class_runtime_inspector_namespace_1_1_hierarchy_data_a47f6f13fa9f2430095cbbb07b5b54aab} 
+int {\bfseries Absolute\+Index}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+\Hypertarget{class_runtime_inspector_namespace_1_1_hierarchy_data_acf5f5b3b61d6d172e5d8681c91d66347}\label{class_runtime_inspector_namespace_1_1_hierarchy_data_acf5f5b3b61d6d172e5d8681c91d66347} 
+int {\bfseries Height}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+\Hypertarget{class_runtime_inspector_namespace_1_1_hierarchy_data_a0905c72f1f9542e5926c7bfc8f64262b}\label{class_runtime_inspector_namespace_1_1_hierarchy_data_a0905c72f1f9542e5926c7bfc8f64262b} 
+int {\bfseries Depth}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+\Hypertarget{class_runtime_inspector_namespace_1_1_hierarchy_data_a1b7514b3a979d2e5b1cfd1c75a70af4a}\label{class_runtime_inspector_namespace_1_1_hierarchy_data_a1b7514b3a979d2e5b1cfd1c75a70af4a} 
+bool {\bfseries Can\+Expand}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+\Hypertarget{class_runtime_inspector_namespace_1_1_hierarchy_data_ad74e855cffaa8a4d72e2d2880bd7cbb8}\label{class_runtime_inspector_namespace_1_1_hierarchy_data_ad74e855cffaa8a4d72e2d2880bd7cbb8} 
+bool {\bfseries Is\+Expanded}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\end{DoxyCompactItemize}
+
+
+La documentación de esta clase está generada del siguiente archivo\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/exepa/source/repos/\+Sistema\+Prototipado3\+D/\+Sistema\+Prototipado3\+D/\+Assets/\+Plugins/\+Runtime\+Inspector/\+Scripts/\+Runtime\+Hierarchy/Hierarchy\+Data.\+cs\end{DoxyCompactItemize}

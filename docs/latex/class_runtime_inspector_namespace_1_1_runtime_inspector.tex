@@ -1,0 +1,198 @@
+\doxysection{Referencia de la clase Runtime\+Inspector\+Namespace.\+Runtime\+Inspector}
+\hypertarget{class_runtime_inspector_namespace_1_1_runtime_inspector}{}\label{class_runtime_inspector_namespace_1_1_runtime_inspector}\index{RuntimeInspectorNamespace.RuntimeInspector@{RuntimeInspectorNamespace.RuntimeInspector}}
+
+
+Diagrama de herencia de Runtime\+Inspector\+Namespace.\+Runtime\+Inspector
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_runtime_inspector_namespace_1_1_runtime_inspector__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Diagrama de colaboración de Runtime\+Inspector\+Namespace.\+Runtime\+Inspector\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_runtime_inspector_namespace_1_1_runtime_inspector__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Tipos públicos}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_runtime_inspector_namespace_1_1_runtime_inspector_a46e741f618dbad80b1dae8fa988c0e6a}\label{class_runtime_inspector_namespace_1_1_runtime_inspector_a46e741f618dbad80b1dae8fa988c0e6a} 
+enum {\bfseries Variable\+Visibility} \{ {\bfseries None} = 0
+, {\bfseries Serializable\+Only} = 1
+, {\bfseries All} = 2
+ \}
+\item 
+\Hypertarget{class_runtime_inspector_namespace_1_1_runtime_inspector_af202465665415e55b74d375c3129bd43}\label{class_runtime_inspector_namespace_1_1_runtime_inspector_af202465665415e55b74d375c3129bd43} 
+enum {\bfseries Header\+Visibility} \{ {\bfseries Collapsible} = 0
+, {\bfseries Always\+Visible} = 1
+, {\bfseries Hidden} = 2
+ \}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Métodos públicos}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_runtime_inspector_namespace_1_1_runtime_inspector_a9dc591ed18840c9ca6e6799c9f1a4c16}\label{class_runtime_inspector_namespace_1_1_runtime_inspector_a9dc591ed18840c9ca6e6799c9f1a4c16} 
+delegate object {\bfseries Inspected\+Object\+Changing\+Delegate} (object previous\+Inspected\+Object, object new\+Inspected\+Object)
+\item 
+\Hypertarget{class_runtime_inspector_namespace_1_1_runtime_inspector_ac9ddd65c6f53f8a7648d740eb8cde7af}\label{class_runtime_inspector_namespace_1_1_runtime_inspector_ac9ddd65c6f53f8a7648d740eb8cde7af} 
+delegate void {\bfseries Component\+Filter\+Delegate} (Game\+Object game\+Object, List$<$ Component $>$ components)
+\item 
+\Hypertarget{class_runtime_inspector_namespace_1_1_runtime_inspector_a8c730ba378d846c701294585a6a48488}\label{class_runtime_inspector_namespace_1_1_runtime_inspector_a8c730ba378d846c701294585a6a48488} 
+void {\bfseries Refresh} ()
+\item 
+\Hypertarget{class_runtime_inspector_namespace_1_1_runtime_inspector_a5dc566ec3e15aed810645b88055a364a}\label{class_runtime_inspector_namespace_1_1_runtime_inspector_a5dc566ec3e15aed810645b88055a364a} 
+void {\bfseries Refresh\+Delayed} ()
+\item 
+\Hypertarget{class_runtime_inspector_namespace_1_1_runtime_inspector_a07e121a561a3815e5571fe073b2de1b3}\label{class_runtime_inspector_namespace_1_1_runtime_inspector_a07e121a561a3815e5571fe073b2de1b3} 
+void {\bfseries Inspect} (object obj)
+\item 
+\Hypertarget{class_runtime_inspector_namespace_1_1_runtime_inspector_ad1a22c8e5a3ac591ee79fa780040a2c4}\label{class_runtime_inspector_namespace_1_1_runtime_inspector_ad1a22c8e5a3ac591ee79fa780040a2c4} 
+void {\bfseries Stop\+Inspect} ()
+\item 
+\Hypertarget{class_runtime_inspector_namespace_1_1_runtime_inspector_a405eec224d2f1f790daa90624ee87f50}\label{class_runtime_inspector_namespace_1_1_runtime_inspector_a405eec224d2f1f790daa90624ee87f50} 
+\mbox{\hyperlink{class_runtime_inspector_namespace_1_1_inspector_field}{Inspector\+Field}} {\bfseries Create\+Drawer\+For\+Type} (Type type, Transform drawer\+Parent, int depth, bool draw\+Objects\+As\+Fields=true, Member\+Info variable=null)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Atributos públicos}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_runtime_inspector_namespace_1_1_runtime_inspector_a81565cf0bcf0d284db57f4858b672304}\label{class_runtime_inspector_namespace_1_1_runtime_inspector_a81565cf0bcf0d284db57f4858b672304} 
+Inspected\+Object\+Changing\+Delegate {\bfseries On\+Inspected\+Object\+Changing}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Métodos protegidos}
+\begin{DoxyCompactItemize}
+\item 
+override void \mbox{\hyperlink{class_runtime_inspector_namespace_1_1_runtime_inspector_a8800181ba47474ac76eb3b0b154f81df}{Awake}} ()
+\item 
+override void \mbox{\hyperlink{class_runtime_inspector_namespace_1_1_runtime_inspector_adfc8c51f3b366f3d9772fa623b924a23}{Update}} ()
+\item 
+\Hypertarget{class_runtime_inspector_namespace_1_1_runtime_inspector_a100b10a044bf0b573eea0f6dd5a366c9}\label{class_runtime_inspector_namespace_1_1_runtime_inspector_a100b10a044bf0b573eea0f6dd5a366c9} 
+override void {\bfseries Refresh\+Skin} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Métodos protegidos heredados de \mbox{\hyperlink{class_runtime_inspector_namespace_1_1_skinned_window}{Runtime\+Inspector\+Namespace.\+Skinned\+Window}}}
+\begin{DoxyCompactItemize}
+\item 
+void {\bfseries Refresh\+Skin} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Propiedades}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_runtime_inspector_namespace_1_1_runtime_inspector_a5762f166e833903070e72c7471a380bf}\label{class_runtime_inspector_namespace_1_1_runtime_inspector_a5762f166e833903070e72c7471a380bf} 
+float {\bfseries Refresh\+Interval}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+\Hypertarget{class_runtime_inspector_namespace_1_1_runtime_inspector_a2dd8afe0a1d7d4f86b861ab1be431bbc}\label{class_runtime_inspector_namespace_1_1_runtime_inspector_a2dd8afe0a1d7d4f86b861ab1be431bbc} 
+Variable\+Visibility {\bfseries Expose\+Fields}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+\Hypertarget{class_runtime_inspector_namespace_1_1_runtime_inspector_a1fd6b499594a8f5ccbdab211a250239c}\label{class_runtime_inspector_namespace_1_1_runtime_inspector_a1fd6b499594a8f5ccbdab211a250239c} 
+Variable\+Visibility {\bfseries Expose\+Properties}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+\Hypertarget{class_runtime_inspector_namespace_1_1_runtime_inspector_a38a610dcd4c511a6da33dfd6612d9096}\label{class_runtime_inspector_namespace_1_1_runtime_inspector_a38a610dcd4c511a6da33dfd6612d9096} 
+bool {\bfseries Array\+Indices\+Start\+At\+One}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+\Hypertarget{class_runtime_inspector_namespace_1_1_runtime_inspector_a3b88a3dd5b337ab4d804898dd5770da2}\label{class_runtime_inspector_namespace_1_1_runtime_inspector_a3b88a3dd5b337ab4d804898dd5770da2} 
+bool {\bfseries Use\+Title\+Case\+Naming}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+\Hypertarget{class_runtime_inspector_namespace_1_1_runtime_inspector_a34d68edb8e49185ee703a44f8b13f0df}\label{class_runtime_inspector_namespace_1_1_runtime_inspector_a34d68edb8e49185ee703a44f8b13f0df} 
+bool {\bfseries Show\+Add\+Component\+Button}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+\Hypertarget{class_runtime_inspector_namespace_1_1_runtime_inspector_a3e4cc6349780e9424555bfc540cd2a3d}\label{class_runtime_inspector_namespace_1_1_runtime_inspector_a3e4cc6349780e9424555bfc540cd2a3d} 
+bool {\bfseries Show\+Remove\+Component\+Button}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+\Hypertarget{class_runtime_inspector_namespace_1_1_runtime_inspector_a53d610bfdc0db67bd3fe287cbfdddefd}\label{class_runtime_inspector_namespace_1_1_runtime_inspector_a53d610bfdc0db67bd3fe287cbfdddefd} 
+bool {\bfseries Show\+Inspect\+Reference\+Button}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+\Hypertarget{class_runtime_inspector_namespace_1_1_runtime_inspector_abbbff48c545647b72f4167b1760cf0bd}\label{class_runtime_inspector_namespace_1_1_runtime_inspector_abbbff48c545647b72f4167b1760cf0bd} 
+bool {\bfseries Show\+Tooltips}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+float \mbox{\hyperlink{class_runtime_inspector_namespace_1_1_runtime_inspector_a6c8c26af1513f1bdcb72f36f64fe83da}{Tooltip\+Delay}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+\Hypertarget{class_runtime_inspector_namespace_1_1_runtime_inspector_a76c05099b5166c5f45de410eec0c4cdb}\label{class_runtime_inspector_namespace_1_1_runtime_inspector_a76c05099b5166c5f45de410eec0c4cdb} 
+int {\bfseries Nest\+Limit}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+\Hypertarget{class_runtime_inspector_namespace_1_1_runtime_inspector_a153a7a90dec8ff3dc3a9888039311c93}\label{class_runtime_inspector_namespace_1_1_runtime_inspector_a153a7a90dec8ff3dc3a9888039311c93} 
+Header\+Visibility {\bfseries Inspected\+Object\+Header\+Visibility}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+\Hypertarget{class_runtime_inspector_namespace_1_1_runtime_inspector_aabd674a8030dfeaed0708aa80061e821}\label{class_runtime_inspector_namespace_1_1_runtime_inspector_aabd674a8030dfeaed0708aa80061e821} 
+\mbox{\hyperlink{class_runtime_inspector_namespace_1_1_runtime_hierarchy}{Runtime\+Hierarchy}} {\bfseries Connected\+Hierarchy}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+\Hypertarget{class_runtime_inspector_namespace_1_1_runtime_inspector_ab4aecd36405b2946b8db94a28a5aa197}\label{class_runtime_inspector_namespace_1_1_runtime_inspector_ab4aecd36405b2946b8db94a28a5aa197} 
+bool {\bfseries Is\+Locked}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+\Hypertarget{class_runtime_inspector_namespace_1_1_runtime_inspector_a29e51ea0ab7eff4980e2db68fb6d4c5b}\label{class_runtime_inspector_namespace_1_1_runtime_inspector_a29e51ea0ab7eff4980e2db68fb6d4c5b} 
+object {\bfseries Inspected\+Object}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+\Hypertarget{class_runtime_inspector_namespace_1_1_runtime_inspector_a340a2c7b763e62868838bde78fdb5edd}\label{class_runtime_inspector_namespace_1_1_runtime_inspector_a340a2c7b763e62868838bde78fdb5edd} 
+bool {\bfseries Is\+Bound}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+Canvas \mbox{\hyperlink{class_runtime_inspector_namespace_1_1_runtime_inspector_a7b5604dc22c6056bd1fa0c58c0d4be33}{Canvas}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+\Hypertarget{class_runtime_inspector_namespace_1_1_runtime_inspector_ad366e696458d751629b92988de9b5c15}\label{class_runtime_inspector_namespace_1_1_runtime_inspector_ad366e696458d751629b92988de9b5c15} 
+Component\+Filter\+Delegate {\bfseries Component\+Filter}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Propiedades heredados de \mbox{\hyperlink{class_runtime_inspector_namespace_1_1_skinned_window}{Runtime\+Inspector\+Namespace.\+Skinned\+Window}}}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_runtime_inspector_namespace_1_1_u_i_skin}{UISkin}} {\bfseries Skin}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Propiedades heredados de \mbox{\hyperlink{interface_runtime_inspector_namespace_1_1_i_tooltip_manager}{Runtime\+Inspector\+Namespace.\+ITooltip\+Manager}}}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_runtime_inspector_namespace_1_1_u_i_skin}{UISkin}} {\bfseries Skin}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Documentación de funciones miembro}
+\Hypertarget{class_runtime_inspector_namespace_1_1_runtime_inspector_a8800181ba47474ac76eb3b0b154f81df}\index{RuntimeInspectorNamespace.RuntimeInspector@{RuntimeInspectorNamespace.RuntimeInspector}!Awake@{Awake}}
+\index{Awake@{Awake}!RuntimeInspectorNamespace.RuntimeInspector@{RuntimeInspectorNamespace.RuntimeInspector}}
+\doxysubsubsection{\texorpdfstring{Awake()}{Awake()}}
+{\footnotesize\ttfamily \label{class_runtime_inspector_namespace_1_1_runtime_inspector_a8800181ba47474ac76eb3b0b154f81df} 
+override void Runtime\+Inspector\+Namespace.\+Runtime\+Inspector.\+Awake (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+Reimplementado de \mbox{\hyperlink{class_runtime_inspector_namespace_1_1_skinned_window}{Runtime\+Inspector\+Namespace.\+Skinned\+Window}}.
+
+\Hypertarget{class_runtime_inspector_namespace_1_1_runtime_inspector_adfc8c51f3b366f3d9772fa623b924a23}\index{RuntimeInspectorNamespace.RuntimeInspector@{RuntimeInspectorNamespace.RuntimeInspector}!Update@{Update}}
+\index{Update@{Update}!RuntimeInspectorNamespace.RuntimeInspector@{RuntimeInspectorNamespace.RuntimeInspector}}
+\doxysubsubsection{\texorpdfstring{Update()}{Update()}}
+{\footnotesize\ttfamily \label{class_runtime_inspector_namespace_1_1_runtime_inspector_adfc8c51f3b366f3d9772fa623b924a23} 
+override void Runtime\+Inspector\+Namespace.\+Runtime\+Inspector.\+Update (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+Reimplementado de \mbox{\hyperlink{class_runtime_inspector_namespace_1_1_skinned_window}{Runtime\+Inspector\+Namespace.\+Skinned\+Window}}.
+
+
+
+\doxysubsection{Documentación de propiedades}
+\Hypertarget{class_runtime_inspector_namespace_1_1_runtime_inspector_a7b5604dc22c6056bd1fa0c58c0d4be33}\index{RuntimeInspectorNamespace.RuntimeInspector@{RuntimeInspectorNamespace.RuntimeInspector}!Canvas@{Canvas}}
+\index{Canvas@{Canvas}!RuntimeInspectorNamespace.RuntimeInspector@{RuntimeInspectorNamespace.RuntimeInspector}}
+\doxysubsubsection{\texorpdfstring{Canvas}{Canvas}}
+{\footnotesize\ttfamily \label{class_runtime_inspector_namespace_1_1_runtime_inspector_a7b5604dc22c6056bd1fa0c58c0d4be33} 
+Canvas Runtime\+Inspector\+Namespace.\+Runtime\+Inspector.\+Canvas\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Implementa \mbox{\hyperlink{interface_runtime_inspector_namespace_1_1_i_tooltip_manager}{Runtime\+Inspector\+Namespace.\+ITooltip\+Manager}}.
+
+\Hypertarget{class_runtime_inspector_namespace_1_1_runtime_inspector_a6c8c26af1513f1bdcb72f36f64fe83da}\index{RuntimeInspectorNamespace.RuntimeInspector@{RuntimeInspectorNamespace.RuntimeInspector}!TooltipDelay@{TooltipDelay}}
+\index{TooltipDelay@{TooltipDelay}!RuntimeInspectorNamespace.RuntimeInspector@{RuntimeInspectorNamespace.RuntimeInspector}}
+\doxysubsubsection{\texorpdfstring{TooltipDelay}{TooltipDelay}}
+{\footnotesize\ttfamily \label{class_runtime_inspector_namespace_1_1_runtime_inspector_a6c8c26af1513f1bdcb72f36f64fe83da} 
+float Runtime\+Inspector\+Namespace.\+Runtime\+Inspector.\+Tooltip\+Delay\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Implementa \mbox{\hyperlink{interface_runtime_inspector_namespace_1_1_i_tooltip_manager}{Runtime\+Inspector\+Namespace.\+ITooltip\+Manager}}.
+
+
+
+La documentación de esta clase está generada del siguiente archivo\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/exepa/source/repos/\+Sistema\+Prototipado3\+D/\+Sistema\+Prototipado3\+D/\+Assets/\+Plugins/\+Runtime\+Inspector/\+Scripts/Runtime\+Inspector.\+cs\end{DoxyCompactItemize}

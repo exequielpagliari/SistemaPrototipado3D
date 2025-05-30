@@ -1,0 +1,155 @@
+\doxysection{Referencia de la clase Runtime\+Inspector\+Namespace.\+Hierarchy\+Data\+Root\+Pseudo\+Scene}
+\hypertarget{class_runtime_inspector_namespace_1_1_hierarchy_data_root_pseudo_scene}{}\label{class_runtime_inspector_namespace_1_1_hierarchy_data_root_pseudo_scene}\index{RuntimeInspectorNamespace.HierarchyDataRootPseudoScene@{RuntimeInspectorNamespace.HierarchyDataRootPseudoScene}}
+
+
+Diagrama de herencia de Runtime\+Inspector\+Namespace.\+Hierarchy\+Data\+Root\+Pseudo\+Scene
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=241pt]{class_runtime_inspector_namespace_1_1_hierarchy_data_root_pseudo_scene__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Diagrama de colaboración de Runtime\+Inspector\+Namespace.\+Hierarchy\+Data\+Root\+Pseudo\+Scene\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=283pt]{class_runtime_inspector_namespace_1_1_hierarchy_data_root_pseudo_scene__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Métodos públicos}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_runtime_inspector_namespace_1_1_hierarchy_data_root_pseudo_scene_ac64e4037bf7b2e3dcb5c6aba1f15dfd9}\label{class_runtime_inspector_namespace_1_1_hierarchy_data_root_pseudo_scene_ac64e4037bf7b2e3dcb5c6aba1f15dfd9} 
+{\bfseries Hierarchy\+Data\+Root\+Pseudo\+Scene} (\mbox{\hyperlink{class_runtime_inspector_namespace_1_1_runtime_hierarchy}{Runtime\+Hierarchy}} hierarchy, string name, Transform root\+Transform=null)
+\item 
+\Hypertarget{class_runtime_inspector_namespace_1_1_hierarchy_data_root_pseudo_scene_ad324ef48a8c0ec2c02c9b7bc723aa581}\label{class_runtime_inspector_namespace_1_1_hierarchy_data_root_pseudo_scene_ad324ef48a8c0ec2c02c9b7bc723aa581} 
+void {\bfseries Add\+Child} (Transform child)
+\item 
+\Hypertarget{class_runtime_inspector_namespace_1_1_hierarchy_data_root_pseudo_scene_a7296a38c00c2bfea4c89d2884f62c2de}\label{class_runtime_inspector_namespace_1_1_hierarchy_data_root_pseudo_scene_a7296a38c00c2bfea4c89d2884f62c2de} 
+void {\bfseries Insert\+Child} (int index, Transform child)
+\item 
+\Hypertarget{class_runtime_inspector_namespace_1_1_hierarchy_data_root_pseudo_scene_a4ef8f67f0e97a9b45db8243d789286d0}\label{class_runtime_inspector_namespace_1_1_hierarchy_data_root_pseudo_scene_a4ef8f67f0e97a9b45db8243d789286d0} 
+void {\bfseries Remove\+Child} (Transform child)
+\item 
+\Hypertarget{class_runtime_inspector_namespace_1_1_hierarchy_data_root_pseudo_scene_a7a024904f903d9509b6eff6299e2518b}\label{class_runtime_inspector_namespace_1_1_hierarchy_data_root_pseudo_scene_a7a024904f903d9509b6eff6299e2518b} 
+override void {\bfseries Refresh\+Content} ()
+\item 
+\Hypertarget{class_runtime_inspector_namespace_1_1_hierarchy_data_root_pseudo_scene_aadeac9e86866087361cd1d23f45bb4d7}\label{class_runtime_inspector_namespace_1_1_hierarchy_data_root_pseudo_scene_aadeac9e86866087361cd1d23f45bb4d7} 
+override Transform {\bfseries Get\+Child} (int index)
+\item 
+\Hypertarget{class_runtime_inspector_namespace_1_1_hierarchy_data_root_pseudo_scene_ab26f10a197a498848fee30479dd6f6c0}\label{class_runtime_inspector_namespace_1_1_hierarchy_data_root_pseudo_scene_ab26f10a197a498848fee30479dd6f6c0} 
+override Transform {\bfseries Get\+Nearest\+Root\+Of} (Transform target)
+\end{DoxyCompactItemize}
+\doxysubsection*{Métodos públicos heredados de \mbox{\hyperlink{class_runtime_inspector_namespace_1_1_hierarchy_data_root}{Runtime\+Inspector\+Namespace.\+Hierarchy\+Data\+Root}}}
+\begin{DoxyCompactItemize}
+\item 
+Transform {\bfseries Get\+Nearest\+Root\+Of} (Transform target)
+\item 
+void {\bfseries Refresh\+Content} ()
+\item 
+override bool \mbox{\hyperlink{class_runtime_inspector_namespace_1_1_hierarchy_data_root_ad34a4c88f97d43ab3b1bcc766b00837a}{Refresh}} ()
+\item 
+override \mbox{\hyperlink{class_runtime_inspector_namespace_1_1_hierarchy_data_transform}{Hierarchy\+Data\+Transform}} \mbox{\hyperlink{class_runtime_inspector_namespace_1_1_hierarchy_data_root_a6c9eb809ab447bc20fc50474dd718e71}{Find\+Transform\+In\+Visible\+Children}} (Transform target, int target\+Depth=-\/1)
+\item 
+void {\bfseries Reset\+Cached\+Names} ()
+\item 
+void {\bfseries Refresh\+Name\+Of} (Transform target)
+\end{DoxyCompactItemize}
+\doxysubsection*{Métodos públicos heredados de \mbox{\hyperlink{class_runtime_inspector_namespace_1_1_hierarchy_data}{Runtime\+Inspector\+Namespace.\+Hierarchy\+Data}}}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_runtime_inspector_namespace_1_1_hierarchy_data}{Hierarchy\+Data}} {\bfseries Find\+Data\+At\+Index} (int index)
+\item 
+\mbox{\hyperlink{class_runtime_inspector_namespace_1_1_hierarchy_data_transform}{Hierarchy\+Data\+Transform}} {\bfseries Find\+Transform} (Transform target, Transform next\+In\+Path=null)
+\item 
+Transform {\bfseries Get\+Child} (int index)
+\item 
+int {\bfseries Index\+Of} (Transform transform)
+\item 
+void {\bfseries Get\+Sibling\+Index\+Traversal\+List} (List$<$ int $>$ traversal\+List)
+\item 
+\mbox{\hyperlink{class_runtime_inspector_namespace_1_1_hierarchy_data}{Hierarchy\+Data}} {\bfseries Traverse\+Sibling\+Index\+List} (List$<$ int $>$ traversal\+List)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Propiedades}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_runtime_inspector_namespace_1_1_hierarchy_data_root_pseudo_scene_a3ca7db2ce4e853d1ef1242f4a5d88a6e}\label{class_runtime_inspector_namespace_1_1_hierarchy_data_root_pseudo_scene_a3ca7db2ce4e853d1ef1242f4a5d88a6e} 
+override string {\bfseries Name}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+\Hypertarget{class_runtime_inspector_namespace_1_1_hierarchy_data_root_pseudo_scene_ae07387893db840ddde74d5c25d875c4c}\label{class_runtime_inspector_namespace_1_1_hierarchy_data_root_pseudo_scene_ae07387893db840ddde74d5c25d875c4c} 
+override int {\bfseries Child\+Count}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Propiedades heredados de \mbox{\hyperlink{class_runtime_inspector_namespace_1_1_hierarchy_data_root}{Runtime\+Inspector\+Namespace.\+Hierarchy\+Data\+Root}}}
+\begin{DoxyCompactItemize}
+\item 
+override Transform {\bfseries Bound\+Transform}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+override bool {\bfseries Is\+Active}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+\mbox{\hyperlink{class_runtime_inspector_namespace_1_1_runtime_hierarchy}{Runtime\+Hierarchy}} {\bfseries Hierarchy}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Propiedades heredados de \mbox{\hyperlink{class_runtime_inspector_namespace_1_1_hierarchy_data}{Runtime\+Inspector\+Namespace.\+Hierarchy\+Data}}}
+\begin{DoxyCompactItemize}
+\item 
+string {\bfseries Name}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+bool {\bfseries Is\+Active}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+int {\bfseries Child\+Count}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+Transform {\bfseries Bound\+Transform}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+\mbox{\hyperlink{class_runtime_inspector_namespace_1_1_hierarchy_data_root}{Hierarchy\+Data\+Root}} {\bfseries Root}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+int {\bfseries Index}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+int {\bfseries Absolute\+Index}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+int {\bfseries Height}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+int {\bfseries Depth}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+bool {\bfseries Can\+Expand}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+bool {\bfseries Is\+Expanded}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Otros miembros heredados}
+\doxysubsection*{Métodos públicos estáticos heredados de \mbox{\hyperlink{class_runtime_inspector_namespace_1_1_hierarchy_data}{Runtime\+Inspector\+Namespace.\+Hierarchy\+Data}}}
+\begin{DoxyCompactItemize}
+\item 
+static void {\bfseries Clear\+Pool} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Métodos protegidos heredados de \mbox{\hyperlink{class_runtime_inspector_namespace_1_1_hierarchy_data_root}{Runtime\+Inspector\+Namespace.\+Hierarchy\+Data\+Root}}}
+\begin{DoxyCompactItemize}
+\item 
+{\bfseries Hierarchy\+Data\+Root} (\mbox{\hyperlink{class_runtime_inspector_namespace_1_1_runtime_hierarchy}{Runtime\+Hierarchy}} hierarchy)
+\end{DoxyCompactItemize}
+\doxysubsection*{Métodos protegidos heredados de \mbox{\hyperlink{class_runtime_inspector_namespace_1_1_hierarchy_data}{Runtime\+Inspector\+Namespace.\+Hierarchy\+Data}}}
+\begin{DoxyCompactItemize}
+\item 
+void {\bfseries Pool\+Children\+List} ()
+\item 
+void {\bfseries Pop\+Children\+List} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Atributos protegidos heredados de \mbox{\hyperlink{class_runtime_inspector_namespace_1_1_hierarchy_data}{Runtime\+Inspector\+Namespace.\+Hierarchy\+Data}}}
+\begin{DoxyCompactItemize}
+\item 
+List$<$ \mbox{\hyperlink{class_runtime_inspector_namespace_1_1_hierarchy_data_transform}{Hierarchy\+Data\+Transform}} $>$ {\bfseries children}
+\item 
+\mbox{\hyperlink{class_runtime_inspector_namespace_1_1_hierarchy_data}{Hierarchy\+Data}} {\bfseries parent}
+\item 
+int {\bfseries m\+\_\+index}
+\item 
+int {\bfseries m\+\_\+height} = 1
+\item 
+int {\bfseries m\+\_\+depth}
+\end{DoxyCompactItemize}
+
+
+La documentación de esta clase está generada del siguiente archivo\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/exepa/source/repos/\+Sistema\+Prototipado3\+D/\+Sistema\+Prototipado3\+D/\+Assets/\+Plugins/\+Runtime\+Inspector/\+Scripts/\+Runtime\+Hierarchy/Hierarchy\+Data\+Root\+Pseudo\+Scene.\+cs\end{DoxyCompactItemize}
