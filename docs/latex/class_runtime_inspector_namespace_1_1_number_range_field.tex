@@ -1,0 +1,177 @@
+\doxysection{Referencia de la clase Runtime\+Inspector\+Namespace.\+Number\+Range\+Field}
+\hypertarget{class_runtime_inspector_namespace_1_1_number_range_field}{}\label{class_runtime_inspector_namespace_1_1_number_range_field}\index{RuntimeInspectorNamespace.NumberRangeField@{RuntimeInspectorNamespace.NumberRangeField}}
+
+
+Diagrama de herencia de Runtime\+Inspector\+Namespace.\+Number\+Range\+Field
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=330pt]{class_runtime_inspector_namespace_1_1_number_range_field__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Diagrama de colaboración de Runtime\+Inspector\+Namespace.\+Number\+Range\+Field\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_runtime_inspector_namespace_1_1_number_range_field__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Métodos públicos}
+\begin{DoxyCompactItemize}
+\item 
+override void \mbox{\hyperlink{class_runtime_inspector_namespace_1_1_number_range_field_a9309188577b615364d9b57ccdffa468e}{Initialize}} ()
+\item 
+override bool \mbox{\hyperlink{class_runtime_inspector_namespace_1_1_number_range_field_abe9903af959dcd65f0a5394ae3da710b}{Can\+Bind\+To}} (Type type, Member\+Info variable)
+\item 
+override void \mbox{\hyperlink{class_runtime_inspector_namespace_1_1_number_range_field_a04142b6a8faaf8cdf6932d1e9474afbb}{Refresh}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Métodos públicos heredados de \mbox{\hyperlink{class_runtime_inspector_namespace_1_1_number_field}{Runtime\+Inspector\+Namespace.\+Number\+Field}}}
+\begin{DoxyCompactItemize}
+\item 
+override bool {\bfseries Supports\+Type} (Type type)
+\end{DoxyCompactItemize}
+\doxysubsection*{Métodos públicos heredados de \mbox{\hyperlink{class_runtime_inspector_namespace_1_1_inspector_field}{Runtime\+Inspector\+Namespace.\+Inspector\+Field}}}
+\begin{DoxyCompactItemize}
+\item 
+delegate object {\bfseries Getter} ()
+\item 
+delegate void {\bfseries Setter} (object value)
+\item 
+bool {\bfseries Supports\+Type} (Type type)
+\item 
+void {\bfseries Bind\+To} (\mbox{\hyperlink{class_runtime_inspector_namespace_1_1_inspector_field}{Inspector\+Field}} parent, Member\+Info variable, string variable\+Name=null)
+\item 
+void {\bfseries Bind\+To} (Type variable\+Type, string variable\+Name, Getter getter, Setter setter, Member\+Info variable=null)
+\item 
+void {\bfseries Unbind} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Métodos protegidos}
+\begin{DoxyCompactItemize}
+\item 
+override void \mbox{\hyperlink{class_runtime_inspector_namespace_1_1_number_range_field_adf9421fe414cdf1c57b964c76a496369}{On\+Bound}} (Member\+Info variable)
+\item 
+override bool \mbox{\hyperlink{class_runtime_inspector_namespace_1_1_number_range_field_a3662070e804dda2003dfc8e7dd197269}{On\+Value\+Changed}} (\mbox{\hyperlink{class_runtime_inspector_namespace_1_1_bound_input_field}{Bound\+Input\+Field}} source, string input)
+\item 
+override void \mbox{\hyperlink{class_runtime_inspector_namespace_1_1_number_range_field_a203881e8702a5e686e430585cbe9b1ae}{On\+Skin\+Changed}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Métodos protegidos heredados de \mbox{\hyperlink{class_runtime_inspector_namespace_1_1_inspector_field}{Runtime\+Inspector\+Namespace.\+Inspector\+Field}}}
+\begin{DoxyCompactItemize}
+\item 
+virtual void {\bfseries On\+Unbound} ()
+\item 
+virtual void {\bfseries On\+Inspector\+Changed} ()
+\item 
+virtual void {\bfseries On\+Depth\+Changed} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Otros miembros heredados}
+\doxysubsection*{Atributos protegidos heredados de \mbox{\hyperlink{class_runtime_inspector_namespace_1_1_number_field}{Runtime\+Inspector\+Namespace.\+Number\+Field}}}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_runtime_inspector_namespace_1_1_bound_input_field}{Bound\+Input\+Field}} {\bfseries input}
+\item 
+\mbox{\hyperlink{interface_runtime_inspector_namespace_1_1_i_number_handler}{INumber\+Handler}} {\bfseries number\+Handler}
+\end{DoxyCompactItemize}
+\doxysubsection*{Atributos protegidos heredados de \mbox{\hyperlink{class_runtime_inspector_namespace_1_1_inspector_field}{Runtime\+Inspector\+Namespace.\+Inspector\+Field}}}
+\begin{DoxyCompactItemize}
+\item 
+Layout\+Element {\bfseries layout\+Element}
+\item 
+Text {\bfseries variable\+Name\+Text}
+\item 
+Image {\bfseries variable\+Name\+Mask}
+\end{DoxyCompactItemize}
+\doxysubsection*{Propiedades heredados de \mbox{\hyperlink{class_runtime_inspector_namespace_1_1_inspector_field}{Runtime\+Inspector\+Namespace.\+Inspector\+Field}}}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_runtime_inspector_namespace_1_1_runtime_inspector}{Runtime\+Inspector}} {\bfseries Inspector}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+\mbox{\hyperlink{class_runtime_inspector_namespace_1_1_u_i_skin}{UISkin}} {\bfseries Skin}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+Type {\bfseries Bound\+Variable\+Type}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+object {\bfseries Value}\hspace{0.3cm}{\ttfamily  \mbox{[}get, protected set\mbox{]}}
+\item 
+int {\bfseries Depth}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+bool {\bfseries Is\+Visible}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+string {\bfseries Name}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+string {\bfseries Name\+Raw}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+virtual bool {\bfseries Should\+Refresh}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+virtual float {\bfseries Height\+Multiplier}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Documentación de funciones miembro}
+\Hypertarget{class_runtime_inspector_namespace_1_1_number_range_field_abe9903af959dcd65f0a5394ae3da710b}\index{RuntimeInspectorNamespace.NumberRangeField@{RuntimeInspectorNamespace.NumberRangeField}!CanBindTo@{CanBindTo}}
+\index{CanBindTo@{CanBindTo}!RuntimeInspectorNamespace.NumberRangeField@{RuntimeInspectorNamespace.NumberRangeField}}
+\doxysubsubsection{\texorpdfstring{CanBindTo()}{CanBindTo()}}
+{\footnotesize\ttfamily \label{class_runtime_inspector_namespace_1_1_number_range_field_abe9903af959dcd65f0a5394ae3da710b} 
+override bool Runtime\+Inspector\+Namespace.\+Number\+Range\+Field.\+Can\+Bind\+To (\begin{DoxyParamCaption}\item[{Type}]{type}{, }\item[{Member\+Info}]{variable}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Reimplementado de \mbox{\hyperlink{class_runtime_inspector_namespace_1_1_inspector_field}{Runtime\+Inspector\+Namespace.\+Inspector\+Field}}.
+
+\Hypertarget{class_runtime_inspector_namespace_1_1_number_range_field_a9309188577b615364d9b57ccdffa468e}\index{RuntimeInspectorNamespace.NumberRangeField@{RuntimeInspectorNamespace.NumberRangeField}!Initialize@{Initialize}}
+\index{Initialize@{Initialize}!RuntimeInspectorNamespace.NumberRangeField@{RuntimeInspectorNamespace.NumberRangeField}}
+\doxysubsubsection{\texorpdfstring{Initialize()}{Initialize()}}
+{\footnotesize\ttfamily \label{class_runtime_inspector_namespace_1_1_number_range_field_a9309188577b615364d9b57ccdffa468e} 
+override void Runtime\+Inspector\+Namespace.\+Number\+Range\+Field.\+Initialize (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Reimplementado de \mbox{\hyperlink{class_runtime_inspector_namespace_1_1_number_field}{Runtime\+Inspector\+Namespace.\+Number\+Field}}.
+
+\Hypertarget{class_runtime_inspector_namespace_1_1_number_range_field_adf9421fe414cdf1c57b964c76a496369}\index{RuntimeInspectorNamespace.NumberRangeField@{RuntimeInspectorNamespace.NumberRangeField}!OnBound@{OnBound}}
+\index{OnBound@{OnBound}!RuntimeInspectorNamespace.NumberRangeField@{RuntimeInspectorNamespace.NumberRangeField}}
+\doxysubsubsection{\texorpdfstring{OnBound()}{OnBound()}}
+{\footnotesize\ttfamily \label{class_runtime_inspector_namespace_1_1_number_range_field_adf9421fe414cdf1c57b964c76a496369} 
+override void Runtime\+Inspector\+Namespace.\+Number\+Range\+Field.\+On\+Bound (\begin{DoxyParamCaption}\item[{Member\+Info}]{variable}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+Reimplementado de \mbox{\hyperlink{class_runtime_inspector_namespace_1_1_number_field}{Runtime\+Inspector\+Namespace.\+Number\+Field}}.
+
+\Hypertarget{class_runtime_inspector_namespace_1_1_number_range_field_a203881e8702a5e686e430585cbe9b1ae}\index{RuntimeInspectorNamespace.NumberRangeField@{RuntimeInspectorNamespace.NumberRangeField}!OnSkinChanged@{OnSkinChanged}}
+\index{OnSkinChanged@{OnSkinChanged}!RuntimeInspectorNamespace.NumberRangeField@{RuntimeInspectorNamespace.NumberRangeField}}
+\doxysubsubsection{\texorpdfstring{OnSkinChanged()}{OnSkinChanged()}}
+{\footnotesize\ttfamily \label{class_runtime_inspector_namespace_1_1_number_range_field_a203881e8702a5e686e430585cbe9b1ae} 
+override void Runtime\+Inspector\+Namespace.\+Number\+Range\+Field.\+On\+Skin\+Changed (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+Reimplementado de \mbox{\hyperlink{class_runtime_inspector_namespace_1_1_number_field}{Runtime\+Inspector\+Namespace.\+Number\+Field}}.
+
+\Hypertarget{class_runtime_inspector_namespace_1_1_number_range_field_a3662070e804dda2003dfc8e7dd197269}\index{RuntimeInspectorNamespace.NumberRangeField@{RuntimeInspectorNamespace.NumberRangeField}!OnValueChanged@{OnValueChanged}}
+\index{OnValueChanged@{OnValueChanged}!RuntimeInspectorNamespace.NumberRangeField@{RuntimeInspectorNamespace.NumberRangeField}}
+\doxysubsubsection{\texorpdfstring{OnValueChanged()}{OnValueChanged()}}
+{\footnotesize\ttfamily \label{class_runtime_inspector_namespace_1_1_number_range_field_a3662070e804dda2003dfc8e7dd197269} 
+override bool Runtime\+Inspector\+Namespace.\+Number\+Range\+Field.\+On\+Value\+Changed (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_runtime_inspector_namespace_1_1_bound_input_field}{Bound\+Input\+Field}}}]{source}{, }\item[{string}]{input}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+Reimplementado de \mbox{\hyperlink{class_runtime_inspector_namespace_1_1_number_field}{Runtime\+Inspector\+Namespace.\+Number\+Field}}.
+
+\Hypertarget{class_runtime_inspector_namespace_1_1_number_range_field_a04142b6a8faaf8cdf6932d1e9474afbb}\index{RuntimeInspectorNamespace.NumberRangeField@{RuntimeInspectorNamespace.NumberRangeField}!Refresh@{Refresh}}
+\index{Refresh@{Refresh}!RuntimeInspectorNamespace.NumberRangeField@{RuntimeInspectorNamespace.NumberRangeField}}
+\doxysubsubsection{\texorpdfstring{Refresh()}{Refresh()}}
+{\footnotesize\ttfamily \label{class_runtime_inspector_namespace_1_1_number_range_field_a04142b6a8faaf8cdf6932d1e9474afbb} 
+override void Runtime\+Inspector\+Namespace.\+Number\+Range\+Field.\+Refresh (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Reimplementado de \mbox{\hyperlink{class_runtime_inspector_namespace_1_1_number_field}{Runtime\+Inspector\+Namespace.\+Number\+Field}}.
+
+
+
+La documentación de esta clase está generada del siguiente archivo\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/exepa/source/repos/\+Sistema\+Prototipado3\+D/\+Sistema\+Prototipado3\+D/\+Assets/\+Plugins/\+Runtime\+Inspector/\+Scripts/\+Runtime\+Inspector/\+Fields/Number\+Range\+Field.\+cs\end{DoxyCompactItemize}

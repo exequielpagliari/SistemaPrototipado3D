@@ -1,0 +1,88 @@
+\doxysection{Referencia de la clase Prototipe.\+Core.\+Actions.\+Rotate\+Action}
+\hypertarget{class_prototipe_1_1_core_1_1_actions_1_1_rotate_action}{}\label{class_prototipe_1_1_core_1_1_actions_1_1_rotate_action}\index{Prototipe.Core.Actions.RotateAction@{Prototipe.Core.Actions.RotateAction}}
+
+
+Clase dedicada a la rotación, ejecutable desde la interfaz \doxylink{interface_prototipe_1_1_core_1_1_interfaces_1_1_i_action}{IAction}.  
+
+
+
+
+Diagrama de herencia de Prototipe.\+Core.\+Actions.\+Rotate\+Action
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=310pt]{class_prototipe_1_1_core_1_1_actions_1_1_rotate_action__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Diagrama de colaboración de Prototipe.\+Core.\+Actions.\+Rotate\+Action\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=310pt]{class_prototipe_1_1_core_1_1_actions_1_1_rotate_action__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Tipos públicos}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_prototipe_1_1_core_1_1_actions_1_1_rotate_action_a7ab747422c2e9fd00aa43412405a197b}\label{class_prototipe_1_1_core_1_1_actions_1_1_rotate_action_a7ab747422c2e9fd00aa43412405a197b} 
+enum \mbox{\hyperlink{class_prototipe_1_1_core_1_1_actions_1_1_rotate_action_a7ab747422c2e9fd00aa43412405a197b}{Axis}} \{ {\bfseries X}
+, {\bfseries Y}
+, {\bfseries Z}
+, {\bfseries Custom}
+ \}
+\begin{DoxyCompactList}\small\item\em Enum para elegir el tipo de rotación. Se puede elejir por rotación por eje, o customizar la rotación. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Métodos públicos}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_prototipe_1_1_core_1_1_actions_1_1_rotate_action_ac5b612ccd9cb36ce709070e3f9b4b8ec}{Execute}} ()
+\begin{DoxyCompactList}\small\item\em Método que ejecuta la rotación. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Atributos públicos}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_prototipe_1_1_core_1_1_actions_1_1_rotate_action_a5b5743eda966c3925359d2e71025dd7c}\label{class_prototipe_1_1_core_1_1_actions_1_1_rotate_action_a5b5743eda966c3925359d2e71025dd7c} 
+Transform {\bfseries target}
+\begin{DoxyCompactList}\small\item\em Referencia del Transform a afectar. \end{DoxyCompactList}\item 
+\Hypertarget{class_prototipe_1_1_core_1_1_actions_1_1_rotate_action_a30bf6e7eae5333786e4fe37fcf205614}\label{class_prototipe_1_1_core_1_1_actions_1_1_rotate_action_a30bf6e7eae5333786e4fe37fcf205614} 
+\mbox{\hyperlink{class_prototipe_1_1_core_1_1_actions_1_1_rotate_action_a7ab747422c2e9fd00aa43412405a197b}{Axis}} {\bfseries rotation\+Axis} = Axis.\+Y
+\begin{DoxyCompactList}\small\item\em Selección de tipo de rotación a generar. \end{DoxyCompactList}\item 
+\Hypertarget{class_prototipe_1_1_core_1_1_actions_1_1_rotate_action_ac4b1527d82a39372a1195aef7da18ea5}\label{class_prototipe_1_1_core_1_1_actions_1_1_rotate_action_ac4b1527d82a39372a1195aef7da18ea5} 
+Vector3 {\bfseries custom\+Axis} = Vector3.\+zero
+\begin{DoxyCompactList}\small\item\em Vector3 del valor de rotación, según el tipo de rotación escogido. \end{DoxyCompactList}\item 
+\Hypertarget{class_prototipe_1_1_core_1_1_actions_1_1_rotate_action_a6397e94c3261eee474ca6a490bb11b15}\label{class_prototipe_1_1_core_1_1_actions_1_1_rotate_action_a6397e94c3261eee474ca6a490bb11b15} 
+float {\bfseries angle} = 90f
+\begin{DoxyCompactList}\small\item\em Float de cantida ángulo a rotar. \end{DoxyCompactList}\item 
+\Hypertarget{class_prototipe_1_1_core_1_1_actions_1_1_rotate_action_aac1bac88a4fe5093feae1f46d1cc1954}\label{class_prototipe_1_1_core_1_1_actions_1_1_rotate_action_aac1bac88a4fe5093feae1f46d1cc1954} 
+float {\bfseries duration} = 1.\+5f
+\begin{DoxyCompactList}\small\item\em Float de la duración de la rotación. \end{DoxyCompactList}\item 
+\Hypertarget{class_prototipe_1_1_core_1_1_actions_1_1_rotate_action_a92a41d9a8d60fe680f160344b74094be}\label{class_prototipe_1_1_core_1_1_actions_1_1_rotate_action_a92a41d9a8d60fe680f160344b74094be} 
+bool {\bfseries is\+Door} = false
+\begin{DoxyCompactList}\small\item\em Bool para que se comporte como puerta. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Descripción detallada}
+Clase dedicada a la rotación, ejecutable desde la interfaz \doxylink{interface_prototipe_1_1_core_1_1_interfaces_1_1_i_action}{IAction}. 
+
+\doxysubsection{Documentación de funciones miembro}
+\Hypertarget{class_prototipe_1_1_core_1_1_actions_1_1_rotate_action_ac5b612ccd9cb36ce709070e3f9b4b8ec}\index{Prototipe.Core.Actions.RotateAction@{Prototipe.Core.Actions.RotateAction}!Execute@{Execute}}
+\index{Execute@{Execute}!Prototipe.Core.Actions.RotateAction@{Prototipe.Core.Actions.RotateAction}}
+\doxysubsubsection{\texorpdfstring{Execute()}{Execute()}}
+{\footnotesize\ttfamily \label{class_prototipe_1_1_core_1_1_actions_1_1_rotate_action_ac5b612ccd9cb36ce709070e3f9b4b8ec} 
+void Prototipe.\+Core.\+Actions.\+Rotate\+Action.\+Execute (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Método que ejecuta la rotación. 
+
+
+
+Implementa \mbox{\hyperlink{interface_prototipe_1_1_core_1_1_interfaces_1_1_i_action_a25a8d0071319ba5bd77d0b53dc78a4e5}{Prototipe.\+Core.\+Interfaces.\+IAction}}.
+
+
+
+La documentación de esta clase está generada del siguiente archivo\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/exepa/source/repos/\+Sistema\+Prototipado3\+D/\+Sistema\+Prototipado3\+D/\+Assets/\+Script/\+Action/Rotation\+Action.\+cs\end{DoxyCompactItemize}

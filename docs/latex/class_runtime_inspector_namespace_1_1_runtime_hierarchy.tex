@@ -1,0 +1,263 @@
+\doxysection{Referencia de la clase Runtime\+Inspector\+Namespace.\+Runtime\+Hierarchy}
+\hypertarget{class_runtime_inspector_namespace_1_1_runtime_hierarchy}{}\label{class_runtime_inspector_namespace_1_1_runtime_hierarchy}\index{RuntimeInspectorNamespace.RuntimeHierarchy@{RuntimeInspectorNamespace.RuntimeHierarchy}}
+
+
+Diagrama de herencia de Runtime\+Inspector\+Namespace.\+Runtime\+Hierarchy
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_runtime_inspector_namespace_1_1_runtime_hierarchy__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Diagrama de colaboración de Runtime\+Inspector\+Namespace.\+Runtime\+Hierarchy\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_runtime_inspector_namespace_1_1_runtime_hierarchy__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Tipos públicos}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_runtime_inspector_namespace_1_1_runtime_hierarchy_abbefc21b9947f8a03108480f036b8702}\label{class_runtime_inspector_namespace_1_1_runtime_hierarchy_abbefc21b9947f8a03108480f036b8702} 
+enum {\bfseries Select\+Options} \{ \newline
+{\bfseries None} = 0
+, {\bfseries Additive} = 1
+, {\bfseries Focus\+On\+Selection} = 2
+, {\bfseries Force\+Reveal\+Selection} = 4
+, \newline
+{\bfseries Dont\+Raise\+Event} = 8
+ \}
+\item 
+\Hypertarget{class_runtime_inspector_namespace_1_1_runtime_hierarchy_a2de77b4938956cccf3f7b4f46f80cb21}\label{class_runtime_inspector_namespace_1_1_runtime_hierarchy_a2de77b4938956cccf3f7b4f46f80cb21} 
+enum {\bfseries Long\+Press\+Action} \{ {\bfseries None} = 0
+, {\bfseries Create\+Dragged\+Reference\+Item} = 1
+, {\bfseries Show\+Multi\+Selection\+Toggles} = 2
+, {\bfseries Show\+Multi\+Selection\+Toggles\+Then\+Create\+Dragged\+Reference\+Item} = 3
+ \}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Métodos públicos}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_runtime_inspector_namespace_1_1_runtime_hierarchy_aae17a0f39480e4d296386ed267074307}\label{class_runtime_inspector_namespace_1_1_runtime_hierarchy_aae17a0f39480e4d296386ed267074307} 
+delegate void {\bfseries Selection\+Changed\+Delegate} (Read\+Only\+Collection$<$ Transform $>$ selection)
+\item 
+\Hypertarget{class_runtime_inspector_namespace_1_1_runtime_hierarchy_a6ebd9a13ea404472067a837229db952a}\label{class_runtime_inspector_namespace_1_1_runtime_hierarchy_a6ebd9a13ea404472067a837229db952a} 
+delegate void {\bfseries Double\+Click\+Delegate} (\mbox{\hyperlink{class_runtime_inspector_namespace_1_1_hierarchy_data}{Hierarchy\+Data}} clicked\+Item)
+\item 
+\Hypertarget{class_runtime_inspector_namespace_1_1_runtime_hierarchy_ac2f253d603b18006ec17f0503c949c22}\label{class_runtime_inspector_namespace_1_1_runtime_hierarchy_ac2f253d603b18006ec17f0503c949c22} 
+delegate bool {\bfseries Game\+Object\+Filter\+Delegate} (Transform transform)
+\item 
+\Hypertarget{class_runtime_inspector_namespace_1_1_runtime_hierarchy_acddc3c6fac51400e886a67ed544b21b0}\label{class_runtime_inspector_namespace_1_1_runtime_hierarchy_acddc3c6fac51400e886a67ed544b21b0} 
+void {\bfseries Refresh} ()
+\item 
+\Hypertarget{class_runtime_inspector_namespace_1_1_runtime_hierarchy_a0285611b9e274bd6113d9ec335a29741}\label{class_runtime_inspector_namespace_1_1_runtime_hierarchy_a0285611b9e274bd6113d9ec335a29741} 
+void {\bfseries Refresh\+Delayed} ()
+\item 
+\Hypertarget{class_runtime_inspector_namespace_1_1_runtime_hierarchy_a46780550e25906a34f75bcae01cd7c16}\label{class_runtime_inspector_namespace_1_1_runtime_hierarchy_a46780550e25906a34f75bcae01cd7c16} 
+void {\bfseries Refresh\+Search\+Results} ()
+\item 
+\Hypertarget{class_runtime_inspector_namespace_1_1_runtime_hierarchy_a8b6edda478cfdfeccd4cb020c955f95c}\label{class_runtime_inspector_namespace_1_1_runtime_hierarchy_a8b6edda478cfdfeccd4cb020c955f95c} 
+void {\bfseries Refresh\+Name\+Of} (Transform target)
+\item 
+\Hypertarget{class_runtime_inspector_namespace_1_1_runtime_hierarchy_ac6c3ec771464506bd16f106db1b46626}\label{class_runtime_inspector_namespace_1_1_runtime_hierarchy_ac6c3ec771464506bd16f106db1b46626} 
+void {\bfseries On\+Drawer\+Pointer\+Event} (\mbox{\hyperlink{class_runtime_inspector_namespace_1_1_hierarchy_field}{Hierarchy\+Field}} drawer, Pointer\+Event\+Data event\+Data, bool is\+Pointer\+Down)
+\item 
+\Hypertarget{class_runtime_inspector_namespace_1_1_runtime_hierarchy_a3d71add6074d2fcc79063a66661230b1}\label{class_runtime_inspector_namespace_1_1_runtime_hierarchy_a3d71add6074d2fcc79063a66661230b1} 
+bool {\bfseries Select} (Transform selection, Select\+Options select\+Options=Select\+Options.\+None)
+\item 
+\Hypertarget{class_runtime_inspector_namespace_1_1_runtime_hierarchy_ab7492b7446858d9b202eead4f122919e}\label{class_runtime_inspector_namespace_1_1_runtime_hierarchy_ab7492b7446858d9b202eead4f122919e} 
+bool {\bfseries Select} (IList$<$ Transform $>$ selection, Select\+Options select\+Options=Select\+Options.\+None)
+\item 
+\Hypertarget{class_runtime_inspector_namespace_1_1_runtime_hierarchy_a48188d907fe4ecd9564753dd26c80ddd}\label{class_runtime_inspector_namespace_1_1_runtime_hierarchy_a48188d907fe4ecd9564753dd26c80ddd} 
+void {\bfseries Deselect} ()
+\item 
+\Hypertarget{class_runtime_inspector_namespace_1_1_runtime_hierarchy_ae2ce333b7735af743000f73eeca6da26}\label{class_runtime_inspector_namespace_1_1_runtime_hierarchy_ae2ce333b7735af743000f73eeca6da26} 
+void {\bfseries Deselect} (Transform deselection)
+\item 
+\Hypertarget{class_runtime_inspector_namespace_1_1_runtime_hierarchy_add8a7ebc467c9ea0763d046eb2f5976d}\label{class_runtime_inspector_namespace_1_1_runtime_hierarchy_add8a7ebc467c9ea0763d046eb2f5976d} 
+void {\bfseries Deselect} (IList$<$ Transform $>$ deselection)
+\item 
+\Hypertarget{class_runtime_inspector_namespace_1_1_runtime_hierarchy_ae0b70408c359203388b220c886e3334c}\label{class_runtime_inspector_namespace_1_1_runtime_hierarchy_ae0b70408c359203388b220c886e3334c} 
+bool {\bfseries Is\+Selected} (Transform transform)
+\item 
+\Hypertarget{class_runtime_inspector_namespace_1_1_runtime_hierarchy_a53fedcdfda150e8d05459c94e63f51fb}\label{class_runtime_inspector_namespace_1_1_runtime_hierarchy_a53fedcdfda150e8d05459c94e63f51fb} 
+void {\bfseries Add\+To\+Pseudo\+Scene} (string scene, Transform transform)
+\item 
+\Hypertarget{class_runtime_inspector_namespace_1_1_runtime_hierarchy_a6309c52821d6900dbe585bf4a68fc0a5}\label{class_runtime_inspector_namespace_1_1_runtime_hierarchy_a6309c52821d6900dbe585bf4a68fc0a5} 
+void {\bfseries Add\+To\+Pseudo\+Scene} (string scene, IEnumerable$<$ Transform $>$ transforms)
+\item 
+\Hypertarget{class_runtime_inspector_namespace_1_1_runtime_hierarchy_a20b1e47429208621bc904a8bef6f218f}\label{class_runtime_inspector_namespace_1_1_runtime_hierarchy_a20b1e47429208621bc904a8bef6f218f} 
+void {\bfseries Remove\+From\+Pseudo\+Scene} (string scene, Transform transform, bool delete\+Scene\+If\+Empty)
+\item 
+\Hypertarget{class_runtime_inspector_namespace_1_1_runtime_hierarchy_a45f111d201587c77ffefaa9606506e31}\label{class_runtime_inspector_namespace_1_1_runtime_hierarchy_a45f111d201587c77ffefaa9606506e31} 
+void {\bfseries Remove\+From\+Pseudo\+Scene} (string scene, IEnumerable$<$ Transform $>$ transforms, bool delete\+Scene\+If\+Empty)
+\item 
+\Hypertarget{class_runtime_inspector_namespace_1_1_runtime_hierarchy_a839e7ce64603ebf7689f6343a95492d4}\label{class_runtime_inspector_namespace_1_1_runtime_hierarchy_a839e7ce64603ebf7689f6343a95492d4} 
+void {\bfseries Create\+Pseudo\+Scene} (string scene, Transform root\+Transform=null)
+\item 
+\Hypertarget{class_runtime_inspector_namespace_1_1_runtime_hierarchy_a49a6c66480392d4e329317384c7dc08e}\label{class_runtime_inspector_namespace_1_1_runtime_hierarchy_a49a6c66480392d4e329317384c7dc08e} 
+void {\bfseries Delete\+All\+Pseudo\+Scenes} ()
+\item 
+\Hypertarget{class_runtime_inspector_namespace_1_1_runtime_hierarchy_af945125ad49159f468829eb6d6dc8d12}\label{class_runtime_inspector_namespace_1_1_runtime_hierarchy_af945125ad49159f468829eb6d6dc8d12} 
+void {\bfseries Delete\+Pseudo\+Scene} (string scene)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Atributos públicos}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_runtime_inspector_namespace_1_1_runtime_hierarchy_a14336242d890db7fc4b41679f1132e6b}\label{class_runtime_inspector_namespace_1_1_runtime_hierarchy_a14336242d890db7fc4b41679f1132e6b} 
+Selection\+Changed\+Delegate {\bfseries On\+Selection\+Changed}
+\item 
+\Hypertarget{class_runtime_inspector_namespace_1_1_runtime_hierarchy_aead9c0e07e6494ea9ea6650f19da516e}\label{class_runtime_inspector_namespace_1_1_runtime_hierarchy_aead9c0e07e6494ea9ea6650f19da516e} 
+Double\+Click\+Delegate {\bfseries On\+Item\+Double\+Clicked}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Métodos protegidos}
+\begin{DoxyCompactItemize}
+\item 
+override void \mbox{\hyperlink{class_runtime_inspector_namespace_1_1_runtime_hierarchy_a9790f238766b92c104a525cd2a162fdb}{Awake}} ()
+\item 
+override void \mbox{\hyperlink{class_runtime_inspector_namespace_1_1_runtime_hierarchy_a5931d6d6fac3d0704d6e72031857db1d}{Update}} ()
+\item 
+\Hypertarget{class_runtime_inspector_namespace_1_1_runtime_hierarchy_a6ac4452d26171e575cd46a17115bf589}\label{class_runtime_inspector_namespace_1_1_runtime_hierarchy_a6ac4452d26171e575cd46a17115bf589} 
+override void {\bfseries Refresh\+Skin} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Métodos protegidos heredados de \mbox{\hyperlink{class_runtime_inspector_namespace_1_1_skinned_window}{Runtime\+Inspector\+Namespace.\+Skinned\+Window}}}
+\begin{DoxyCompactItemize}
+\item 
+void {\bfseries Refresh\+Skin} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Propiedades}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_runtime_inspector_namespace_1_1_runtime_hierarchy_a55a16e34ec61b3146e01ce508752cf0c}\label{class_runtime_inspector_namespace_1_1_runtime_hierarchy_a55a16e34ec61b3146e01ce508752cf0c} 
+float {\bfseries Refresh\+Interval}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+\Hypertarget{class_runtime_inspector_namespace_1_1_runtime_hierarchy_ad7915594daf12a930cf8c1046d8da9e3}\label{class_runtime_inspector_namespace_1_1_runtime_hierarchy_ad7915594daf12a930cf8c1046d8da9e3} 
+float {\bfseries Object\+Names\+Refresh\+Interval}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+\Hypertarget{class_runtime_inspector_namespace_1_1_runtime_hierarchy_a2c5cfd398fbb22f8266b79aaf991b728}\label{class_runtime_inspector_namespace_1_1_runtime_hierarchy_a2c5cfd398fbb22f8266b79aaf991b728} 
+float {\bfseries Search\+Refresh\+Interval}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+\Hypertarget{class_runtime_inspector_namespace_1_1_runtime_hierarchy_ab2c4338a4e90259deecf6333c3b4c16c}\label{class_runtime_inspector_namespace_1_1_runtime_hierarchy_ab2c4338a4e90259deecf6333c3b4c16c} 
+bool {\bfseries Allow\+Multi\+Selection}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+\Hypertarget{class_runtime_inspector_namespace_1_1_runtime_hierarchy_a1fdf7c311b89a968c1bbb3ed634fd801}\label{class_runtime_inspector_namespace_1_1_runtime_hierarchy_a1fdf7c311b89a968c1bbb3ed634fd801} 
+bool {\bfseries Multi\+Selection\+Toggle\+Selection\+Mode}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+\Hypertarget{class_runtime_inspector_namespace_1_1_runtime_hierarchy_ad268b80f2bc8af6417c15d05e91aa0b6}\label{class_runtime_inspector_namespace_1_1_runtime_hierarchy_ad268b80f2bc8af6417c15d05e91aa0b6} 
+bool {\bfseries Expose\+Unity\+Scenes}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+\Hypertarget{class_runtime_inspector_namespace_1_1_runtime_hierarchy_aeb22f761f1e71715ae26ab8e2f8c6807}\label{class_runtime_inspector_namespace_1_1_runtime_hierarchy_aeb22f761f1e71715ae26ab8e2f8c6807} 
+bool {\bfseries Expose\+Dont\+Destroy\+On\+Load\+Scene}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+\Hypertarget{class_runtime_inspector_namespace_1_1_runtime_hierarchy_a905e4cf23b2107c3a0c5216de333124f}\label{class_runtime_inspector_namespace_1_1_runtime_hierarchy_a905e4cf23b2107c3a0c5216de333124f} 
+Long\+Press\+Action {\bfseries Pointer\+Long\+Press\+Action}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+\Hypertarget{class_runtime_inspector_namespace_1_1_runtime_hierarchy_ac3c9fd84a90bc5e007b2a20b30b83ccc}\label{class_runtime_inspector_namespace_1_1_runtime_hierarchy_ac3c9fd84a90bc5e007b2a20b30b83ccc} 
+float {\bfseries Pointer\+Long\+Press\+Duration}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+\Hypertarget{class_runtime_inspector_namespace_1_1_runtime_hierarchy_a80e00732af63e98131ca836f4335ecb7}\label{class_runtime_inspector_namespace_1_1_runtime_hierarchy_a80e00732af63e98131ca836f4335ecb7} 
+float {\bfseries Double\+Click\+Threshold}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+\Hypertarget{class_runtime_inspector_namespace_1_1_runtime_hierarchy_a3658ffa430665500cbb60ae0429eeecc}\label{class_runtime_inspector_namespace_1_1_runtime_hierarchy_a3658ffa430665500cbb60ae0429eeecc} 
+bool {\bfseries Can\+Reorganize\+Items}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+\Hypertarget{class_runtime_inspector_namespace_1_1_runtime_hierarchy_a38d2b4ce03a74184300b5f4a5812681e}\label{class_runtime_inspector_namespace_1_1_runtime_hierarchy_a38d2b4ce03a74184300b5f4a5812681e} 
+bool {\bfseries Can\+Drop\+Dragged\+Parent\+On\+Child}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+\Hypertarget{class_runtime_inspector_namespace_1_1_runtime_hierarchy_a5ebb83f440a2cdd6bfa154ceda88a4f9}\label{class_runtime_inspector_namespace_1_1_runtime_hierarchy_a5ebb83f440a2cdd6bfa154ceda88a4f9} 
+bool {\bfseries Can\+Drop\+Dragged\+Objects\+To\+Pseudo\+Scenes}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+\Hypertarget{class_runtime_inspector_namespace_1_1_runtime_hierarchy_a97e75ebfb2546d425a72ccb05aee4fa8}\label{class_runtime_inspector_namespace_1_1_runtime_hierarchy_a97e75ebfb2546d425a72ccb05aee4fa8} 
+bool {\bfseries Show\+Tooltips}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+float \mbox{\hyperlink{class_runtime_inspector_namespace_1_1_runtime_hierarchy_ac7af95c31b34f4efe041054914500ddf}{Tooltip\+Delay}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+\Hypertarget{class_runtime_inspector_namespace_1_1_runtime_hierarchy_adaf1608b6eeb9fcda058835ea1707fed}\label{class_runtime_inspector_namespace_1_1_runtime_hierarchy_adaf1608b6eeb9fcda058835ea1707fed} 
+bool {\bfseries Show\+Horizontal\+Scrollbar}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+\Hypertarget{class_runtime_inspector_namespace_1_1_runtime_hierarchy_adae7c97023d2de02c6a21cfae398c54b}\label{class_runtime_inspector_namespace_1_1_runtime_hierarchy_adae7c97023d2de02c6a21cfae398c54b} 
+string {\bfseries Search\+Term}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+\Hypertarget{class_runtime_inspector_namespace_1_1_runtime_hierarchy_a2c24795d9bf220e0659829415c6a3475}\label{class_runtime_inspector_namespace_1_1_runtime_hierarchy_a2c24795d9bf220e0659829415c6a3475} 
+bool {\bfseries Is\+In\+Search\+Mode}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+\Hypertarget{class_runtime_inspector_namespace_1_1_runtime_hierarchy_a250404cf38ec836b0c1ba2364108903f}\label{class_runtime_inspector_namespace_1_1_runtime_hierarchy_a250404cf38ec836b0c1ba2364108903f} 
+\mbox{\hyperlink{class_runtime_inspector_namespace_1_1_runtime_inspector}{Runtime\+Inspector}} {\bfseries Connected\+Inspector}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+\Hypertarget{class_runtime_inspector_namespace_1_1_runtime_hierarchy_ab3775585a86a20d1974dee301bc5dfda}\label{class_runtime_inspector_namespace_1_1_runtime_hierarchy_ab3775585a86a20d1974dee301bc5dfda} 
+bool {\bfseries Is\+Locked}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+\Hypertarget{class_runtime_inspector_namespace_1_1_runtime_hierarchy_a31c5723364b03b9143af524202e5e796}\label{class_runtime_inspector_namespace_1_1_runtime_hierarchy_a31c5723364b03b9143af524202e5e796} 
+Read\+Only\+Collection$<$ Transform $>$ {\bfseries Current\+Selection}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+Canvas \mbox{\hyperlink{class_runtime_inspector_namespace_1_1_runtime_hierarchy_a2cb2b29b7d4e11e173acbe21b03767ea}{Canvas}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+\Hypertarget{class_runtime_inspector_namespace_1_1_runtime_hierarchy_a0f6f89f05e3f0c8277cb57ed87e66b87}\label{class_runtime_inspector_namespace_1_1_runtime_hierarchy_a0f6f89f05e3f0c8277cb57ed87e66b87} 
+Game\+Object\+Filter\+Delegate {\bfseries Game\+Object\+Filter}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Propiedades heredados de \mbox{\hyperlink{class_runtime_inspector_namespace_1_1_skinned_window}{Runtime\+Inspector\+Namespace.\+Skinned\+Window}}}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_runtime_inspector_namespace_1_1_u_i_skin}{UISkin}} {\bfseries Skin}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Propiedades heredados de \mbox{\hyperlink{interface_runtime_inspector_namespace_1_1_i_tooltip_manager}{Runtime\+Inspector\+Namespace.\+ITooltip\+Manager}}}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_runtime_inspector_namespace_1_1_u_i_skin}{UISkin}} {\bfseries Skin}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Documentación de funciones miembro}
+\Hypertarget{class_runtime_inspector_namespace_1_1_runtime_hierarchy_a9790f238766b92c104a525cd2a162fdb}\index{RuntimeInspectorNamespace.RuntimeHierarchy@{RuntimeInspectorNamespace.RuntimeHierarchy}!Awake@{Awake}}
+\index{Awake@{Awake}!RuntimeInspectorNamespace.RuntimeHierarchy@{RuntimeInspectorNamespace.RuntimeHierarchy}}
+\doxysubsubsection{\texorpdfstring{Awake()}{Awake()}}
+{\footnotesize\ttfamily \label{class_runtime_inspector_namespace_1_1_runtime_hierarchy_a9790f238766b92c104a525cd2a162fdb} 
+override void Runtime\+Inspector\+Namespace.\+Runtime\+Hierarchy.\+Awake (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+Reimplementado de \mbox{\hyperlink{class_runtime_inspector_namespace_1_1_skinned_window}{Runtime\+Inspector\+Namespace.\+Skinned\+Window}}.
+
+\Hypertarget{class_runtime_inspector_namespace_1_1_runtime_hierarchy_a5931d6d6fac3d0704d6e72031857db1d}\index{RuntimeInspectorNamespace.RuntimeHierarchy@{RuntimeInspectorNamespace.RuntimeHierarchy}!Update@{Update}}
+\index{Update@{Update}!RuntimeInspectorNamespace.RuntimeHierarchy@{RuntimeInspectorNamespace.RuntimeHierarchy}}
+\doxysubsubsection{\texorpdfstring{Update()}{Update()}}
+{\footnotesize\ttfamily \label{class_runtime_inspector_namespace_1_1_runtime_hierarchy_a5931d6d6fac3d0704d6e72031857db1d} 
+override void Runtime\+Inspector\+Namespace.\+Runtime\+Hierarchy.\+Update (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+Reimplementado de \mbox{\hyperlink{class_runtime_inspector_namespace_1_1_skinned_window}{Runtime\+Inspector\+Namespace.\+Skinned\+Window}}.
+
+
+
+\doxysubsection{Documentación de propiedades}
+\Hypertarget{class_runtime_inspector_namespace_1_1_runtime_hierarchy_a2cb2b29b7d4e11e173acbe21b03767ea}\index{RuntimeInspectorNamespace.RuntimeHierarchy@{RuntimeInspectorNamespace.RuntimeHierarchy}!Canvas@{Canvas}}
+\index{Canvas@{Canvas}!RuntimeInspectorNamespace.RuntimeHierarchy@{RuntimeInspectorNamespace.RuntimeHierarchy}}
+\doxysubsubsection{\texorpdfstring{Canvas}{Canvas}}
+{\footnotesize\ttfamily \label{class_runtime_inspector_namespace_1_1_runtime_hierarchy_a2cb2b29b7d4e11e173acbe21b03767ea} 
+Canvas Runtime\+Inspector\+Namespace.\+Runtime\+Hierarchy.\+Canvas\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Implementa \mbox{\hyperlink{interface_runtime_inspector_namespace_1_1_i_tooltip_manager}{Runtime\+Inspector\+Namespace.\+ITooltip\+Manager}}.
+
+\Hypertarget{class_runtime_inspector_namespace_1_1_runtime_hierarchy_ac7af95c31b34f4efe041054914500ddf}\index{RuntimeInspectorNamespace.RuntimeHierarchy@{RuntimeInspectorNamespace.RuntimeHierarchy}!TooltipDelay@{TooltipDelay}}
+\index{TooltipDelay@{TooltipDelay}!RuntimeInspectorNamespace.RuntimeHierarchy@{RuntimeInspectorNamespace.RuntimeHierarchy}}
+\doxysubsubsection{\texorpdfstring{TooltipDelay}{TooltipDelay}}
+{\footnotesize\ttfamily \label{class_runtime_inspector_namespace_1_1_runtime_hierarchy_ac7af95c31b34f4efe041054914500ddf} 
+float Runtime\+Inspector\+Namespace.\+Runtime\+Hierarchy.\+Tooltip\+Delay\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Implementa \mbox{\hyperlink{interface_runtime_inspector_namespace_1_1_i_tooltip_manager}{Runtime\+Inspector\+Namespace.\+ITooltip\+Manager}}.
+
+
+
+La documentación de esta clase está generada del siguiente archivo\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/exepa/source/repos/\+Sistema\+Prototipado3\+D/\+Sistema\+Prototipado3\+D/\+Assets/\+Plugins/\+Runtime\+Inspector/\+Scripts/Runtime\+Hierarchy.\+cs\end{DoxyCompactItemize}

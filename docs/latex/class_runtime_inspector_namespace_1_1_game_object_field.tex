@@ -1,0 +1,202 @@
+\doxysection{Referencia de la clase Runtime\+Inspector\+Namespace.\+Game\+Object\+Field}
+\hypertarget{class_runtime_inspector_namespace_1_1_game_object_field}{}\label{class_runtime_inspector_namespace_1_1_game_object_field}\index{RuntimeInspectorNamespace.GameObjectField@{RuntimeInspectorNamespace.GameObjectField}}
+
+
+Diagrama de herencia de Runtime\+Inspector\+Namespace.\+Game\+Object\+Field
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=330pt]{class_runtime_inspector_namespace_1_1_game_object_field__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Diagrama de colaboración de Runtime\+Inspector\+Namespace.\+Game\+Object\+Field\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_runtime_inspector_namespace_1_1_game_object_field__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Métodos públicos}
+\begin{DoxyCompactItemize}
+\item 
+override void \mbox{\hyperlink{class_runtime_inspector_namespace_1_1_game_object_field_a7a7301e675ae6f21a4722bab4e58fc2b}{Initialize}} ()
+\item 
+\Hypertarget{class_runtime_inspector_namespace_1_1_game_object_field_abf4d697be3701f86dfdaa5ce236247b9}\label{class_runtime_inspector_namespace_1_1_game_object_field_abf4d697be3701f86dfdaa5ce236247b9} 
+override bool {\bfseries Supports\+Type} (Type type)
+\item 
+override void \mbox{\hyperlink{class_runtime_inspector_namespace_1_1_game_object_field_a6012a1be857d37c95360bebdf8a80c4d}{Refresh}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Métodos públicos heredados de \mbox{\hyperlink{class_runtime_inspector_namespace_1_1_expandable_inspector_field}{Runtime\+Inspector\+Namespace.\+Expandable\+Inspector\+Field}}}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_runtime_inspector_namespace_1_1_inspector_field}{Inspector\+Field}} {\bfseries Create\+Drawer\+For\+Component} (Component component, string variable\+Name=null)
+\item 
+\mbox{\hyperlink{class_runtime_inspector_namespace_1_1_inspector_field}{Inspector\+Field}} {\bfseries Create\+Drawer\+For\+Variable} (Member\+Info variable, string variable\+Name=null)
+\item 
+\mbox{\hyperlink{class_runtime_inspector_namespace_1_1_inspector_field}{Inspector\+Field}} {\bfseries Create\+Drawer} (Type variable\+Type, string variable\+Name, Getter getter, Setter setter, bool draw\+Objects\+As\+Fields=true)
+\item 
+\mbox{\hyperlink{class_runtime_inspector_namespace_1_1_exposed_method_field}{Exposed\+Method\+Field}} {\bfseries Create\+Exposed\+Method\+Button} (\mbox{\hyperlink{struct_runtime_inspector_namespace_1_1_exposed_method}{Exposed\+Method}} method, Getter getter, Setter setter)
+\end{DoxyCompactItemize}
+\doxysubsection*{Métodos públicos heredados de \mbox{\hyperlink{class_runtime_inspector_namespace_1_1_inspector_field}{Runtime\+Inspector\+Namespace.\+Inspector\+Field}}}
+\begin{DoxyCompactItemize}
+\item 
+delegate object {\bfseries Getter} ()
+\item 
+delegate void {\bfseries Setter} (object value)
+\item 
+bool {\bfseries Supports\+Type} (Type type)
+\item 
+virtual bool {\bfseries Can\+Bind\+To} (Type type, Member\+Info variable)
+\item 
+void {\bfseries Bind\+To} (\mbox{\hyperlink{class_runtime_inspector_namespace_1_1_inspector_field}{Inspector\+Field}} parent, Member\+Info variable, string variable\+Name=null)
+\item 
+void {\bfseries Bind\+To} (Type variable\+Type, string variable\+Name, Getter getter, Setter setter, Member\+Info variable=null)
+\item 
+void {\bfseries Unbind} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Métodos protegidos}
+\begin{DoxyCompactItemize}
+\item 
+override void \mbox{\hyperlink{class_runtime_inspector_namespace_1_1_game_object_field_a15c383401b74287b7dc80d4ec3e6524a}{On\+Bound}} (Member\+Info variable)
+\item 
+override void \mbox{\hyperlink{class_runtime_inspector_namespace_1_1_game_object_field_a2dc8a598e4031c6928a40bb25b9b47cf}{On\+Unbound}} ()
+\item 
+override void \mbox{\hyperlink{class_runtime_inspector_namespace_1_1_game_object_field_aa1dd87b9af900e751d7e846246e44794}{Clear\+Elements}} ()
+\item 
+\Hypertarget{class_runtime_inspector_namespace_1_1_game_object_field_a65e5f1fe41d2c9267439d605c4b2d2a8}\label{class_runtime_inspector_namespace_1_1_game_object_field_a65e5f1fe41d2c9267439d605c4b2d2a8} 
+override void {\bfseries Generate\+Elements} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Métodos protegidos heredados de \mbox{\hyperlink{class_runtime_inspector_namespace_1_1_expandable_inspector_field}{Runtime\+Inspector\+Namespace.\+Expandable\+Inspector\+Field}}}
+\begin{DoxyCompactItemize}
+\item 
+override void \mbox{\hyperlink{class_runtime_inspector_namespace_1_1_expandable_inspector_field_a83e5723b03eeb58223b9c8674bc6dfee}{On\+Inspector\+Changed}} ()
+\item 
+override void \mbox{\hyperlink{class_runtime_inspector_namespace_1_1_expandable_inspector_field_aa27da88c03ccb0ae85b6f4e492fc971a}{On\+Skin\+Changed}} ()
+\item 
+override void \mbox{\hyperlink{class_runtime_inspector_namespace_1_1_expandable_inspector_field_a56e84bb230ae714ce89d42c949326cc6}{On\+Depth\+Changed}} ()
+\item 
+void {\bfseries Regenerate\+Elements} ()
+\item 
+void {\bfseries Generate\+Elements} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Propiedades}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_runtime_inspector_namespace_1_1_game_object_field_af5a94f36049a7006b69fe469fe4203a2}\label{class_runtime_inspector_namespace_1_1_game_object_field_af5a94f36049a7006b69fe469fe4203a2} 
+override int {\bfseries Length}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Propiedades heredados de \mbox{\hyperlink{class_runtime_inspector_namespace_1_1_expandable_inspector_field}{Runtime\+Inspector\+Namespace.\+Expandable\+Inspector\+Field}}}
+\begin{DoxyCompactItemize}
+\item 
+virtual int {\bfseries Length}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+override bool {\bfseries Should\+Refresh}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+bool {\bfseries Is\+Expanded}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+Runtime\+Inspector.\+Header\+Visibility {\bfseries Header\+Visibility}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Propiedades heredados de \mbox{\hyperlink{class_runtime_inspector_namespace_1_1_inspector_field}{Runtime\+Inspector\+Namespace.\+Inspector\+Field}}}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_runtime_inspector_namespace_1_1_runtime_inspector}{Runtime\+Inspector}} {\bfseries Inspector}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+\mbox{\hyperlink{class_runtime_inspector_namespace_1_1_u_i_skin}{UISkin}} {\bfseries Skin}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+Type {\bfseries Bound\+Variable\+Type}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+object {\bfseries Value}\hspace{0.3cm}{\ttfamily  \mbox{[}get, protected set\mbox{]}}
+\item 
+int {\bfseries Depth}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+bool {\bfseries Is\+Visible}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+string {\bfseries Name}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+string {\bfseries Name\+Raw}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+virtual bool {\bfseries Should\+Refresh}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+virtual float {\bfseries Height\+Multiplier}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Otros miembros heredados}
+\doxysubsection*{Atributos protegidos heredados de \mbox{\hyperlink{class_runtime_inspector_namespace_1_1_expandable_inspector_field}{Runtime\+Inspector\+Namespace.\+Expandable\+Inspector\+Field}}}
+\begin{DoxyCompactItemize}
+\item 
+Rect\+Transform {\bfseries draw\+Area}
+\item 
+readonly List$<$ \mbox{\hyperlink{class_runtime_inspector_namespace_1_1_inspector_field}{Inspector\+Field}} $>$ {\bfseries elements} = new List$<$\mbox{\hyperlink{class_runtime_inspector_namespace_1_1_inspector_field}{Inspector\+Field}}$>$( 8 )
+\item 
+readonly List$<$ \mbox{\hyperlink{class_runtime_inspector_namespace_1_1_exposed_method_field}{Exposed\+Method\+Field}} $>$ {\bfseries exposed\+Methods} = new List$<$\mbox{\hyperlink{class_runtime_inspector_namespace_1_1_exposed_method_field}{Exposed\+Method\+Field}}$>$()
+\end{DoxyCompactItemize}
+\doxysubsection*{Atributos protegidos heredados de \mbox{\hyperlink{class_runtime_inspector_namespace_1_1_inspector_field}{Runtime\+Inspector\+Namespace.\+Inspector\+Field}}}
+\begin{DoxyCompactItemize}
+\item 
+Layout\+Element {\bfseries layout\+Element}
+\item 
+Text {\bfseries variable\+Name\+Text}
+\item 
+Image {\bfseries variable\+Name\+Mask}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Documentación de funciones miembro}
+\Hypertarget{class_runtime_inspector_namespace_1_1_game_object_field_aa1dd87b9af900e751d7e846246e44794}\index{RuntimeInspectorNamespace.GameObjectField@{RuntimeInspectorNamespace.GameObjectField}!ClearElements@{ClearElements}}
+\index{ClearElements@{ClearElements}!RuntimeInspectorNamespace.GameObjectField@{RuntimeInspectorNamespace.GameObjectField}}
+\doxysubsubsection{\texorpdfstring{ClearElements()}{ClearElements()}}
+{\footnotesize\ttfamily \label{class_runtime_inspector_namespace_1_1_game_object_field_aa1dd87b9af900e751d7e846246e44794} 
+override void Runtime\+Inspector\+Namespace.\+Game\+Object\+Field.\+Clear\+Elements (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+Reimplementado de \mbox{\hyperlink{class_runtime_inspector_namespace_1_1_expandable_inspector_field}{Runtime\+Inspector\+Namespace.\+Expandable\+Inspector\+Field}}.
+
+\Hypertarget{class_runtime_inspector_namespace_1_1_game_object_field_a7a7301e675ae6f21a4722bab4e58fc2b}\index{RuntimeInspectorNamespace.GameObjectField@{RuntimeInspectorNamespace.GameObjectField}!Initialize@{Initialize}}
+\index{Initialize@{Initialize}!RuntimeInspectorNamespace.GameObjectField@{RuntimeInspectorNamespace.GameObjectField}}
+\doxysubsubsection{\texorpdfstring{Initialize()}{Initialize()}}
+{\footnotesize\ttfamily \label{class_runtime_inspector_namespace_1_1_game_object_field_a7a7301e675ae6f21a4722bab4e58fc2b} 
+override void Runtime\+Inspector\+Namespace.\+Game\+Object\+Field.\+Initialize (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Reimplementado de \mbox{\hyperlink{class_runtime_inspector_namespace_1_1_expandable_inspector_field}{Runtime\+Inspector\+Namespace.\+Expandable\+Inspector\+Field}}.
+
+\Hypertarget{class_runtime_inspector_namespace_1_1_game_object_field_a15c383401b74287b7dc80d4ec3e6524a}\index{RuntimeInspectorNamespace.GameObjectField@{RuntimeInspectorNamespace.GameObjectField}!OnBound@{OnBound}}
+\index{OnBound@{OnBound}!RuntimeInspectorNamespace.GameObjectField@{RuntimeInspectorNamespace.GameObjectField}}
+\doxysubsubsection{\texorpdfstring{OnBound()}{OnBound()}}
+{\footnotesize\ttfamily \label{class_runtime_inspector_namespace_1_1_game_object_field_a15c383401b74287b7dc80d4ec3e6524a} 
+override void Runtime\+Inspector\+Namespace.\+Game\+Object\+Field.\+On\+Bound (\begin{DoxyParamCaption}\item[{Member\+Info}]{variable}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+Reimplementado de \mbox{\hyperlink{class_runtime_inspector_namespace_1_1_inspector_field}{Runtime\+Inspector\+Namespace.\+Inspector\+Field}}.
+
+\Hypertarget{class_runtime_inspector_namespace_1_1_game_object_field_a2dc8a598e4031c6928a40bb25b9b47cf}\index{RuntimeInspectorNamespace.GameObjectField@{RuntimeInspectorNamespace.GameObjectField}!OnUnbound@{OnUnbound}}
+\index{OnUnbound@{OnUnbound}!RuntimeInspectorNamespace.GameObjectField@{RuntimeInspectorNamespace.GameObjectField}}
+\doxysubsubsection{\texorpdfstring{OnUnbound()}{OnUnbound()}}
+{\footnotesize\ttfamily \label{class_runtime_inspector_namespace_1_1_game_object_field_a2dc8a598e4031c6928a40bb25b9b47cf} 
+override void Runtime\+Inspector\+Namespace.\+Game\+Object\+Field.\+On\+Unbound (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+Reimplementado de \mbox{\hyperlink{class_runtime_inspector_namespace_1_1_expandable_inspector_field}{Runtime\+Inspector\+Namespace.\+Expandable\+Inspector\+Field}}.
+
+\Hypertarget{class_runtime_inspector_namespace_1_1_game_object_field_a6012a1be857d37c95360bebdf8a80c4d}\index{RuntimeInspectorNamespace.GameObjectField@{RuntimeInspectorNamespace.GameObjectField}!Refresh@{Refresh}}
+\index{Refresh@{Refresh}!RuntimeInspectorNamespace.GameObjectField@{RuntimeInspectorNamespace.GameObjectField}}
+\doxysubsubsection{\texorpdfstring{Refresh()}{Refresh()}}
+{\footnotesize\ttfamily \label{class_runtime_inspector_namespace_1_1_game_object_field_a6012a1be857d37c95360bebdf8a80c4d} 
+override void Runtime\+Inspector\+Namespace.\+Game\+Object\+Field.\+Refresh (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Reimplementado de \mbox{\hyperlink{class_runtime_inspector_namespace_1_1_expandable_inspector_field}{Runtime\+Inspector\+Namespace.\+Expandable\+Inspector\+Field}}.
+
+
+
+La documentación de esta clase está generada del siguiente archivo\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/exepa/source/repos/\+Sistema\+Prototipado3\+D/\+Sistema\+Prototipado3\+D/\+Assets/\+Plugins/\+Runtime\+Inspector/\+Scripts/\+Runtime\+Inspector/\+Fields/Game\+Object\+Field.\+cs\end{DoxyCompactItemize}

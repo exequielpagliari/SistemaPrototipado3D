@@ -1,0 +1,7 @@
+<map id="Prototipe.Core.Actions.ActionChainer" name="Prototipe.Core.Actions.ActionChainer">
+<area shape="rect" id="Node000001" title="Clase dedicada a la activación de múltiples IAction tanto de una vez como en secuencia." alt="" coords="46,96,241,139"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,13,117,40"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="85,50,126,94,123,97,81,53"/>
+<area shape="rect" id="Node000003" href="$interface_prototipe_1_1_core_1_1_interfaces_1_1_i_action.html" title="Interfaz dedicada a la interacción de acciones." alt="" coords="141,5,312,48"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="199,61,165,98,161,94,195,58"/>
+</map>

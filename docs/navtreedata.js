@@ -25,6 +25,9 @@
 var NAVTREE =
 [
   [ "SistemaPrototipado3D", "index.html", [
+    [ "Espacios de nombres", "namespaces.html", [
+      [ "Lista de espacios de nombres", "namespaces.html", "namespaces_dup" ]
+    ] ],
     [ "Clases", "annotated.html", [
       [ "Lista de clases", "annotated.html", "annotated_dup" ],
       [ "Índice de clases", "classes.html", null ],
@@ -42,7 +45,8 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"annotated.html"
+"annotated.html",
+"class_runtime_inspector_namespace_1_1_hierarchy_data_transform.html"
 ];
 
 var SYNCONMSG = 'pulsar para deshabilitar sincronización';

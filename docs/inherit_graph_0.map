@@ -1,67 +1,9 @@
 <map id="Gráfico de jerarquía de clases" name="Gráfico de jerarquía de clases">
-<area shape="rect" id="Node000000" href="$interface_i_action.html" title="Interfaz dedicada a la interacción de acciones." alt="" coords="30,157,92,184"/>
-<area shape="rect" id="Node000001" href="$class_action_chainer.html" title="Clase dedicada a la activación de múltiples IAction tanto de una vez como en secuencia." alt="" coords="213,56,316,83"/>
-<area shape="poly" id="edge1_Node000000_Node000001" title=" " alt="" coords="86,145,122,117,164,92,211,76,213,81,166,97,125,122,90,149"/>
-<area shape="rect" id="Node000005" href="$class_conditional_action.html" title="Clase dedicada a manejar condiciones para realizar acciones." alt="" coords="203,107,326,133"/>
-<area shape="poly" id="edge2_Node000000_Node000005" title=" " alt="" coords="107,157,207,131,209,136,108,162"/>
-<area shape="rect" id="Node000015" href="$class_move_action.html" title="Clase dedicada a generar un desplazamiento por medio de la Interfaz IAction." alt="" coords="219,157,310,184"/>
-<area shape="poly" id="edge3_Node000000_Node000015" title=" " alt="" coords="108,168,219,168,219,173,108,173"/>
-<area shape="rect" id="Node000016" href="$class_move_action_corrutine.html" title="Clase dedicada a generar un desplazamiento con Corrutina por medio de la Interfaz IAction." alt="" coords="193,208,336,235"/>
-<area shape="poly" id="edge4_Node000000_Node000016" title=" " alt="" coords="108,179,209,205,207,210,107,185"/>
-<area shape="rect" id="Node000017" href="$class_move_action_plataform_corrutine.html" title="Clase dedicada a generar una Plataforma con un desplazamiento con Corrutina por medio de la Interfaz ..." alt="" coords="165,259,364,285"/>
-<area shape="poly" id="edge5_Node000000_Node000017" title=" " alt="" coords="90,192,125,219,166,244,196,256,194,261,164,249,122,224,86,196"/>
-<area shape="rect" id="Node000022" href="$class_player_buillder.html" title="Clase dedicada a la Construcción del Player." alt="" coords="214,309,315,336"/>
-<area shape="poly" id="edge6_Node000000_Node000022" title=" " alt="" coords="79,196,115,247,139,273,166,295,189,306,214,314,213,319,187,311,163,300,135,277,110,251,75,199"/>
-<area shape="rect" id="Node000024" href="$class_rotate_action.html" title="Clase dedicada a la rotación, ejecutable desde la interfaz IAction." alt="" coords="216,5,313,32"/>
-<area shape="poly" id="edge7_Node000000_Node000024" title=" " alt="" coords="75,142,110,91,135,64,163,42,188,30,215,22,216,27,190,35,166,46,139,68,115,94,79,145"/>
-<area shape="rect" id="Node000021" href="$interface_i_actor.html" title="Interfaz dedicada a la interacción con Actores." alt="" coords="33,360,89,387"/>
-<area shape="rect" id="Node000020" href="$class_player_actor.html" title="Implementación IActor para Player." alt="" coords="220,360,309,387"/>
-<area shape="poly" id="edge8_Node000021_Node000020" title=" " alt="" coords="105,371,219,371,219,376,105,376"/>
-<area shape="rect" id="Node000009" href="$interface_i_condition.html" title="Interfaz dedicada a las condiciones para las condiciones necesaria para realizar acciones." alt="" coords="21,436,101,463"/>
-<area shape="rect" id="Node000008" href="$class_has_key_condition.html" title=" " alt="" coords="203,411,326,437"/>
-<area shape="poly" id="edge9_Node000009_Node000008" title=" " alt="" coords="116,440,202,429,203,434,117,445"/>
-<area shape="rect" id="Node000010" href="$class_multiple_condition.html" title="Clase dedicada a manejar condiciones para realizar acciones." alt="" coords="204,461,325,488"/>
-<area shape="poly" id="edge10_Node000009_Node000010" title=" " alt="" coords="117,454,204,464,203,470,116,459"/>
-<area shape="rect" id="Node000026" href="$interface_i_interactable.html" title="Interfaz dedicada a la interacción." alt="" coords="14,1145,108,1172"/>
-<area shape="rect" id="Node000025" href="$class_volumen_auto_interactable.html" title="Clase dedicada a la emisión de un evento cuando una interfaz IActivator ejecuta Activate." alt="" coords="181,1120,348,1147"/>
-<area shape="poly" id="edge11_Node000026_Node000025" title=" " alt="" coords="122,1148,180,1141,181,1146,123,1154"/>
-<area shape="rect" id="Node000027" href="$class_volumen_interactable.html" title="Clase dedicada a la emisión de un evento cuando una interfaz IActivator ejecuta Activate." alt="" coords="195,1171,334,1197"/>
-<area shape="poly" id="edge12_Node000026_Node000027" title=" " alt="" coords="123,1164,194,1173,194,1178,122,1169"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="5,588,117,615"/>
-<area shape="poly" id="edge13_Node000002_Node000001" title=" " alt="" coords="74,573,95,527,114,474,120,437,123,390,125,278,128,221,134,169,145,125,163,93,185,77,212,69,213,74,188,81,167,96,150,127,139,170,133,222,131,278,128,390,125,438,119,475,100,529,79,575"/>
-<area shape="poly" id="edge16_Node000002_Node000005" title=" " alt="" coords="74,573,95,527,114,474,120,442,123,401,127,304,137,210,147,171,163,144,181,130,201,122,203,127,183,134,167,147,152,173,142,210,132,304,128,401,125,443,119,475,100,529,79,575"/>
-<area shape="poly" id="edge24_Node000002_Node000015" title=" " alt="" coords="74,573,95,527,114,474,123,432,125,393,119,325,119,293,124,261,137,228,163,194,189,177,218,169,220,174,191,182,167,198,142,231,129,262,124,293,125,325,130,393,128,432,119,475,100,529,79,575"/>
-<area shape="poly" id="edge25_Node000002_Node000016" title=" " alt="" coords="73,573,94,527,114,474,122,439,125,408,123,352,124,325,129,299,141,273,163,245,191,227,194,232,166,249,146,275,134,301,129,326,128,352,130,408,127,440,119,475,99,529,78,575"/>
-<area shape="poly" id="edge26_Node000002_Node000017" title=" " alt="" coords="73,573,114,474,121,447,125,422,126,378,134,338,145,317,163,295,179,284,182,288,166,299,149,320,139,339,132,379,130,423,127,448,119,476,78,575"/>
-<area shape="poly" id="edge31_Node000002_Node000022" title=" " alt="" coords="72,572,114,474,125,436,130,405,139,376,163,346,186,332,212,324,214,329,189,336,166,350,144,378,135,406,130,438,119,476,77,574"/>
-<area shape="poly" id="edge33_Node000002_Node000024" title=" " alt="" coords="74,573,96,527,114,474,121,432,123,378,124,252,126,188,131,128,143,79,163,42,187,25,215,17,216,22,189,30,167,46,148,81,137,129,131,188,129,252,128,378,126,433,119,475,100,529,79,575"/>
-<area shape="poly" id="edge30_Node000002_Node000020" title=" " alt="" coords="72,573,121,470,145,422,163,397,190,382,219,374,220,379,192,387,166,401,150,425,125,472,77,575"/>
-<area shape="poly" id="edge19_Node000002_Node000008" title=" " alt="" coords="71,572,106,509,132,475,163,447,201,430,203,435,166,452,136,479,110,512,76,575"/>
-<area shape="poly" id="edge29_Node000002_Node000010" title=" " alt="" coords="79,574,115,535,138,515,163,498,202,482,204,487,166,502,142,519,119,538,83,578"/>
-<area shape="poly" id="edge34_Node000002_Node000025" title=" " alt="" coords="67,630,76,735,95,878,108,951,124,1017,144,1070,167,1106,182,1118,179,1122,163,1110,139,1072,119,1018,103,952,89,879,71,736,62,630"/>
-<area shape="poly" id="edge35_Node000002_Node000027" title=" " alt="" coords="66,630,74,745,91,903,105,984,121,1057,142,1117,154,1140,167,1157,180,1167,195,1175,193,1179,177,1172,163,1161,149,1142,137,1119,116,1058,99,985,86,904,69,745,61,630"/>
-<area shape="rect" id="Node000003" href="$class_actor_manager.html" title="Clase dedicada a la manipualación de Actores." alt="" coords="213,512,316,539"/>
-<area shape="poly" id="edge14_Node000002_Node000003" title=" " alt="" coords="99,578,164,548,212,534,214,539,166,553,102,583"/>
-<area shape="rect" id="Node000004" href="$class_collider_gizmo_drawer.html" title="Clase dedicada al dibujado de Colliders en el Editor." alt="" coords="192,563,337,589"/>
-<area shape="poly" id="edge15_Node000002_Node000004" title=" " alt="" coords="132,590,191,582,192,588,132,595"/>
-<area shape="rect" id="Node000006" href="$class_event_emitter_by_i_d.html" title="Clase dedicada a la emición de evento en un canal específico." alt="" coords="201,613,328,640"/>
-<area shape="poly" id="edge17_Node000002_Node000006" title=" " alt="" coords="132,607,200,616,200,621,132,613"/>
-<area shape="rect" id="Node000007" href="$class_event_receiver_by_i_d.html" title="Clase dedicada a la recepción de eventos en un canal específico." alt="" coords="196,664,333,691"/>
-<area shape="poly" id="edge18_Node000002_Node000007" title=" " alt="" coords="102,620,166,650,202,661,200,666,164,654,99,625"/>
-<area shape="rect" id="Node000011" href="$class_input_event_emitter.html" title="Clase dedicada a la emisión de eventos en un canal específico, desde un InputAction específico." alt="" coords="201,715,328,741"/>
-<area shape="poly" id="edge20_Node000002_Node000011" title=" " alt="" coords="83,625,119,664,142,684,166,700,202,715,200,720,163,705,138,688,115,668,79,629"/>
-<area shape="rect" id="Node000012" href="$class_input_manager.html" title="Clase singleton dedicada a conectar InputAction con el proyecto." alt="" coords="214,765,314,792"/>
-<area shape="poly" id="edge21_Node000002_Node000012" title=" " alt="" coords="76,628,110,691,136,724,166,751,189,763,215,771,213,776,187,768,163,756,132,727,106,694,71,630"/>
-<area shape="rect" id="Node000013" href="$class_interactable_manager.html" title="Clase dedicada a la manipualación de IActivators en el Actor." alt="" coords="195,816,334,843"/>
-<area shape="poly" id="edge22_Node000002_Node000013" title=" " alt="" coords="71,629,83,669,102,715,130,762,166,802,196,817,193,822,163,806,125,765,97,718,78,670,66,631"/>
-<area shape="rect" id="Node000014" href="$class_inventory_system.html" title="Clase singleton simplificada dedicada a la manipualación de inventario." alt="" coords="204,867,324,893"/>
-<area shape="poly" id="edge23_Node000002_Node000014" title=" " alt="" coords="68,629,77,678,95,739,124,800,143,828,166,853,184,864,204,871,203,877,182,869,163,857,139,832,119,803,90,740,72,679,63,630"/>
-<area shape="rect" id="Node000018" href="$class_movement.html" title="Controla el movimiento del Player utilizando el Transform." alt="" coords="223,917,306,944"/>
-<area shape="poly" id="edge27_Node000002_Node000018" title=" " alt="" coords="66,630,72,688,88,762,101,800,118,838,140,873,166,903,193,919,223,926,222,932,191,924,163,907,135,876,113,841,96,802,83,763,67,689,61,631"/>
-<area shape="rect" id="Node000019" href="$class_movement_c_c.html" title="Controla el movimiento del Player utilizando un CharacterController." alt="" coords="213,968,316,995"/>
-<area shape="poly" id="edge28_Node000002_Node000019" title=" " alt="" coords="64,630,67,697,81,784,94,830,112,876,136,917,166,954,188,968,213,976,212,981,186,973,163,958,131,920,107,878,89,832,76,785,62,697,59,631"/>
-<area shape="rect" id="Node000023" href="$class_raycast_ground.html" title="Clase dedicada a disparar un Raycast hacia abajo para detectar Ground." alt="" coords="208,1019,320,1045"/>
-<area shape="poly" id="edge32_Node000002_Node000023" title=" " alt="" coords="68,630,81,716,102,829,130,936,148,977,167,1005,186,1018,209,1026,207,1031,183,1023,163,1009,143,980,125,938,96,830,75,717,63,630"/>
-<area shape="rect" id="Node000028" href="$class_volumen_kill.html" title="Clase dedicada destrucción de un IActor y a la emisión de un evento cuando una interfaz IActivator ej..." alt="" coords="220,1069,309,1096"/>
-<area shape="poly" id="edge36_Node000002_Node000028" title=" " alt="" coords="68,630,78,726,98,854,112,918,127,976,146,1024,167,1055,191,1071,220,1079,219,1084,189,1076,163,1059,141,1026,122,978,106,919,93,855,73,726,62,630"/>
+<area shape="rect" id="Node000000" title=" " alt="" coords="18,21,88,48"/>
+<area shape="rect" id="Node000001" href="$class_runtime_inspector_namespace_1_1_runtime_inspector_button_attribute.html" title=" " alt="" coords="170,5,381,48"/>
+<area shape="poly" id="edge1_Node000000_Node000001" title=" " alt="" coords="103,30,169,28,169,33,104,36"/>
+<area shape="rect" id="Node000002" href="$class_runtime_inspector_namespace_1_1_runtime_inspector_custom_editor_attribute.html" title=" " alt="" coords="149,72,402,115"/>
+<area shape="poly" id="edge2_Node000000_Node000002" title=" " alt="" coords="104,45,149,57,192,69,191,74,148,63,103,50"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,80,101,107"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="116,91,148,91,148,96,116,96"/>
 </map>

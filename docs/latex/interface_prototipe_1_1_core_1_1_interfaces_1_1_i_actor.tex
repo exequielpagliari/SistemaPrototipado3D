@@ -1,0 +1,101 @@
+\doxysection{Referencia de la interface Prototipe.\+Core.\+Interfaces.\+IActor}
+\hypertarget{interface_prototipe_1_1_core_1_1_interfaces_1_1_i_actor}{}\label{interface_prototipe_1_1_core_1_1_interfaces_1_1_i_actor}\index{Prototipe.Core.Interfaces.IActor@{Prototipe.Core.Interfaces.IActor}}
+
+
+Interfaz dedicada a la interacción con Actores.  
+
+
+
+
+Diagrama de herencia de Prototipe.\+Core.\+Interfaces.\+IActor
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=209pt]{interface_prototipe_1_1_core_1_1_interfaces_1_1_i_actor__inherit__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Métodos públicos}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{interface_prototipe_1_1_core_1_1_interfaces_1_1_i_actor_ad4a2f0b71a7dfdeaf41faae194e95654}{Can\+Activate}} (\mbox{\hyperlink{interface_prototipe_1_1_core_1_1_interfaces_1_1_i_activator}{IActivator}} activator)
+\begin{DoxyCompactList}\small\item\em Si puede activar determinado Activador. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{interface_prototipe_1_1_core_1_1_interfaces_1_1_i_actor_a5ac9750c5b70c8d7c7db090a2044971b}{Dead}} ()
+\begin{DoxyCompactList}\small\item\em Método de muerte del Actor. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Propiedades}
+\begin{DoxyCompactItemize}
+\item 
+string \mbox{\hyperlink{interface_prototipe_1_1_core_1_1_interfaces_1_1_i_actor_aa105e5a2b787ab36f2b55f96d27b9cda}{Actor\+ID}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em String representativo del Actor. \end{DoxyCompactList}\item 
+Transform \mbox{\hyperlink{interface_prototipe_1_1_core_1_1_interfaces_1_1_i_actor_a5b1a1710301adb02d8951e0009074550}{Transform}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Transform del Actor. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Descripción detallada}
+Interfaz dedicada a la interacción con Actores. 
+
+\doxysubsection{Documentación de funciones miembro}
+\Hypertarget{interface_prototipe_1_1_core_1_1_interfaces_1_1_i_actor_ad4a2f0b71a7dfdeaf41faae194e95654}\index{Prototipe.Core.Interfaces.IActor@{Prototipe.Core.Interfaces.IActor}!CanActivate@{CanActivate}}
+\index{CanActivate@{CanActivate}!Prototipe.Core.Interfaces.IActor@{Prototipe.Core.Interfaces.IActor}}
+\doxysubsubsection{\texorpdfstring{CanActivate()}{CanActivate()}}
+{\footnotesize\ttfamily \label{interface_prototipe_1_1_core_1_1_interfaces_1_1_i_actor_ad4a2f0b71a7dfdeaf41faae194e95654} 
+bool Prototipe.\+Core.\+Interfaces.\+IActor.\+Can\+Activate (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interface_prototipe_1_1_core_1_1_interfaces_1_1_i_activator}{IActivator}}}]{activator}{}\end{DoxyParamCaption})}
+
+
+
+Si puede activar determinado Activador. 
+
+
+
+Implementado en \mbox{\hyperlink{class_player_actor_af117b65b7899d91e56ced1520f970901}{Player\+Actor}}.
+
+\Hypertarget{interface_prototipe_1_1_core_1_1_interfaces_1_1_i_actor_a5ac9750c5b70c8d7c7db090a2044971b}\index{Prototipe.Core.Interfaces.IActor@{Prototipe.Core.Interfaces.IActor}!Dead@{Dead}}
+\index{Dead@{Dead}!Prototipe.Core.Interfaces.IActor@{Prototipe.Core.Interfaces.IActor}}
+\doxysubsubsection{\texorpdfstring{Dead()}{Dead()}}
+{\footnotesize\ttfamily \label{interface_prototipe_1_1_core_1_1_interfaces_1_1_i_actor_a5ac9750c5b70c8d7c7db090a2044971b} 
+void Prototipe.\+Core.\+Interfaces.\+IActor.\+Dead (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Método de muerte del Actor. 
+
+
+
+Implementado en \mbox{\hyperlink{class_player_actor_a1721eba477f3944c108cbd9b683f30ea}{Player\+Actor}}.
+
+
+
+\doxysubsection{Documentación de propiedades}
+\Hypertarget{interface_prototipe_1_1_core_1_1_interfaces_1_1_i_actor_aa105e5a2b787ab36f2b55f96d27b9cda}\index{Prototipe.Core.Interfaces.IActor@{Prototipe.Core.Interfaces.IActor}!ActorID@{ActorID}}
+\index{ActorID@{ActorID}!Prototipe.Core.Interfaces.IActor@{Prototipe.Core.Interfaces.IActor}}
+\doxysubsubsection{\texorpdfstring{ActorID}{ActorID}}
+{\footnotesize\ttfamily \label{interface_prototipe_1_1_core_1_1_interfaces_1_1_i_actor_aa105e5a2b787ab36f2b55f96d27b9cda} 
+string Prototipe.\+Core.\+Interfaces.\+IActor.\+Actor\+ID\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+String representativo del Actor. 
+
+
+
+Implementado en \mbox{\hyperlink{class_player_actor_a30c8fd6065f715400791b396344bcc19}{Player\+Actor}}.
+
+\Hypertarget{interface_prototipe_1_1_core_1_1_interfaces_1_1_i_actor_a5b1a1710301adb02d8951e0009074550}\index{Prototipe.Core.Interfaces.IActor@{Prototipe.Core.Interfaces.IActor}!Transform@{Transform}}
+\index{Transform@{Transform}!Prototipe.Core.Interfaces.IActor@{Prototipe.Core.Interfaces.IActor}}
+\doxysubsubsection{\texorpdfstring{Transform}{Transform}}
+{\footnotesize\ttfamily \label{interface_prototipe_1_1_core_1_1_interfaces_1_1_i_actor_a5b1a1710301adb02d8951e0009074550} 
+Transform Prototipe.\+Core.\+Interfaces.\+IActor.\+Transform\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Transform del Actor. 
+
+
+
+Implementado en \mbox{\hyperlink{class_player_actor_a297486b6699faf0ba505091ae2f7aa30}{Player\+Actor}}.
+
+
+
+La documentación de esta interface está generada del siguiente archivo\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/exepa/source/repos/\+Sistema\+Prototipado3\+D/\+Sistema\+Prototipado3\+D/\+Assets/\+Script/\+Interfaces/IActor.\+cs\end{DoxyCompactItemize}

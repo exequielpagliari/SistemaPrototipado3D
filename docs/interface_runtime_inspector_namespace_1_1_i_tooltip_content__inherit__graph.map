@@ -1,0 +1,45 @@
+<map id="RuntimeInspectorNamespace.ITooltipContent" name="RuntimeInspectorNamespace.ITooltipContent">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,372,204,415"/>
+<area shape="rect" id="Node000002" href="$class_runtime_inspector_namespace_1_1_hierarchy_field.html" title=" " alt="" coords="252,339,450,381"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="219,375,251,371,251,376,220,380"/>
+<area shape="rect" id="Node000003" href="$class_runtime_inspector_namespace_1_1_inspector_field.html" title=" " alt="" coords="252,405,450,448"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="220,406,251,411,251,416,219,411"/>
+<area shape="rect" id="Node000004" href="$class_runtime_inspector_namespace_1_1_bool_field.html" title=" " alt="" coords="498,5,696,48"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="447,393,448,392,463,371,473,350,482,309,479,268,471,227,463,186,461,144,470,102,480,80,496,58,509,46,512,50,500,62,485,83,475,104,466,145,469,185,477,226,485,267,487,309,478,352,468,373,452,395,451,397"/>
+<area shape="rect" id="Node000005" href="$class_runtime_inspector_namespace_1_1_bounds_field.html" title=" " alt="" coords="498,72,696,115"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="447,393,448,392,469,358,477,326,476,293,471,260,466,227,466,194,474,160,496,125,509,113,513,117,500,128,479,162,471,194,472,227,477,260,482,293,482,326,474,360,452,395,451,397"/>
+<area shape="rect" id="Node000006" href="$class_runtime_inspector_namespace_1_1_color_field.html" title=" " alt="" coords="498,139,696,181"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="446,394,448,392,465,367,472,343,473,318,471,294,469,269,471,243,478,217,496,192,510,180,513,184,500,195,483,220,476,244,475,268,477,293,479,318,477,344,470,369,452,395,450,397"/>
+<area shape="rect" id="Node000007" href="$class_runtime_inspector_namespace_1_1_enum_field.html" title=" " alt="" coords="498,205,696,248"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="445,394,448,392,461,375,468,359,471,326,475,293,483,275,496,258,511,246,515,251,500,262,487,278,480,294,477,327,473,361,465,378,452,395,449,398"/>
+<area shape="rect" id="Node000008" href="$class_runtime_inspector_namespace_1_1_expandable_inspector_field.html" title=" " alt="" coords="498,272,696,315"/>
+<area shape="poly" id="edge7_Node000003_Node000008" title=" " alt="" coords="442,395,448,391,464,375,472,359,480,342,496,325,516,313,519,317,500,329,484,345,476,361,468,378,452,395,445,400"/>
+<area shape="rect" id="Node000013" href="$class_runtime_inspector_namespace_1_1_exposed_method_field.html" title=" " alt="" coords="498,339,696,381"/>
+<area shape="poly" id="edge12_Node000003_Node000013" title=" " alt="" coords="446,398,515,379,516,385,448,403"/>
+<area shape="rect" id="Node000014" href="$class_runtime_inspector_namespace_1_1_number_field.html" title=" " alt="" coords="498,405,696,448"/>
+<area shape="poly" id="edge13_Node000003_Node000014" title=" " alt="" coords="466,424,497,424,497,429,466,429"/>
+<area shape="rect" id="Node000016" href="$class_runtime_inspector_namespace_1_1_object_reference_field.html" title=" " alt="" coords="498,472,696,515"/>
+<area shape="poly" id="edge15_Node000003_Node000016" title=" " alt="" coords="448,450,516,469,515,474,446,455"/>
+<area shape="rect" id="Node000018" href="$class_runtime_inspector_namespace_1_1_rect_field.html" title=" " alt="" coords="498,539,696,581"/>
+<area shape="poly" id="edge17_Node000003_Node000018" title=" " alt="" coords="393,456,442,491,499,524,525,536,523,541,497,529,439,495,389,460"/>
+<area shape="rect" id="Node000019" href="$class_runtime_inspector_namespace_1_1_string_field.html" title=" " alt="" coords="498,605,696,648"/>
+<area shape="poly" id="edge18_Node000003_Node000019" title=" " alt="" coords="376,459,428,526,462,561,499,591,520,602,517,607,497,596,458,565,424,530,372,463"/>
+<area shape="rect" id="Node000020" href="$class_runtime_inspector_namespace_1_1_vector2_field.html" title=" " alt="" coords="498,672,696,715"/>
+<area shape="poly" id="edge19_Node000003_Node000020" title=" " alt="" coords="368,461,388,506,416,559,454,612,500,658,517,669,515,674,496,662,450,615,412,562,383,508,363,463"/>
+<area shape="rect" id="Node000021" href="$class_runtime_inspector_namespace_1_1_vector3_field.html" title=" " alt="" coords="498,739,696,781"/>
+<area shape="poly" id="edge20_Node000003_Node000021" title=" " alt="" coords="363,462,379,520,407,590,446,662,471,695,500,725,516,736,513,740,496,729,467,699,442,665,402,592,374,521,358,464"/>
+<area shape="rect" id="Node000022" href="$class_runtime_inspector_namespace_1_1_vector4_field.html" title=" " alt="" coords="498,805,696,848"/>
+<area shape="poly" id="edge21_Node000003_Node000022" title=" " alt="" coords="359,463,372,532,397,620,416,667,439,712,467,754,500,791,515,803,512,807,496,795,462,757,434,714,411,669,392,622,367,533,354,464"/>
+<area shape="rect" id="Node000009" href="$class_runtime_inspector_namespace_1_1_array_field.html" title=" " alt="" coords="744,139,943,181"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="689,262,695,258,710,242,718,225,726,208,743,191,762,179,765,184,746,195,731,211,723,228,714,245,698,262,692,267"/>
+<area shape="rect" id="Node000010" href="$class_runtime_inspector_namespace_1_1_game_object_field.html" title=" " alt="" coords="744,205,943,248"/>
+<area shape="poly" id="edge9_Node000008_Node000010" title=" " alt="" coords="693,265,761,246,763,251,694,270"/>
+<area shape="rect" id="Node000011" href="$class_runtime_inspector_namespace_1_1_object_field.html" title=" " alt="" coords="744,272,943,315"/>
+<area shape="poly" id="edge10_Node000008_Node000011" title=" " alt="" coords="712,291,744,291,744,296,712,296"/>
+<area shape="rect" id="Node000012" href="$class_runtime_inspector_namespace_1_1_transform_field.html" title=" " alt="" coords="744,339,943,381"/>
+<area shape="poly" id="edge11_Node000008_Node000012" title=" " alt="" coords="694,317,763,335,761,341,693,322"/>
+<area shape="rect" id="Node000015" href="$class_runtime_inspector_namespace_1_1_number_range_field.html" title=" " alt="" coords="744,405,943,448"/>
+<area shape="poly" id="edge14_Node000014_Node000015" title=" " alt="" coords="712,424,744,424,744,429,712,429"/>
+<area shape="rect" id="Node000017" href="$class_runtime_inspector_namespace_1_1_texture_reference_field.html" title=" " alt="" coords="744,472,943,515"/>
+<area shape="poly" id="edge16_Node000016_Node000017" title=" " alt="" coords="712,491,744,491,744,496,712,496"/>
+</map>

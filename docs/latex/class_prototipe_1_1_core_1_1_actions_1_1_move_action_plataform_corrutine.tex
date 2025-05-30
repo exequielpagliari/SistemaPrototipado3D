@@ -1,0 +1,110 @@
+\doxysection{Referencia de la clase Prototipe.\+Core.\+Actions.\+Move\+Action\+Plataform\+Corrutine}
+\hypertarget{class_prototipe_1_1_core_1_1_actions_1_1_move_action_plataform_corrutine}{}\label{class_prototipe_1_1_core_1_1_actions_1_1_move_action_plataform_corrutine}\index{Prototipe.Core.Actions.MoveActionPlataformCorrutine@{Prototipe.Core.Actions.MoveActionPlataformCorrutine}}
+
+
+Clase dedicada a generar una Plataforma con un desplazamiento con Corrutina por medio de la Interfaz \doxylink{interface_prototipe_1_1_core_1_1_interfaces_1_1_i_action}{IAction}.  
+
+
+
+
+Diagrama de herencia de Prototipe.\+Core.\+Actions.\+Move\+Action\+Plataform\+Corrutine
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=310pt]{class_prototipe_1_1_core_1_1_actions_1_1_move_action_plataform_corrutine__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Diagrama de colaboración de Prototipe.\+Core.\+Actions.\+Move\+Action\+Plataform\+Corrutine\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=310pt]{class_prototipe_1_1_core_1_1_actions_1_1_move_action_plataform_corrutine__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Métodos públicos}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_prototipe_1_1_core_1_1_actions_1_1_move_action_plataform_corrutine_a9082bb1d7779fb73e2798f20222e7d38}{Execute}} ()
+\begin{DoxyCompactList}\small\item\em Método para modificar la posición en función de un Transform externo. \end{DoxyCompactList}\item 
+\Hypertarget{class_prototipe_1_1_core_1_1_actions_1_1_move_action_plataform_corrutine_a8df5b76cc78d368a5bd91c7db995f233}\label{class_prototipe_1_1_core_1_1_actions_1_1_move_action_plataform_corrutine_a8df5b76cc78d368a5bd91c7db995f233} 
+void {\bfseries Close\+Door} ()
+\begin{DoxyCompactList}\small\item\em Método para modificar la posición en función del Transform closed\+Position. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_prototipe_1_1_core_1_1_actions_1_1_move_action_plataform_corrutine_a7e1c9aae44b2652b0f05950fbdb5e415}{Open\+Door}} (Vector3 open\+Position)
+\begin{DoxyCompactList}\small\item\em Método para modificar la posición en función de un Transform opened\+Position. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Atributos públicos}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_prototipe_1_1_core_1_1_actions_1_1_move_action_plataform_corrutine_afebef3ab6c61a4f30c5ed1d813a7f0d0}\label{class_prototipe_1_1_core_1_1_actions_1_1_move_action_plataform_corrutine_afebef3ab6c61a4f30c5ed1d813a7f0d0} 
+Vector3 {\bfseries last\+Position}
+\begin{DoxyCompactList}\small\item\em Vector3 de última posición de la plataforma. \end{DoxyCompactList}\item 
+\Hypertarget{class_prototipe_1_1_core_1_1_actions_1_1_move_action_plataform_corrutine_af5b316fa74d8b3de7f12565801f24715}\label{class_prototipe_1_1_core_1_1_actions_1_1_move_action_plataform_corrutine_af5b316fa74d8b3de7f12565801f24715} 
+bool {\bfseries loop}
+\begin{DoxyCompactList}\small\item\em Booleano que determina si la acción se repite o no al ejecutarse el método \doxylink{class_prototipe_1_1_core_1_1_actions_1_1_move_action_plataform_corrutine_a9082bb1d7779fb73e2798f20222e7d38}{Execute()}. \end{DoxyCompactList}\item 
+\Hypertarget{class_prototipe_1_1_core_1_1_actions_1_1_move_action_plataform_corrutine_afdeb398fdac495617e8bdb54a85b2444}\label{class_prototipe_1_1_core_1_1_actions_1_1_move_action_plataform_corrutine_afdeb398fdac495617e8bdb54a85b2444} 
+bool {\bfseries action}
+\begin{DoxyCompactList}\small\item\em Booleano que determina si la acción se ejecuta o no. \end{DoxyCompactList}\item 
+\Hypertarget{class_prototipe_1_1_core_1_1_actions_1_1_move_action_plataform_corrutine_a856eef059725b3f0fc1f7c7269b39f47}\label{class_prototipe_1_1_core_1_1_actions_1_1_move_action_plataform_corrutine_a856eef059725b3f0fc1f7c7269b39f47} 
+float {\bfseries slide\+Duration}
+\begin{DoxyCompactList}\small\item\em Float que determina el tiempo de duración de la ácción. \end{DoxyCompactList}\item 
+\Hypertarget{class_prototipe_1_1_core_1_1_actions_1_1_move_action_plataform_corrutine_ac90361b226f0c91bb8a8c67586276b8b}\label{class_prototipe_1_1_core_1_1_actions_1_1_move_action_plataform_corrutine_ac90361b226f0c91bb8a8c67586276b8b} 
+float {\bfseries retard}
+\begin{DoxyCompactList}\small\item\em Float que determina el tiempo de retardo para que inicie la ácción. \end{DoxyCompactList}\item 
+\Hypertarget{class_prototipe_1_1_core_1_1_actions_1_1_move_action_plataform_corrutine_a73f7244845b8d3c4d8a33868feda8b08}\label{class_prototipe_1_1_core_1_1_actions_1_1_move_action_plataform_corrutine_a73f7244845b8d3c4d8a33868feda8b08} 
+Transform {\bfseries door\+Transform}
+\begin{DoxyCompactList}\small\item\em Referencial del Transform que se desplazará durante la Ejecución. \end{DoxyCompactList}\item 
+\Hypertarget{class_prototipe_1_1_core_1_1_actions_1_1_move_action_plataform_corrutine_aa0d11316d45f83e4e268d46e2de03ea4}\label{class_prototipe_1_1_core_1_1_actions_1_1_move_action_plataform_corrutine_aa0d11316d45f83e4e268d46e2de03ea4} 
+Transform {\bfseries opened\+Position}
+\begin{DoxyCompactList}\small\item\em Referencial del Transform final de desplazamiento de la Ejecución. \end{DoxyCompactList}\item 
+\Hypertarget{class_prototipe_1_1_core_1_1_actions_1_1_move_action_plataform_corrutine_ad0efcb49a5db3acdf79879d50aaf321a}\label{class_prototipe_1_1_core_1_1_actions_1_1_move_action_plataform_corrutine_ad0efcb49a5db3acdf79879d50aaf321a} 
+Transform {\bfseries closed\+Position}
+\begin{DoxyCompactList}\small\item\em Referencial del Transform inicial de desplazamiento de la Ejecución. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Propiedades}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_prototipe_1_1_core_1_1_actions_1_1_move_action_plataform_corrutine_aa9cc99b8860b992c813dbf0eddd5b755}\label{class_prototipe_1_1_core_1_1_actions_1_1_move_action_plataform_corrutine_aa9cc99b8860b992c813dbf0eddd5b755} 
+Vector3 {\bfseries Movement\+Delta}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Vector3 del Delta de movimiento entre frames. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Descripción detallada}
+Clase dedicada a generar una Plataforma con un desplazamiento con Corrutina por medio de la Interfaz \doxylink{interface_prototipe_1_1_core_1_1_interfaces_1_1_i_action}{IAction}. 
+
+\doxysubsection{Documentación de funciones miembro}
+\Hypertarget{class_prototipe_1_1_core_1_1_actions_1_1_move_action_plataform_corrutine_a9082bb1d7779fb73e2798f20222e7d38}\index{Prototipe.Core.Actions.MoveActionPlataformCorrutine@{Prototipe.Core.Actions.MoveActionPlataformCorrutine}!Execute@{Execute}}
+\index{Execute@{Execute}!Prototipe.Core.Actions.MoveActionPlataformCorrutine@{Prototipe.Core.Actions.MoveActionPlataformCorrutine}}
+\doxysubsubsection{\texorpdfstring{Execute()}{Execute()}}
+{\footnotesize\ttfamily \label{class_prototipe_1_1_core_1_1_actions_1_1_move_action_plataform_corrutine_a9082bb1d7779fb73e2798f20222e7d38} 
+void Prototipe.\+Core.\+Actions.\+Move\+Action\+Plataform\+Corrutine.\+Execute (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Método para modificar la posición en función de un Transform externo. 
+
+
+
+Implementa \mbox{\hyperlink{interface_prototipe_1_1_core_1_1_interfaces_1_1_i_action_a25a8d0071319ba5bd77d0b53dc78a4e5}{Prototipe.\+Core.\+Interfaces.\+IAction}}.
+
+\Hypertarget{class_prototipe_1_1_core_1_1_actions_1_1_move_action_plataform_corrutine_a7e1c9aae44b2652b0f05950fbdb5e415}\index{Prototipe.Core.Actions.MoveActionPlataformCorrutine@{Prototipe.Core.Actions.MoveActionPlataformCorrutine}!OpenDoor@{OpenDoor}}
+\index{OpenDoor@{OpenDoor}!Prototipe.Core.Actions.MoveActionPlataformCorrutine@{Prototipe.Core.Actions.MoveActionPlataformCorrutine}}
+\doxysubsubsection{\texorpdfstring{OpenDoor()}{OpenDoor()}}
+{\footnotesize\ttfamily \label{class_prototipe_1_1_core_1_1_actions_1_1_move_action_plataform_corrutine_a7e1c9aae44b2652b0f05950fbdb5e415} 
+void Prototipe.\+Core.\+Actions.\+Move\+Action\+Plataform\+Corrutine.\+Open\+Door (\begin{DoxyParamCaption}\item[{Vector3}]{open\+Position}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Método para modificar la posición en función de un Transform opened\+Position. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em open\+Position} & Posición a la que llegará en el desplazamiento máximo.\\
+\hline
+\end{DoxyParams}
+
+
+La documentación de esta clase está generada del siguiente archivo\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/exepa/source/repos/\+Sistema\+Prototipado3\+D/\+Sistema\+Prototipado3\+D/\+Assets/\+Script/\+Action/Move\+Action\+Plataform\+Corrutine.\+cs\end{DoxyCompactItemize}

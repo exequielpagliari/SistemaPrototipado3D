@@ -1,3 +1,7 @@
 <map id="Gráfico de jerarquía de clases" name="Gráfico de jerarquía de clases">
-<area shape="rect" id="Node000000" href="$interface_input_system___actions_1_1_i_player_actions.html" title="Interface to implement callback methods for all input action callbacks associated with input actions ..." alt="" coords="5,5,197,48"/>
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,5,100,32"/>
+<area shape="rect" id="Node000001" href="$class_runtime_inspector_namespace_1_1_exposed_variables_enumerator.html" title=" " alt="" coords="148,23,346,65"/>
+<area shape="poly" id="edge7_Node000000_Node000001" title=" " alt="" coords="116,24,148,28,147,34,115,29"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="6,56,99,83"/>
+<area shape="poly" id="edge8_Node000002_Node000001" title=" " alt="" coords="114,59,147,54,148,60,115,64"/>
 </map>
