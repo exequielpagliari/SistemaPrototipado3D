@@ -1,11 +1,18 @@
 using UnityEngine;
-/// <summary>
-/// Interfaz dedicada a la interacción de acciones.
-/// </summary>
-public interface IAction
+
+namespace Prototipe.Core.Interfaces
 {
+
+
     /// <summary>
-    /// Método único para realizar una acción.
+    /// Interfaz dedicada a la interacción de acciones.
     /// </summary>
-    void Execute();
+    public interface IAction
+    {
+        /// <summary>
+        /// Método único para realizar una acción.
+        /// </summary>
+        void Execute();
+    }
+
 }

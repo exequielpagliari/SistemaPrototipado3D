@@ -1,4 +1,6 @@
 using UnityEngine;
+using Prototipe.Core.Interfaces;
+
 /// <summary>
 /// Implementación IActor para Player.
 /// </summary>

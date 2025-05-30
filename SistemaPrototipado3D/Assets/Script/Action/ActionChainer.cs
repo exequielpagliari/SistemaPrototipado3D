@@ -1,53 +1,57 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Prototipe.Core.Interfaces;
 
-/// <summary>
-/// Clase dedicada a la activación de múltiples IAction tanto de una vez como en secuencia.
-/// </summary>
-public class ActionChainer : MonoBehaviour, IAction
+namespace Prototipe.Core.Actions
 {
     /// <summary>
-    /// Lista de IAction.
+    /// Clase dedicada a la activación de múltiples IAction tanto de una vez como en secuencia.
     /// </summary>
-    public List<MonoBehaviour> actions = new();
-    /// <summary>
-    /// Bool para activar activación en secuencia o no.
-    /// </summary>
-    public bool runInSequence = false;
-    /// <summary>
-    /// Float que controla el delay de la corrutina de activación.
-    /// </summary>
-    public float delayBetweenActions = 0.5f;
-
-
-    /// <summary>
-    /// Método público para iniciar la ejeccución.
-    /// </summary>
-    public void Execute()
+    public class ActionChainer : MonoBehaviour, IAction
     {
-        if (runInSequence)
-            StartCoroutine(RunSequence());
-        else
-            RunAllAtOnce();
-    }
+        /// <summary>
+        /// Lista de IAction.
+        /// </summary>
+        public List<MonoBehaviour> actions = new();
+        /// <summary>
+        /// Bool para activar activación en secuencia o no.
+        /// </summary>
+        public bool runInSequence = false;
+        /// <summary>
+        /// Float que controla el delay de la corrutina de activación.
+        /// </summary>
+        public float delayBetweenActions = 0.5f;
 
-    private void RunAllAtOnce()
-    {
-        foreach (var action in actions)
+
+        /// <summary>
+        /// Método público para iniciar la ejeccución.
+        /// </summary>
+        public void Execute()
         {
-            if (action is IAction iaction)
-                iaction.Execute();
+            if (runInSequence)
+                StartCoroutine(RunSequence());
+            else
+                RunAllAtOnce();
         }
-    }
 
-    private IEnumerator RunSequence()
-    {
-        foreach (var action in actions)
+        private void RunAllAtOnce()
         {
-            if (action is IAction iaction)
-                iaction.Execute();
-            yield return new WaitForSeconds(delayBetweenActions);
+            foreach (var action in actions)
+            {
+                if (action is IAction iaction)
+                    iaction.Execute();
+            }
+        }
+
+        private IEnumerator RunSequence()
+        {
+            foreach (var action in actions)
+            {
+                if (action is IAction iaction)
+                    iaction.Execute();
+                yield return new WaitForSeconds(delayBetweenActions);
+            }
         }
     }
 }

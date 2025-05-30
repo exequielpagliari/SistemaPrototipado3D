@@ -1,5 +1,5 @@
 using UnityEngine;
-
+using Prototipe.Core.Actions;
 
 /// <summary>
 /// Controla el movimiento del Player utilizando un CharacterController.
