@@ -1,10 +1,14 @@
-/// <summary>
-/// Interfaz dedicada a la interacción de activadores.
-/// </summary>
-public interface IActivator
+
+namespace Prototipe.Core.Interfaces
 {
     /// <summary>
-    /// Método único para realizar una activación.
+    /// Interfaz dedicada a la interacción de activadores.
     /// </summary>
-    void Activate();
+    public interface IActivator
+    {
+        /// <summary>
+        /// Método único para realizar una activación.
+        /// </summary>
+        void Activate();
+    }
 }

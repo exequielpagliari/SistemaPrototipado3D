@@ -1,48 +1,52 @@
 using UnityEngine;
+using Prototipe.Core.Interfaces;
 
 
-/// <summary>
-/// Clase dedicada destrucción de un IActor y a la emisión de un evento cuando una interfaz IActivator ejecuta Activate.
-/// </summary>
-public class VolumenKill : MonoBehaviour
+namespace Prototipe.Core.Activators
 {
     /// <summary>
-    /// Enum dedicado a la selección de canal para evento.
+    /// Clase dedicada destrucción de un IActor y a la emisión de un evento cuando una interfaz IActivator ejecuta Activate.
     /// </summary>
-    public EventChannelID channelToActivate;
-
-    /// <summary>
-    /// Bool activa el LogWarning para test de funcionamiento.
-    /// </summary>
-    public bool log;
-
-    /// <summary>
-    /// Método que emite evento y llama al método Dead() de un IActor.
-    /// </summary>
-    public void Kill(IActor actor)
+    public class VolumenKill : MonoBehaviour
     {
-        if (log)
-            Debug.Log($"[VolumenKill] Activando canal {channelToActivate}");
-        EventChannelManager.RaiseEvent(channelToActivate);
-        actor.Dead();
-    }
+        /// <summary>
+        /// Enum dedicado a la selección de canal para evento.
+        /// </summary>
+        public EventChannelID channelToActivate;
 
+        /// <summary>
+        /// Bool activa el LogWarning para test de funcionamiento.
+        /// </summary>
+        public bool log;
 
-    private void OnTriggerEnter(Collider other)
-    {
-        if (other.TryGetComponent<IActor>(out var receiver))
+        /// <summary>
+        /// Método que emite evento y llama al método Dead() de un IActor.
+        /// </summary>
+        public void Kill(IActor actor)
         {
-            Kill(receiver);
+            if (log)
+                Debug.Log($"[VolumenKill] Activando canal {channelToActivate}");
+            EventChannelManager.RaiseEvent(channelToActivate);
+            actor.Dead();
         }
-    }
 
 
-    private void OnTriggerExit(Collider other)
-    {
-        if (other.TryGetComponent<IActor>(out var receiver))
+        private void OnTriggerEnter(Collider other)
         {
-            Kill(receiver);
+            if (other.TryGetComponent<IActor>(out var receiver))
+            {
+                Kill(receiver);
+            }
         }
-    }
 
+
+        private void OnTriggerExit(Collider other)
+        {
+            if (other.TryGetComponent<IActor>(out var receiver))
+            {
+                Kill(receiver);
+            }
+        }
+
+    }
 }

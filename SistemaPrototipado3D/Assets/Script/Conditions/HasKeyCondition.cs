@@ -1,5 +1,5 @@
 using UnityEngine;
-
+using Prototipe.Core.Interfaces;
 public class HasKeyCondition : MonoBehaviour, ICondition
 {
     public string keyID;

@@ -1,130 +1,66 @@
 using System.Collections;
 using TMPro;
 using UnityEngine;
+using Prototipe.Core.Interfaces;
 
-/// <summary>
-/// Clase dedicada a generar una Plataforma con un desplazamiento con Corrutina por medio de la Interfaz IAction.
-/// </summary>
-public class MoveActionPlataformCorrutine : MonoBehaviour, IAction
+namespace Prototipe.Core.Actions
 {
     /// <summary>
-    /// Vector3 de última posición de la plataforma.
+    /// Clase dedicada a generar una Plataforma con un desplazamiento con Corrutina por medio de la Interfaz IAction.
     /// </summary>
-    public Vector3 lastPosition;
-    /// <summary>
-    /// Vector3 del Delta de movimiento entre frames.
-    /// </summary>
-    public Vector3 MovementDelta { get; private set; }
-
-
-    /// <summary>
-    /// Booleano que determina si la acción se repite o no al ejecutarse el método Execute().
-    /// </summary>
-    public bool loop;
-    /// <summary>
-    /// Booleano que determina si la acción se ejecuta o no.
-    /// </summary>
-    public bool action;
-    private bool open = false;
-    private bool isOpen = false;
-
-    /// <summary>
-    /// Float que determina el tiempo de duración de la ácción.
-    /// </summary>
-    public float slideDuration;
-    /// <summary>
-    /// Float que determina el tiempo de retardo para que inicie la ácción.
-    /// </summary>
-    public float retard;
-
-    /// <summary>
-    /// Referencial del Transform que se desplazará durante la Ejecución.
-    /// </summary>
-    public Transform doorTransform;
-    /// <summary>
-    /// Referencial del Transform final de desplazamiento de la Ejecución.
-    /// </summary>
-    public Transform openedPosition;
-    /// <summary>
-    /// Referencial del Transform inicial de desplazamiento de la Ejecución.
-    /// </summary>
-    public Transform closedPosition;
-
-
-    private Coroutine currentCoroutine;
-
-
-    /// <summary>
-    /// Método para modificar la posición en función de un Transform externo.
-    /// </summary>
-    public void Execute()
+    public class MoveActionPlataformCorrutine : MonoBehaviour, IAction
     {
-        if (!action)
-            return;
-        if(isOpen)
-            return;
-        if(!open)
-        {
-            open = true;
-            OpenDoor(openedPosition.position);
-        }
-        else
-        {
-            open = false;
-            CloseDoor();
-        }
-    }
+        /// <summary>
+        /// Vector3 de última posición de la plataforma.
+        /// </summary>
+        public Vector3 lastPosition;
+        /// <summary>
+        /// Vector3 del Delta de movimiento entre frames.
+        /// </summary>
+        public Vector3 MovementDelta { get; private set; }
 
 
-    /// <summary>
-    /// Método para modificar la posición en función del Transform closedPosition.
-    /// </summary>
-    public void CloseDoor()
-    {
-        
-        if (currentCoroutine != null)
-            StopCoroutine(currentCoroutine);
-        
-        currentCoroutine = StartCoroutine(SlideTo(closedPosition.position));
-    }
+        /// <summary>
+        /// Booleano que determina si la acción se repite o no al ejecutarse el método Execute().
+        /// </summary>
+        public bool loop;
+        /// <summary>
+        /// Booleano que determina si la acción se ejecuta o no.
+        /// </summary>
+        public bool action;
+        private bool open = false;
+        private bool isOpen = false;
+
+        /// <summary>
+        /// Float que determina el tiempo de duración de la ácción.
+        /// </summary>
+        public float slideDuration;
+        /// <summary>
+        /// Float que determina el tiempo de retardo para que inicie la ácción.
+        /// </summary>
+        public float retard;
+
+        /// <summary>
+        /// Referencial del Transform que se desplazará durante la Ejecución.
+        /// </summary>
+        public Transform doorTransform;
+        /// <summary>
+        /// Referencial del Transform final de desplazamiento de la Ejecución.
+        /// </summary>
+        public Transform openedPosition;
+        /// <summary>
+        /// Referencial del Transform inicial de desplazamiento de la Ejecución.
+        /// </summary>
+        public Transform closedPosition;
 
 
-    /// <summary>
-    /// Método para modificar la posición en función de un Transform openedPosition.
-    /// </summary>
-    /// <param name="openPosition">Posición a la que llegará en el desplazamiento máximo.</param>
-    public void OpenDoor(Vector3 openPosition)
-    {
-        
-        if (currentCoroutine != null)
-            StopCoroutine(currentCoroutine);
-        
-        currentCoroutine = StartCoroutine(SlideTo(openPosition));
-    }
+        private Coroutine currentCoroutine;
 
 
-    IEnumerator SlideTo(Vector3 targetPosition)
-    {
-        isOpen = true;
-        Vector3 startPosition = doorTransform.position;
-        float timeElapsed = 0f;
-
-        while (timeElapsed < slideDuration)
-        {
-            timeElapsed += Time.deltaTime;
-            float t = timeElapsed / slideDuration;
-            doorTransform.position = Vector3.Lerp(startPosition, targetPosition, t);
-            yield return null;
-        }
-
-        doorTransform.position = targetPosition;
-        isOpen = false;
-    }
-
-
-    private void Update()
-    {
-        if(loop)
+        /// <summary>
+        /// Método para modificar la posición en función de un Transform externo.
+        /// </summary>
+        public void Execute()
         {
             if (!action)
                 return;
@@ -141,11 +77,79 @@ public class MoveActionPlataformCorrutine : MonoBehaviour, IAction
                 CloseDoor();
             }
         }
-    }
 
-    private void LateUpdate()
-    {
-        MovementDelta = doorTransform.position - lastPosition;
-        lastPosition = doorTransform.position;
+
+        /// <summary>
+        /// Método para modificar la posición en función del Transform closedPosition.
+        /// </summary>
+        public void CloseDoor()
+        {
+
+            if (currentCoroutine != null)
+                StopCoroutine(currentCoroutine);
+
+            currentCoroutine = StartCoroutine(SlideTo(closedPosition.position));
+        }
+
+
+        /// <summary>
+        /// Método para modificar la posición en función de un Transform openedPosition.
+        /// </summary>
+        /// <param name="openPosition">Posición a la que llegará en el desplazamiento máximo.</param>
+        public void OpenDoor(Vector3 openPosition)
+        {
+
+            if (currentCoroutine != null)
+                StopCoroutine(currentCoroutine);
+
+            currentCoroutine = StartCoroutine(SlideTo(openPosition));
+        }
+
+
+        IEnumerator SlideTo(Vector3 targetPosition)
+        {
+            isOpen = true;
+            Vector3 startPosition = doorTransform.position;
+            float timeElapsed = 0f;
+
+            while (timeElapsed < slideDuration)
+            {
+                timeElapsed += Time.deltaTime;
+                float t = timeElapsed / slideDuration;
+                doorTransform.position = Vector3.Lerp(startPosition, targetPosition, t);
+                yield return null;
+            }
+
+            doorTransform.position = targetPosition;
+            isOpen = false;
+        }
+
+
+        private void Update()
+        {
+            if (loop)
+            {
+                if (!action)
+                    return;
+                if (isOpen)
+                    return;
+                if (!open)
+                {
+                    open = true;
+                    OpenDoor(openedPosition.position);
+                }
+                else
+                {
+                    open = false;
+                    CloseDoor();
+                }
+            }
+        }
+
+        private void LateUpdate()
+        {
+            MovementDelta = doorTransform.position - lastPosition;
+            lastPosition = doorTransform.position;
+        }
     }
 }

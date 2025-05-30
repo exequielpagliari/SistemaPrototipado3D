@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
+using Prototipe.Core.Interfaces;
 
 /// <summary>
 /// Clase dedicada a la manipualación de IActivators en el Actor.

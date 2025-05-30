@@ -1,5 +1,6 @@
 using Unity.Cinemachine;
 using UnityEngine;
+using Prototipe.Core.Interfaces;
 
 /// <summary>
 /// Clase dedicada a la Construcción del Player.

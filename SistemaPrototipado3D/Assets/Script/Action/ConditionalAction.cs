@@ -1,37 +1,41 @@
 using UnityEngine;
+using Prototipe.Core.Interfaces;
 
-/// <summary>
-/// Clase dedicada a manejar condiciones para realizar acciones.
-/// </summary>
-public class ConditionalAction : MonoBehaviour, IAction
+namespace Prototipe.Core.Actions
 {
     /// <summary>
-    /// Condición utilizada para la acción.
+    /// Clase dedicada a manejar condiciones para realizar acciones.
     /// </summary>
-    public MonoBehaviour conditionComponent;
-    /// <summary>
-    /// Acción a realizar.
-    /// </summary>
-    public MonoBehaviour actionComponent;
-
-    public bool log = false;
-
-
-
-    private ICondition condition => conditionComponent as ICondition;
-    private IAction action => actionComponent as IAction;
-    /// <summary>
-    /// Ejecución de la acción.
-    /// </summary>
-    public void Execute()
+    public class ConditionalAction : MonoBehaviour, IAction
     {
-        if (log)
-            Debug.LogWarning("Se ejecutó");
-        if (condition != null && condition.IsMet())
+        /// <summary>
+        /// Condición utilizada para la acción.
+        /// </summary>
+        public MonoBehaviour conditionComponent;
+        /// <summary>
+        /// Acción a realizar.
+        /// </summary>
+        public MonoBehaviour actionComponent;
+
+        public bool log = false;
+
+
+
+        private ICondition condition => conditionComponent as ICondition;
+        private IAction action => actionComponent as IAction;
+        /// <summary>
+        /// Ejecución de la acción.
+        /// </summary>
+        public void Execute()
         {
             if (log)
-                Debug.LogWarning("Se ejecutó la condición");
-            action?.Execute();
+                Debug.LogWarning("Se ejecutó");
+            if (condition != null && condition.IsMet())
+            {
+                if (log)
+                    Debug.LogWarning("Se ejecutó la condición");
+                action?.Execute();
+            }
         }
     }
 }
