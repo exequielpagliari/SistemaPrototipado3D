@@ -9,28 +9,14 @@ public class FirstPersonController : MonoBehaviour
     public float jumpHeight = 2f;
     public float gravity = -9.81f;
 
-    [Header("Swing")]
-    public float swimSpeed = 3f;
-    public float verticalSwimSpeed = 2f;
-    public float waterDrag = 1f;
-    private bool isSwimming;
+
 
     private CharacterController controller;
     private Vector3 velocity;
-    private bool isGrounded;
     public float velocityMagnitude;
  
 
 
-    [Header("Efectos")]
-    public AnimationCurve bobCurve;
-    public float bobDuration = 1f; 
-
-    public float bobAmplitude = 0.05f;
-    public Transform cameraHolder;
-
-    private float bobTimer = 0f;
-    private Vector3 defaultCamLocalPos;
 
 
     [Header("Dash")]
@@ -42,14 +28,7 @@ public class FirstPersonController : MonoBehaviour
     private float dashTimer = 0f;
     private float dashCooldownTimer = 0f;
     private Vector3 dashDirection;
-    public AudioClip dashClip;
-    public AudioSource dashSource;
 
-    [Header("Ladder")]
-    public float climbSpeed = 3f;
-
-    private bool isClimbing = false;
-    private Collider currentLadder;
     private RaycastGround raycastGround;
 
 
@@ -62,30 +41,18 @@ public class FirstPersonController : MonoBehaviour
     void Start()
     {
         controller = GetComponent<CharacterController>();
-        defaultCamLocalPos = cameraHolder.localPosition;
         Cursor.lockState = CursorLockMode.Locked;
         raycastGround = GetComponent<RaycastGround>();
     }
 
     void Update()
     {
-
-
-
-
-
         if (dashCooldownTimer > 0f)
             dashCooldownTimer -= Time.deltaTime;
 
- 
-
-
         Vector3 input = new Vector3(InputManager.Instance.MoveInput.x, 0, InputManager.Instance.MoveInput.y);
 
-
-
             MoveOnGround(input);
-
 
         if (InputManager.Instance.SprintPressed && dashCooldownTimer <= 0f && !isDashing)
         {
@@ -98,11 +65,8 @@ public class FirstPersonController : MonoBehaviour
             dashDirection = transform.TransformDirection(dashDirection);
         }
 
-        
-
         if (isDashing)
         {
-            
             controller.Move(dashDirection * dashSpeed * Time.deltaTime);
 
             dashTimer -= Time.deltaTime;
@@ -113,11 +77,6 @@ public class FirstPersonController : MonoBehaviour
 
             return;
         }
-
-        
-
-       
-
     }
 
     void MoveOnGround(Vector3 input)

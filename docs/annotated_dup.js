@@ -118,6 +118,5 @@ var annotated_dup =
     [ "PlayerCCBuillder", "class_player_c_c_buillder.html", "class_player_c_c_buillder" ],
     [ "PlayerCCFPSBuillder", "class_player_c_c_f_p_s_buillder.html", "class_player_c_c_f_p_s_buillder" ],
     [ "RaycastGround", "class_raycast_ground.html", "class_raycast_ground" ],
-    [ "RaycastInteractable", "class_raycast_interactable.html", "class_raycast_interactable" ],
-    [ "SceneViewExample", "class_scene_view_example.html", null ]
+    [ "RaycastInteractable", "class_raycast_interactable.html", "class_raycast_interactable" ]
 ];

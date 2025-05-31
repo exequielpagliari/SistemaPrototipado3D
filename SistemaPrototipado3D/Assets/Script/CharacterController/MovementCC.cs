@@ -37,7 +37,6 @@ public class MovementCC : MonoBehaviour
         raycastGround = GetComponent<RaycastGround>();
     }
 
-
     void Update()
     {
 
@@ -63,8 +62,6 @@ public class MovementCC : MonoBehaviour
         cc.Move(finalMove * Time.deltaTime);
 
     }
-
-
 
 
     void OnControllerColliderHit(ControllerColliderHit hit)

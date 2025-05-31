@@ -1,3 +1,4 @@
+/*
 using UnityEditor;
 using UnityEngine;
 
@@ -29,3 +30,4 @@ public class SceneViewExample
         Handles.DrawWireDisc(Vector3.zero, Vector3.up, 1f);
     }
 }
+*/
