@@ -207,7 +207,6 @@ var hierarchy =
     [ "PropertyAttribute", null, [
       [ "DrawEventConnection", "class_draw_event_connection.html", null ]
     ] ],
-    [ "SceneViewExample", "class_scene_view_example.html", null ],
     [ "ScriptableObject", null, [
       [ "RuntimeInspectorNamespace.RuntimeInspectorSettings", "class_runtime_inspector_namespace_1_1_runtime_inspector_settings.html", null ],
       [ "RuntimeInspectorNamespace.UISkin", "class_runtime_inspector_namespace_1_1_u_i_skin.html", null ]

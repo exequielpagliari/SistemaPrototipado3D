@@ -10,9 +10,10 @@ var searchData=
   ['actorid_7',['ActorID',['../interface_prototipe_1_1_core_1_1_interfaces_1_1_i_actor.html#aa105e5a2b787ab36f2b55f96d27b9cda',1,'Prototipe.Core.Interfaces.IActor.ActorID'],['../class_player_actor.html#a30c8fd6065f715400791b396344bcc19',1,'PlayerActor.ActorID']]],
   ['actormanager_8',['ActorManager',['../class_actor_manager.html',1,'']]],
   ['addcallbacks_9',['AddCallbacks',['../struct_input_system___actions_1_1_player_actions.html#a59ea99548b2f7daf3e3e4343446bff3b',1,'InputSystem_Actions.PlayerActions.AddCallbacks()'],['../struct_input_system___actions_1_1_u_i_actions.html#a116611ffabbf5ed2fbb356127a409b0e',1,'InputSystem_Actions.UIActions.AddCallbacks()']]],
-  ['angle_10',['angle',['../class_prototipe_1_1_core_1_1_actions_1_1_rotate_action.html#a6397e94c3261eee474ca6a490bb11b15',1,'Prototipe::Core::Actions::RotateAction']]],
-  ['arrayfield_11',['ArrayField',['../class_runtime_inspector_namespace_1_1_array_field.html',1,'RuntimeInspectorNamespace']]],
-  ['asset_12',['asset',['../class_input_system___actions.html#a3efb45eb88773efcd1380348c301f432',1,'InputSystem_Actions']]],
-  ['attack_13',['Attack',['../struct_input_system___actions_1_1_player_actions.html#a0ade3ec192a89da9b7091da21b626b96',1,'InputSystem_Actions::PlayerActions']]],
-  ['axis_14',['Axis',['../class_prototipe_1_1_core_1_1_actions_1_1_rotate_action.html#a7ab747422c2e9fd00aa43412405a197b',1,'Prototipe::Core::Actions::RotateAction']]]
+  ['additem_10',['AddItem',['../class_inventory_system.html#a366bd454016405bffa90722390a8d54f',1,'InventorySystem']]],
+  ['angle_11',['angle',['../class_prototipe_1_1_core_1_1_actions_1_1_rotate_action.html#a6397e94c3261eee474ca6a490bb11b15',1,'Prototipe::Core::Actions::RotateAction']]],
+  ['arrayfield_12',['ArrayField',['../class_runtime_inspector_namespace_1_1_array_field.html',1,'RuntimeInspectorNamespace']]],
+  ['asset_13',['asset',['../class_input_system___actions.html#a3efb45eb88773efcd1380348c301f432',1,'InputSystem_Actions']]],
+  ['attack_14',['Attack',['../struct_input_system___actions_1_1_player_actions.html#a0ade3ec192a89da9b7091da21b626b96',1,'InputSystem_Actions::PlayerActions']]],
+  ['axis_15',['Axis',['../class_prototipe_1_1_core_1_1_actions_1_1_rotate_action.html#a7ab747422c2e9fd00aa43412405a197b',1,'Prototipe::Core::Actions::RotateAction']]]
 ];
