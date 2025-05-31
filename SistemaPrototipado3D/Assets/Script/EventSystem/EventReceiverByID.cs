@@ -11,6 +11,7 @@ public class EventReceiverByID : MonoBehaviour
     /// <summary>
     /// Enum para seleccionar canal para recibir evento.
     /// </summary>
+    [DrawEventConnection("channel")]
     public EventChannelID channel;
     /// @private
     /// <summary>

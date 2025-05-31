@@ -12,5 +12,6 @@ var searchData=
   ['draggedreferenceitem_9',['DraggedReferenceItem',['../class_runtime_inspector_namespace_1_1_dragged_reference_item.html',1,'RuntimeInspectorNamespace']]],
   ['draggedreferencesourcecamera_10',['DraggedReferenceSourceCamera',['../class_runtime_inspector_namespace_1_1_dragged_reference_source_camera.html',1,'RuntimeInspectorNamespace']]],
   ['draggedreferencesourceui_11',['DraggedReferenceSourceUI',['../class_runtime_inspector_namespace_1_1_dragged_reference_source_u_i.html',1,'RuntimeInspectorNamespace']]],
-  ['duration_12',['duration',['../class_prototipe_1_1_core_1_1_actions_1_1_rotate_action.html#aac1bac88a4fe5093feae1f46d1cc1954',1,'Prototipe::Core::Actions::RotateAction']]]
+  ['draweventconnection_12',['DrawEventConnection',['../class_draw_event_connection.html',1,'']]],
+  ['duration_13',['duration',['../class_prototipe_1_1_core_1_1_actions_1_1_rotate_action.html#aac1bac88a4fe5093feae1f46d1cc1954',1,'Prototipe::Core::Actions::RotateAction']]]
 ];

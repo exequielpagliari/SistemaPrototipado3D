@@ -141,6 +141,7 @@ var hierarchy =
       [ "RuntimeInspectorNamespace.NonDrawingMaskableGraphic", "class_runtime_inspector_namespace_1_1_non_drawing_maskable_graphic.html", null ]
     ] ],
     [ "MonoBehaviour", null, [
+      [ "ActivatorGizmo", "class_activator_gizmo.html", null ],
       [ "ActorManager", "class_actor_manager.html", null ],
       [ "ColliderGizmoDrawer", "class_collider_gizmo_drawer.html", null ],
       [ "EventEmitterByID", "class_event_emitter_by_i_d.html", null ],
@@ -203,6 +204,10 @@ var hierarchy =
     ] ],
     [ "RuntimeInspectorNamespace.NumberHandlers", "class_runtime_inspector_namespace_1_1_number_handlers.html", null ],
     [ "InputSystem_Actions.PlayerActions", "struct_input_system___actions_1_1_player_actions.html", null ],
+    [ "PropertyAttribute", null, [
+      [ "DrawEventConnection", "class_draw_event_connection.html", null ]
+    ] ],
+    [ "SceneViewExample", "class_scene_view_example.html", null ],
     [ "ScriptableObject", null, [
       [ "RuntimeInspectorNamespace.RuntimeInspectorSettings", "class_runtime_inspector_namespace_1_1_runtime_inspector_settings.html", null ],
       [ "RuntimeInspectorNamespace.UISkin", "class_runtime_inspector_namespace_1_1_u_i_skin.html", null ]

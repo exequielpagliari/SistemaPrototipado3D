@@ -94,9 +94,11 @@ var annotated_dup =
       [ "Vector4Field", "class_runtime_inspector_namespace_1_1_vector4_field.html", null ],
       [ "WindowDragHandler", "class_runtime_inspector_namespace_1_1_window_drag_handler.html", null ]
     ] ],
+    [ "ActivatorGizmo", "class_activator_gizmo.html", null ],
     [ "ActorManager", "class_actor_manager.html", "class_actor_manager" ],
     [ "BuildScript", "class_build_script.html", null ],
     [ "ColliderGizmoDrawer", "class_collider_gizmo_drawer.html", "class_collider_gizmo_drawer" ],
+    [ "DrawEventConnection", "class_draw_event_connection.html", null ],
     [ "EventEmitterByID", "class_event_emitter_by_i_d.html", "class_event_emitter_by_i_d" ],
     [ "EventReceiverByID", "class_event_receiver_by_i_d.html", "class_event_receiver_by_i_d" ],
     [ "FirstPersonController", "class_first_person_controller.html", "class_first_person_controller" ],
@@ -116,5 +118,6 @@ var annotated_dup =
     [ "PlayerCCBuillder", "class_player_c_c_buillder.html", "class_player_c_c_buillder" ],
     [ "PlayerCCFPSBuillder", "class_player_c_c_f_p_s_buillder.html", "class_player_c_c_f_p_s_buillder" ],
     [ "RaycastGround", "class_raycast_ground.html", "class_raycast_ground" ],
-    [ "RaycastInteractable", "class_raycast_interactable.html", "class_raycast_interactable" ]
+    [ "RaycastInteractable", "class_raycast_interactable.html", "class_raycast_interactable" ],
+    [ "SceneViewExample", "class_scene_view_example.html", null ]
 ];

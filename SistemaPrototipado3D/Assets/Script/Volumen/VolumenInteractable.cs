@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEditor;
 using Prototipe.Core.Interfaces;
 
 namespace Prototipe.Core.Activators
@@ -11,6 +12,7 @@ namespace Prototipe.Core.Activators
         /// <summary>
         /// Enum dedicado a la selección de canal para evento.
         /// </summary>
+        [DrawEventConnection("channelToActivate")]
         public EventChannelID channelToActivate;
 
         /// <summary>
