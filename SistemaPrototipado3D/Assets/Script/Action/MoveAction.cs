@@ -6,6 +6,7 @@ namespace Prototipe.Core.Actions
     /// <summary>
     /// Clase dedicada a generar un desplazamiento por medio de la Interfaz IAction.
     /// </summary>
+    [System.Serializable]
     public class MoveAction : MonoBehaviour, IAction
     {
         [SerializeField] private Transform m_MoveTransform;

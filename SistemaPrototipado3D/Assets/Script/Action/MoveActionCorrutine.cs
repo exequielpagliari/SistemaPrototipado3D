@@ -4,10 +4,11 @@ using Prototipe.Core.Interfaces;
 
 
 namespace Prototipe.Core.Actions
-{ 
+{
     /// <summary>
     /// Clase dedicada a generar un desplazamiento con Corrutina por medio de la Interfaz IAction.
     /// </summary>
+    [System.Serializable]
     public class MoveActionCorrutine : MonoBehaviour, IAction
     {
         /// <summary>

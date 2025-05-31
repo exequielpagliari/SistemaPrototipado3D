@@ -7,6 +7,7 @@ namespace Prototipe.Core.Actions
     /// <summary>
     /// Clase dedicada a la rotación, ejecutable desde la interfaz IAction.
     /// </summary>
+    [System.Serializable]
     public class RotateAction : MonoBehaviour, IAction
     {
         /// <summary>

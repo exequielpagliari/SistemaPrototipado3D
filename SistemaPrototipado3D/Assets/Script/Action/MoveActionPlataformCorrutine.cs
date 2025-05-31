@@ -8,6 +8,7 @@ namespace Prototipe.Core.Actions
     /// <summary>
     /// Clase dedicada a generar una Plataforma con un desplazamiento con Corrutina por medio de la Interfaz IAction.
     /// </summary>
+    [System.Serializable]
     public class MoveActionPlataformCorrutine : MonoBehaviour, IAction
     {
         /// <summary>
