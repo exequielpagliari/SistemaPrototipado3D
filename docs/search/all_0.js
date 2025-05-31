@@ -6,12 +6,13 @@ var searchData=
   ['actions_3',['actions',['../class_prototipe_1_1_core_1_1_actions_1_1_action_chainer.html#a0ffdadedde0f1596402d664126db0393',1,'Prototipe.Core.Actions.ActionChainer.actions'],['../class_event_receiver_by_i_d.html#a5e08bc8202caac6b5f4faed196fe18e6',1,'EventReceiverByID.actions']]],
   ['actionstring_4',['actionString',['../class_prototipe_1_1_core_1_1_activators_1_1_volumen_auto_interactable.html#a476da83d2a8acc058fd325ca70202dd7',1,'Prototipe.Core.Activators.VolumenAutoInteractable.actionString'],['../class_prototipe_1_1_core_1_1_activators_1_1_volumen_interactable.html#a0496e0f4c1dc6c09d497cc191d4271ea',1,'Prototipe.Core.Activators.VolumenInteractable.actionString']]],
   ['activate_5',['Activate',['../interface_prototipe_1_1_core_1_1_interfaces_1_1_i_activator.html#a53dcbbef7cf352d486d232e5d1da0aa3',1,'Prototipe::Core::Interfaces::IActivator']]],
-  ['actorid_6',['ActorID',['../interface_prototipe_1_1_core_1_1_interfaces_1_1_i_actor.html#aa105e5a2b787ab36f2b55f96d27b9cda',1,'Prototipe.Core.Interfaces.IActor.ActorID'],['../class_player_actor.html#a30c8fd6065f715400791b396344bcc19',1,'PlayerActor.ActorID']]],
-  ['actormanager_7',['ActorManager',['../class_actor_manager.html',1,'']]],
-  ['addcallbacks_8',['AddCallbacks',['../struct_input_system___actions_1_1_player_actions.html#a59ea99548b2f7daf3e3e4343446bff3b',1,'InputSystem_Actions.PlayerActions.AddCallbacks()'],['../struct_input_system___actions_1_1_u_i_actions.html#a116611ffabbf5ed2fbb356127a409b0e',1,'InputSystem_Actions.UIActions.AddCallbacks()']]],
-  ['angle_9',['angle',['../class_prototipe_1_1_core_1_1_actions_1_1_rotate_action.html#a6397e94c3261eee474ca6a490bb11b15',1,'Prototipe::Core::Actions::RotateAction']]],
-  ['arrayfield_10',['ArrayField',['../class_runtime_inspector_namespace_1_1_array_field.html',1,'RuntimeInspectorNamespace']]],
-  ['asset_11',['asset',['../class_input_system___actions.html#a3efb45eb88773efcd1380348c301f432',1,'InputSystem_Actions']]],
-  ['attack_12',['Attack',['../struct_input_system___actions_1_1_player_actions.html#a0ade3ec192a89da9b7091da21b626b96',1,'InputSystem_Actions::PlayerActions']]],
-  ['axis_13',['Axis',['../class_prototipe_1_1_core_1_1_actions_1_1_rotate_action.html#a7ab747422c2e9fd00aa43412405a197b',1,'Prototipe::Core::Actions::RotateAction']]]
+  ['activatorgizmo_6',['ActivatorGizmo',['../class_activator_gizmo.html',1,'']]],
+  ['actorid_7',['ActorID',['../interface_prototipe_1_1_core_1_1_interfaces_1_1_i_actor.html#aa105e5a2b787ab36f2b55f96d27b9cda',1,'Prototipe.Core.Interfaces.IActor.ActorID'],['../class_player_actor.html#a30c8fd6065f715400791b396344bcc19',1,'PlayerActor.ActorID']]],
+  ['actormanager_8',['ActorManager',['../class_actor_manager.html',1,'']]],
+  ['addcallbacks_9',['AddCallbacks',['../struct_input_system___actions_1_1_player_actions.html#a59ea99548b2f7daf3e3e4343446bff3b',1,'InputSystem_Actions.PlayerActions.AddCallbacks()'],['../struct_input_system___actions_1_1_u_i_actions.html#a116611ffabbf5ed2fbb356127a409b0e',1,'InputSystem_Actions.UIActions.AddCallbacks()']]],
+  ['angle_10',['angle',['../class_prototipe_1_1_core_1_1_actions_1_1_rotate_action.html#a6397e94c3261eee474ca6a490bb11b15',1,'Prototipe::Core::Actions::RotateAction']]],
+  ['arrayfield_11',['ArrayField',['../class_runtime_inspector_namespace_1_1_array_field.html',1,'RuntimeInspectorNamespace']]],
+  ['asset_12',['asset',['../class_input_system___actions.html#a3efb45eb88773efcd1380348c301f432',1,'InputSystem_Actions']]],
+  ['attack_13',['Attack',['../struct_input_system___actions_1_1_player_actions.html#a0ade3ec192a89da9b7091da21b626b96',1,'InputSystem_Actions::PlayerActions']]],
+  ['axis_14',['Axis',['../class_prototipe_1_1_core_1_1_actions_1_1_rotate_action.html#a7ab747422c2e9fd00aa43412405a197b',1,'Prototipe::Core::Actions::RotateAction']]]
 ];

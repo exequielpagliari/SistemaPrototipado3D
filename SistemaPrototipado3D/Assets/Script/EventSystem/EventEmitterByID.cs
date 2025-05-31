@@ -7,6 +7,7 @@ public class EventEmitterByID : MonoBehaviour
     /// <summary>
     /// Enum dedicado a la selección de canal para evento.
     /// </summary>
+    [DrawEventConnection("channel")]
     public EventChannelID channel;
 
     /// <summary>

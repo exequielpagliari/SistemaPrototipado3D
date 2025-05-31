@@ -909,11 +909,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1738637863134864832, guid: c1a9f6e65bdc7c445bfb5b0e517c0b6d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.81
+      value: 5.75
       objectReference: {fileID: 0}
     - target: {fileID: 1738637863134864832, guid: c1a9f6e65bdc7c445bfb5b0e517c0b6d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 45.49112
+      value: 46.57
       objectReference: {fileID: 0}
     - target: {fileID: 1738637863134864832, guid: c1a9f6e65bdc7c445bfb5b0e517c0b6d, type: 3}
       propertyPath: m_LocalRotation.w
@@ -952,8 +952,16 @@ PrefabInstance:
       value: VolumenActivate
       objectReference: {fileID: 0}
     - target: {fileID: 7666398508301557388, guid: c1a9f6e65bdc7c445bfb5b0e517c0b6d, type: 3}
+      propertyPath: log
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7666398508301557388, guid: c1a9f6e65bdc7c445bfb5b0e517c0b6d, type: 3}
       propertyPath: actionString
       value: "Esto es un Volumen Autom\xE1tico."
+      objectReference: {fileID: 0}
+    - target: {fileID: 7666398508301557388, guid: c1a9f6e65bdc7c445bfb5b0e517c0b6d, type: 3}
+      propertyPath: channelToActivate
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1390,7 +1398,7 @@ Transform:
   m_GameObject: {fileID: 1405661972}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.122653, y: 18.67492, z: 73.51117}
+  m_LocalPosition: {x: 4.36, y: 7.46, z: 4.49}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1653,6 +1661,10 @@ PrefabInstance:
       propertyPath: actionString
       value: "Esto es un Bot\xF3n, presiona E."
       objectReference: {fileID: 0}
+    - target: {fileID: 7859044519863476102, guid: dced7b96ceb7cfa47bf7584d2ac6da9a, type: 3}
+      propertyPath: channelToActivate
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7980705051432868319, guid: dced7b96ceb7cfa47bf7584d2ac6da9a, type: 3}
       propertyPath: m_Name
       value: VolumenButton
@@ -1811,6 +1823,10 @@ PrefabInstance:
     - target: {fileID: 2839439582216578129, guid: b3e4d83e70e869a498feb4e8a730a811, type: 3}
       propertyPath: m_Name
       value: VolumenKill
+      objectReference: {fileID: 0}
+    - target: {fileID: 3450209266736092738, guid: b3e4d83e70e869a498feb4e8a730a811, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3675031789782300260, guid: b3e4d83e70e869a498feb4e8a730a811, type: 3}
       propertyPath: m_LocalScale.x
@@ -2485,6 +2501,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Plataforma
       objectReference: {fileID: 0}
+    - target: {fileID: 3520049438915979715, guid: 2195aa12aa2a16e42a47a1fcf1d8a226, type: 3}
+      propertyPath: channel
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5252574675801026764, guid: 2195aa12aa2a16e42a47a1fcf1d8a226, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.58146334
@@ -2661,6 +2681,18 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1009647343048163117, guid: 0ffc79fc6d14c254980d68f815acc16e, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1009647343048163117, guid: 0ffc79fc6d14c254980d68f815acc16e, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1009647343048163117, guid: 0ffc79fc6d14c254980d68f815acc16e, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1009647343048163117, guid: 0ffc79fc6d14c254980d68f815acc16e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.58146334
       objectReference: {fileID: 0}
@@ -2678,15 +2710,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1009647343048163117, guid: 0ffc79fc6d14c254980d68f815acc16e, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 1009647343048163117, guid: 0ffc79fc6d14c254980d68f815acc16e, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 1009647343048163117, guid: 0ffc79fc6d14c254980d68f815acc16e, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 1009647343048163117, guid: 0ffc79fc6d14c254980d68f815acc16e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
