@@ -1,7 +1,9 @@
 <map id="Prototipe.Core.Interfaces.IInteractable" name="Prototipe.Core.Interfaces.IInteractable">
-<area shape="rect" id="Node000001" title="Interfaz dedicada a la interacción." alt="" coords="5,39,177,81"/>
-<area shape="rect" id="Node000002" href="$class_prototipe_1_1_core_1_1_activators_1_1_volumen_auto_interactable.html" title="Clase dedicada a la emisión de un evento cuando una interfaz IActivator ejecuta Activate." alt="" coords="225,5,397,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="192,42,224,37,224,42,192,47"/>
-<area shape="rect" id="Node000003" href="$class_prototipe_1_1_core_1_1_activators_1_1_volumen_interactable.html" title="Clase dedicada a la emisión de un evento cuando una interfaz IActivator ejecuta Activate." alt="" coords="225,72,397,115"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="192,73,224,78,224,83,192,78"/>
+<area shape="rect" id="Node000001" title="Interfaz dedicada a la interacción." alt="" coords="5,56,177,99"/>
+<area shape="rect" id="Node000002" href="$class_key.html" title=" " alt="" coords="289,5,333,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="187,49,287,22,289,27,189,54"/>
+<area shape="rect" id="Node000003" href="$class_prototipe_1_1_core_1_1_activators_1_1_volumen_auto_interactable.html" title="Clase dedicada a la emisión de un evento cuando una interfaz IActivator ejecuta Activate." alt="" coords="225,56,397,99"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="192,75,224,75,224,80,192,80"/>
+<area shape="rect" id="Node000004" href="$class_prototipe_1_1_core_1_1_activators_1_1_volumen_interactable.html" title="Clase dedicada a la emisión de un evento cuando una interfaz IActivator ejecuta Activate." alt="" coords="225,123,397,165"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="178,101,239,119,237,125,177,106"/>
 </map>

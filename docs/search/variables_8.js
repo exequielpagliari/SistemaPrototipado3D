@@ -1,6 +1,4 @@
 var searchData=
 [
-  ['playerbuildlocation_0',['playerBuildLocation',['../class_player_c_c_buillder.html#a3693d05bc27781b67249a14e01588f0e',1,'PlayerCCBuillder.playerBuildLocation'],['../class_player_c_c_f_p_s_buillder.html#ae2e7c500283a24bab72ac1e79863b9b9',1,'PlayerCCFPSBuillder.playerBuildLocation']]],
-  ['playercc_1',['playerCC',['../class_player_c_c_buillder.html#a2278eb336d75321984c93bcae83a47f7',1,'PlayerCCBuillder']]],
-  ['playerfps_2',['playerFPS',['../class_player_c_c_f_p_s_buillder.html#ac8d04ba19f226a32115d6aff154ee26b',1,'PlayerCCFPSBuillder']]]
+  ['openedposition_0',['openedPosition',['../class_prototipe_1_1_core_1_1_actions_1_1_move_action_corrutine.html#a8c89fe2af1d2ede9e86684d34302dc3d',1,'Prototipe.Core.Actions.MoveActionCorrutine.openedPosition'],['../class_prototipe_1_1_core_1_1_actions_1_1_move_action_plataform_corrutine.html#aa0d11316d45f83e4e268d46e2de03ea4',1,'Prototipe.Core.Actions.MoveActionPlataformCorrutine.openedPosition']]]
 ];

@@ -110,6 +110,7 @@ var annotated_dup =
     [ "InteractionRaycast", "class_interaction_raycast.html", "class_interaction_raycast" ],
     [ "InteractionVolumen", "class_interaction_volumen.html", "class_interaction_volumen" ],
     [ "InventorySystem", "class_inventory_system.html", "class_inventory_system" ],
+    [ "Key", "class_key.html", "class_key" ],
     [ "Look", "class_look.html", "class_look" ],
     [ "Movement", "class_movement.html", "class_movement" ],
     [ "MovementCC", "class_movement_c_c.html", "class_movement_c_c" ],
