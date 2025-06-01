@@ -46,8 +46,8 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"class_runtime_inspector_namespace_1_1_bool_field.html",
-"struct_input_system___actions_1_1_u_i_actions.html#a90ec653b68d5f6e9b9149305d0014084"
+"class_raycast_interactable.html#ad97b5686e670409613dd0cc4f22164d4",
+"struct_input_system___actions_1_1_u_i_actions.html#a6ec0b9711783ef74e04f7c522c656d5b"
 ];
 
 var SYNCONMSG = 'pulsar para deshabilitar sincronización';

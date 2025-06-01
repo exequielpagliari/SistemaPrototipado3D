@@ -1,7 +1,6 @@
 var searchData=
 [
-  ['raycastinteraction_0',['raycastInteraction',['../class_interactable_manager.html#ad6cb46ab3da9585efa153eff0dd4b153',1,'InteractableManager']]],
-  ['retard_1',['retard',['../class_prototipe_1_1_core_1_1_actions_1_1_move_action_corrutine.html#af7d61ebe35db18e2c8550016194b9980',1,'Prototipe.Core.Actions.MoveActionCorrutine.retard'],['../class_prototipe_1_1_core_1_1_actions_1_1_move_action_plataform_corrutine.html#ac90361b226f0c91bb8a8c67586276b8b',1,'Prototipe.Core.Actions.MoveActionPlataformCorrutine.retard']]],
-  ['rotationaxis_2',['rotationAxis',['../class_prototipe_1_1_core_1_1_actions_1_1_rotate_action.html#a30bf6e7eae5333786e4fe37fcf205614',1,'Prototipe::Core::Actions::RotateAction']]],
-  ['runinsequence_3',['runInSequence',['../class_prototipe_1_1_core_1_1_actions_1_1_action_chainer.html#abd19cfcd2ebd672091ae7c76d3eb7dfc',1,'Prototipe::Core::Actions::ActionChainer']]]
+  ['playerbuildlocation_0',['playerBuildLocation',['../class_player_c_c_buillder.html#a3693d05bc27781b67249a14e01588f0e',1,'PlayerCCBuillder.playerBuildLocation'],['../class_player_c_c_f_p_s_buillder.html#ae2e7c500283a24bab72ac1e79863b9b9',1,'PlayerCCFPSBuillder.playerBuildLocation']]],
+  ['playercc_1',['playerCC',['../class_player_c_c_buillder.html#a2278eb336d75321984c93bcae83a47f7',1,'PlayerCCBuillder']]],
+  ['playerfps_2',['playerFPS',['../class_player_c_c_f_p_s_buillder.html#ac8d04ba19f226a32115d6aff154ee26b',1,'PlayerCCFPSBuillder']]]
 ];

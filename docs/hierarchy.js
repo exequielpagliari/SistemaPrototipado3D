@@ -75,6 +75,7 @@ var hierarchy =
       [ "InputSystem_Actions", "class_input_system___actions.html", null ]
     ] ],
     [ "Prototipe.Core.Interfaces.IInteractable", "interface_prototipe_1_1_core_1_1_interfaces_1_1_i_interactable.html", [
+      [ "Key", "class_key.html", null ],
       [ "Prototipe.Core.Activators.VolumenAutoInteractable", "class_prototipe_1_1_core_1_1_activators_1_1_volumen_auto_interactable.html", null ],
       [ "Prototipe.Core.Activators.VolumenInteractable", "class_prototipe_1_1_core_1_1_activators_1_1_volumen_interactable.html", null ]
     ] ],
@@ -154,6 +155,7 @@ var hierarchy =
       [ "InteractionRaycast", "class_interaction_raycast.html", null ],
       [ "InteractionVolumen", "class_interaction_volumen.html", null ],
       [ "InventorySystem", "class_inventory_system.html", null ],
+      [ "Key", "class_key.html", null ],
       [ "Look", "class_look.html", null ],
       [ "Movement", "class_movement.html", null ],
       [ "MovementCC", "class_movement_c_c.html", null ],
